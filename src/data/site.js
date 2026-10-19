@@ -54,7 +54,7 @@ export const faqs = [
 ]
 
 export const studioInfo = {
-  address: '서울특별시 용산구 · 상세 주소 준비 중',
+  address: '서울특별시 용산구 만리재로 134 7층',
   hours: '운영시간 확인 후 안내 예정',
   parking: '건물 주차 이용 안내 준비 중',
   transit: '서울역 · 숙대입구역 · 청파동 · 공덕 접근 동선 확인 예정',
@@ -62,6 +62,8 @@ export const studioInfo = {
   links: {
     consultation: 'https://talk.naver.com/w5v4u8?frm=mnmb',
     booking: 'https://m.place.naver.com/place/1225865054/ticket',
-    map: null, instagram: null, blog: null,
+    map: null, 
+    instagram:'https://www.instagram.com/kikopilates_ballet',
+     blog:'https://blog.naver.com/kikopilates',
   },
 }
