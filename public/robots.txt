@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kikopilatesballet.co.kr/sitemap.xml
