@@ -54,7 +54,7 @@ export function BalletFeatures() {
 
 export function BalletGuidance() {
   return <div className="ballet-guidance ballet-container ballet-chapter">
-    <section aria-labelledby="ballet-teachers-title"><p className="ballet-eyebrow">05 / IN GOOD COMPANY</p><h2 id="ballet-teachers-title" className="ballet-display">BALLET<br />INSTRUCTORS</h2><h3>작은 움직임까지<br />함께 살피는 지도.</h3><p>기초 동작을 익히는 과정에서 한 사람의 움직임을 세심하게 살피는 발레 수업. 키코의 강사진을 만나보세요.</p><Link className="text-link" to="/teachers">VIEW TEACHERS <Arrow diagonal /></Link></section>
+    <section aria-labelledby="ballet-teachers-title"><p className="ballet-eyebrow">05 / IN GOOD COMPANY</p><h2 id="ballet-teachers-title" className="ballet-display">BALLET<br />INSTRUCTORS</h2><h3>작은 움직임까지<br />함께 살피는 지도.</h3><p>기초 동작을 익히는 과정에서 한 사람의 움직임을 세심하게 살피는 발레 수업. 키코의 강사진을 만나보세요.</p><Link className="text-link" to="/instructors">VIEW TEACHERS <Arrow diagonal /></Link></section>
     <section className="ballet-beginner" aria-labelledby="ballet-beginner-title"><p className="ballet-eyebrow">06 / YOUR FIRST STEP</p><h2 id="ballet-beginner-title" className="ballet-display">FIRST<br /><span>BALLET?</span></h2><h3>발레가 처음이어도 괜찮아요.</h3><p>유연성이나 경험을 먼저 갖추어야 한다고 생각하지 않아도 괜찮습니다. 기초 자세와 동작부터 천천히 시작합니다.</p><p>잘하는 것보다, 지금의 몸으로 움직임을 하나씩 익혀가는 시간에 집중해보세요.</p></section>
   </div>
 }

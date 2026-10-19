@@ -34,7 +34,7 @@ npm run dev
 | `/about` | `src/pages/AboutPage.jsx` | ABOUT / KIKO PILATES & BALLET |
 | `/pilates` | `src/pages/PilatesPage.jsx` | PILATES / PRIVATE · DUET · GROUP · MATERNITY |
 | `/ballet` | `src/pages/BalletPage.jsx` | BALLET / ADULT BALLET |
-| `/teachers` | `src/pages/TeachersPage.jsx` | TEACHERS / KIKO TEACHERS |
+| `/instructors` | `src/pages/TeachersPage.jsx` | TEACHERS / KIKO TEACHERS |
 | `/schedule` | `src/pages/SchedulePage.jsx` | SCHEDULE / CLASS SCHEDULE |
 | `/location` | `src/pages/LocationPage.jsx` | LOCATION / KIKO PILATES & BALLET |
 | `/contact` | `src/pages/ContactPage.jsx` | CONTACT / RESERVATION & INQUIRY |

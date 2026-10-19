@@ -18,7 +18,7 @@ export default function App() {
         <Route path="about" element={<AboutPage />} />
         <Route path="pilates" element={<PilatesPage />} />
         <Route path="ballet" element={<BalletPage />} />
-        <Route path="teachers" element={<TeachersPage />} />
+        <Route path="instructors" element={<TeachersPage />} />
         <Route path="schedule" element={<SchedulePage />} />
         <Route path="location" element={<LocationPage />} />
         <Route path="contact" element={<ContactPage />} />

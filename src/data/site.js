@@ -1,7 +1,7 @@
 // 실제 정보가 준비되면 이 파일의 데이터와 이미지 경로를 교체합니다.
 export const navigation = [
   ['ABOUT', '/about'], ['PROGRAM', null, [['PILATES', '/pilates'], ['BALLET', '/ballet']]],
-  ['TEACHERS', '/teachers'], ['SCHEDULE', '/schedule'],
+  ['INSTRUCTORS', '/instructors'], ['SCHEDULE', '/schedule'],
   ['LOCATION', '/location'], ['CONTACT', '/contact'],
 ]
 
