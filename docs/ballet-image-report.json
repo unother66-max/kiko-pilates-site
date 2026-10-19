@@ -1,0 +1,69 @@
+{
+  "encoding": "WebP quality 96; Lanczos3; ICC retained; no crop, enlargement, sharpening, filters or color edits",
+  "images": [
+    {
+      "original": {
+        "file": "studio-01.png",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 1776612,
+        "sha256": "fb3e09eb07b2f7b702d25a08941f6773bf3a53d96c0c55d6da7084861dc0be2c"
+      },
+      "variants": [
+        {
+          "file": "studio-01-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 68058
+        },
+        {
+          "file": "studio-01-1000.webp",
+          "width": 1000,
+          "height": 750,
+          "bytes": 136386
+        },
+        {
+          "file": "studio-01-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 228772
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "class-01.png",
+        "width": 2492,
+        "height": 2490,
+        "bytes": 7443659,
+        "sha256": "7b81e33c0d8e9f8215b1e5a976731acfcbc96344962e66308ee5bb5aedad56da"
+      },
+      "variants": [
+        {
+          "file": "class-01-640.webp",
+          "width": 640,
+          "height": 639,
+          "bytes": 85134
+        },
+        {
+          "file": "class-01-1000.webp",
+          "width": 1000,
+          "height": 999,
+          "bytes": 152854
+        },
+        {
+          "file": "class-01-1600.webp",
+          "width": 1600,
+          "height": 1599,
+          "bytes": 262672
+        },
+        {
+          "file": "class-01-2492.webp",
+          "width": 2492,
+          "height": 2490,
+          "bytes": 453928
+        }
+      ]
+    }
+  ]
+}

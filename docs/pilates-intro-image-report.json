@@ -1,0 +1,39 @@
+{
+  "original": {
+    "filename": "studio-intro-01.png",
+    "width": 3342,
+    "height": 2448,
+    "bytes": 10152093,
+    "sha256": "dbb6a50a9620532cd2130bb0d321bbbb719459e02bbfbbd44145393117b8f897"
+  },
+  "quality": 96,
+  "smartSubsample": false,
+  "effort": 6,
+  "treatment": "Width-only Lanczos3 downscale, original aspect ratio and ICC retained. No crop, upscale, filters, sharpening or color adjustments.",
+  "variants": [
+    {
+      "filename": "studio-intro-01-640.webp",
+      "width": 640,
+      "height": 469,
+      "bytes": 87714
+    },
+    {
+      "filename": "studio-intro-01-1000.webp",
+      "width": 1000,
+      "height": 732,
+      "bytes": 167292
+    },
+    {
+      "filename": "studio-intro-01-1600.webp",
+      "width": 1600,
+      "height": 1172,
+      "bytes": 295628
+    },
+    {
+      "filename": "studio-intro-01-2560.webp",
+      "width": 2560,
+      "height": 1875,
+      "bytes": 525398
+    }
+  ]
+}

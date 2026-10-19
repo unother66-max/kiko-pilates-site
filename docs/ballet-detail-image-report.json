@@ -1,0 +1,75 @@
+{
+  "encoding": "WebP quality 96; Lanczos3; ICC retained; no crop, enlargement, sharpening, filters or color edits",
+  "images": [
+    {
+      "original": {
+        "file": "barre-detail-01.png",
+        "width": 1948,
+        "height": 2606,
+        "bytes": 7135729,
+        "sha256": "475f83a2f50c3e810d42fe620289b06b57c4c32d78992290bd3d2d4ba51ffd38"
+      },
+      "variants": [
+        {
+          "file": "barre-detail-01-640.webp",
+          "width": 640,
+          "height": 856,
+          "bytes": 126662
+        },
+        {
+          "file": "barre-detail-01-1000.webp",
+          "width": 1000,
+          "height": 1338,
+          "bytes": 254876
+        },
+        {
+          "file": "barre-detail-01-1600.webp",
+          "width": 1600,
+          "height": 2140,
+          "bytes": 475502
+        },
+        {
+          "file": "barre-detail-01-1948.webp",
+          "width": 1948,
+          "height": 2606,
+          "bytes": 612828
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "studio-front-01.png",
+        "width": 1946,
+        "height": 2606,
+        "bytes": 7648133,
+        "sha256": "5698768f0c866c1da2417f1591f1b3f8a249fb72457d15153ea304dd660c75f1"
+      },
+      "variants": [
+        {
+          "file": "studio-front-01-640.webp",
+          "width": 640,
+          "height": 857,
+          "bytes": 141244
+        },
+        {
+          "file": "studio-front-01-1000.webp",
+          "width": 1000,
+          "height": 1339,
+          "bytes": 274894
+        },
+        {
+          "file": "studio-front-01-1600.webp",
+          "width": 1600,
+          "height": 2143,
+          "bytes": 510704
+        },
+        {
+          "file": "studio-front-01-1946.webp",
+          "width": 1946,
+          "height": 2606,
+          "bytes": 662458
+        }
+      ]
+    }
+  ]
+}

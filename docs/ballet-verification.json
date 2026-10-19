@@ -1,0 +1,348 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "h1": 1,
+      "title": "BALLET | KIKO PILATES & BALLET",
+      "overflow": false,
+      "textOverflow": 0,
+      "elementOverflow": 0,
+      "errors": [],
+      "images": [
+        {
+          "alt": "자연광과 발레 바, 넓은 마루가 있는 키코필라테스 앤 발레 성인발레 스튜디오",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-1000.webp",
+          "width": 801.015625,
+          "height": 600.75,
+          "ratio": 1.333359342488556,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "발레 바를 잡고 기본 동작을 연습하는 키코 성인취미발레 소수정예 수업",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-1000.webp",
+          "width": 686.421875,
+          "height": 685.734375,
+          "ratio": 1.0010025747943583,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "소수정예 성인발레 수업이 이루어지는 키코의 밝은 발레실",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-640.webp",
+          "width": 465.390625,
+          "height": 349.03125,
+          "ratio": 1.3333781000984868,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "자연광이 들어오는 스튜디오에서 발레 바와 함께 동작을 익히는 키코 성인발레 수업 모습",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-1000.webp",
+          "width": 686.4375,
+          "height": 685.75,
+          "ratio": 1.0010025519504193,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "h1": 1,
+      "title": "BALLET | KIKO PILATES & BALLET",
+      "overflow": false,
+      "textOverflow": 0,
+      "elementOverflow": 0,
+      "errors": [],
+      "images": [
+        {
+          "alt": "자연광과 발레 바, 넓은 마루가 있는 키코필라테스 앤 발레 성인발레 스튜디오",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-1448.webp",
+          "width": 1040,
+          "height": 780,
+          "ratio": 1.3333333333333333,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "발레 바를 잡고 기본 동작을 연습하는 키코 성인취미발레 소수정예 수업",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-1000.webp",
+          "width": 864.796875,
+          "height": 863.921875,
+          "ratio": 1.001012823063428,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "소수정예 성인발레 수업이 이루어지는 키코의 밝은 발레실",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-640.webp",
+          "width": 586.296875,
+          "height": 439.71875,
+          "ratio": 1.3333451780257266,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "자연광이 들어오는 스튜디오에서 발레 바와 함께 동작을 익히는 키코 성인발레 수업 모습",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-1000.webp",
+          "width": 864.8125,
+          "height": 863.9375,
+          "ratio": 1.0010128047457136,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "h1": 1,
+      "title": "BALLET | KIKO PILATES & BALLET",
+      "overflow": false,
+      "textOverflow": 0,
+      "elementOverflow": 0,
+      "errors": [],
+      "images": [
+        {
+          "alt": "자연광과 발레 바, 넓은 마루가 있는 키코필라테스 앤 발레 성인발레 스튜디오",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-1000.webp",
+          "width": 682.78125,
+          "height": 512.078125,
+          "ratio": 1.3333536752814816,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "발레 바를 잡고 기본 동작을 연습하는 키코 성인취미발레 소수정예 수업",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-1000.webp",
+          "width": 682.78125,
+          "height": 682.09375,
+          "ratio": 1.0010079259632565,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "소수정예 성인발레 수업이 이루어지는 키코의 밝은 발레실",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-640.webp",
+          "width": 326.390625,
+          "height": 244.78125,
+          "ratio": 1.3333971658368442,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "자연광이 들어오는 스튜디오에서 발레 바와 함께 동작을 익히는 키코 성인발레 수업 모습",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-1000.webp",
+          "width": 682.78125,
+          "height": 682.09375,
+          "ratio": 1.0010079259632565,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "h1": 1,
+      "title": "BALLET | KIKO PILATES & BALLET",
+      "overflow": false,
+      "textOverflow": 0,
+      "elementOverflow": 0,
+      "errors": [],
+      "images": [
+        {
+          "alt": "자연광과 발레 바, 넓은 마루가 있는 키코필라테스 앤 발레 성인발레 스튜디오",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-640.webp",
+          "width": 390,
+          "height": 292.5,
+          "ratio": 1.3333333333333333,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "발레 바를 잡고 기본 동작을 연습하는 키코 성인취미발레 소수정예 수업",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-640.webp",
+          "width": 342,
+          "height": 341.453125,
+          "ratio": 1.0016016107628243,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "소수정예 성인발레 수업이 이루어지는 키코의 밝은 발레실",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-640.webp",
+          "width": 342,
+          "height": 256.5,
+          "ratio": 1.3333333333333333,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "자연광이 들어오는 스튜디오에서 발레 바와 함께 동작을 익히는 키코 성인발레 수업 모습",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-640.webp",
+          "width": 342,
+          "height": 341.453125,
+          "ratio": 1.0016016107628243,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "h1": 1,
+      "title": "BALLET | KIKO PILATES & BALLET",
+      "overflow": false,
+      "textOverflow": 0,
+      "elementOverflow": 0,
+      "errors": [],
+      "images": [
+        {
+          "alt": "자연광과 발레 바, 넓은 마루가 있는 키코필라테스 앤 발레 성인발레 스튜디오",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-640.webp",
+          "width": 320,
+          "height": 240,
+          "ratio": 1.3333333333333333,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "발레 바를 잡고 기본 동작을 연습하는 키코 성인취미발레 소수정예 수업",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-640.webp",
+          "width": 280,
+          "height": 279.5625,
+          "ratio": 1.001564945226917,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "소수정예 성인발레 수업이 이루어지는 키코의 밝은 발레실",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/studio-01-640.webp",
+          "width": 280,
+          "height": 210,
+          "ratio": 1.3333333333333333,
+          "originalRatio": 1.3333333333333333,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "alt": "자연광이 들어오는 스튜디오에서 발레 바와 함께 동작을 익히는 키코 성인발레 수업 모습",
+          "currentSrc": "http://127.0.0.1:5174/src/assets/ballet/class-01-640.webp",
+          "width": 280,
+          "height": 279.5625,
+          "ratio": 1.001564945226917,
+          "originalRatio": 1.0008032128514057,
+          "fit": "contain",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    }
+  ],
+  "retina": [
+    {
+      "viewport": 1920,
+      "dpr": 2,
+      "images": [
+        {
+          "file": "studio-01-1448.webp",
+          "width": 1040
+        },
+        {
+          "file": "class-01-2492.webp",
+          "width": 864.796875
+        },
+        {
+          "file": "studio-01-1448.webp",
+          "width": 586.296875
+        },
+        {
+          "file": "class-01-2492.webp",
+          "width": 864.8125
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "dpr": 2,
+      "images": [
+        {
+          "file": "studio-01-1000.webp",
+          "width": 390
+        },
+        {
+          "file": "class-01-1000.webp",
+          "width": 342
+        },
+        {
+          "file": "studio-01-1000.webp",
+          "width": 342
+        },
+        {
+          "file": "class-01-1000.webp",
+          "width": 342
+        }
+      ]
+    }
+  ],
+  "protectedRouteChecks": 14,
+  "build": "passed",
+  "lint": "passed"
+}

@@ -1,0 +1,47 @@
+/* Existing HERO families only. Tokens are shared; adoption is scoped to chapters 01–03. */
+:root {
+  --font-en-display: 'Roboto Condensed', sans-serif;
+  --font-en-ui: 'Rubik', sans-serif;
+  --font-ko: 'Spoqa Han Sans Neo', sans-serif;
+  --font-weight-display: 700;
+  --font-weight-ui: 500;
+  --font-weight-body: 400;
+  /* HERO reference values: these tokens do not override the completed HERO. */
+  --font-size-hero: 80px;
+  --font-size-hero-ko: 20px;
+  --font-size-section-title: clamp(48px, 5.1vw, 76px);
+  --font-size-program-title: clamp(46px, 5vw, 72px);
+  --font-size-stat: clamp(80px, 7.8vw, 112px);
+  --font-size-stat-ratio: clamp(68px, 6.4vw, 92px);
+  --font-size-stat-keyword: clamp(42px, 4.2vw, 60px);
+  --font-size-lead: clamp(21px, 1.8vw, 26px);
+  --font-size-program-subtitle: 17px;
+  --font-size-body: 16px;
+  --font-size-small: 14px;
+  --font-size-micro: 11px;
+  --line-height-display: 1.04;
+  --line-height-body: 1.9;
+  --line-height-micro: 1.5;
+  --letter-spacing-display: -.015em;
+  --letter-spacing-body: -.025em;
+  --letter-spacing-micro: .08em;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  :root { --font-size-hero: 60px; --font-size-hero-ko: 18px; }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --font-size-hero: 28px;
+    --font-size-hero-ko: 14px;
+    --font-size-section-title: clamp(42px, 11.8vw, 64px);
+    --font-size-program-title: clamp(42px, 12vw, 64px);
+    --font-size-stat: 88px;
+    --font-size-stat-ratio: clamp(56px, 16vw, 76px);
+    --font-size-stat-keyword: clamp(42px, 12vw, 56px);
+    --font-size-lead: 21px;
+    --font-size-program-subtitle: 16px;
+    --font-size-body: 15px;
+  }
+}

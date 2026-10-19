@@ -1,0 +1,108 @@
+{
+  "quality": 96,
+  "smartSubsample": false,
+  "effort": 6,
+  "treatment": "Width-only Lanczos3 downscale / original size. No upscale, crop, sharpening, filters, denoising or color correction. Original ICC retained.",
+  "encoder": "sharp 0.35.5 / libvips 8.18.7",
+  "images": [
+    {
+      "original": {
+        "filename": "private-01.png",
+        "width": 4144,
+        "height": 2610,
+        "bytes": 11328064,
+        "sha256": "9de38844022480f7b4aeb96cd61f4cf4afcd69be899f9fa2c658b538152eaf06"
+      },
+      "variants": [
+        {
+          "filename": "private-01-640.webp",
+          "width": 640,
+          "height": 403,
+          "bytes": 58296
+        },
+        {
+          "filename": "private-01-1000.webp",
+          "width": 1000,
+          "height": 630,
+          "bytes": 107052
+        },
+        {
+          "filename": "private-01-1600.webp",
+          "width": 1600,
+          "height": 1008,
+          "bytes": 188622
+        },
+        {
+          "filename": "private-01-2560.webp",
+          "width": 2560,
+          "height": 1612,
+          "bytes": 328698
+        },
+        {
+          "filename": "private-01-3840.webp",
+          "width": 3840,
+          "height": 2419,
+          "bytes": 555806
+        }
+      ]
+    },
+    {
+      "original": {
+        "filename": "duet-01.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1976262,
+        "sha256": "4715c7bce7c25d6c0b53be5fda0661c9205a10be7f52e9120bee30f68dc32d6c"
+      },
+      "variants": [
+        {
+          "filename": "duet-01-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 71426
+        },
+        {
+          "filename": "duet-01-800.webp",
+          "width": 800,
+          "height": 800,
+          "bytes": 153214
+        },
+        {
+          "filename": "duet-01-1254.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 290510
+        }
+      ]
+    },
+    {
+      "original": {
+        "filename": "group-01.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2051338,
+        "sha256": "46a5ebd5474d24a8586a8074e99fccefbfaa615f6d5da0eb4fa9c3105beb82bc"
+      },
+      "variants": [
+        {
+          "filename": "group-01-640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 107982
+        },
+        {
+          "filename": "group-01-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 199996
+        },
+        {
+          "filename": "group-01-1254.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 287872
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1200" fill="none">
+<path fill="#d4ccbd" d="M0 0h1000v1200H0z"/><path fill="#e8e1d4" d="M0 0h700v840H0z"/><path fill="#c4b8a3" d="M700 0h300v900H700z"/><path fill="#e0d5c3" d="M0 840h700l300 60v300H0z"/>
+<path fill="#f2eee3" d="m360 0 155 0 184 840H387z"/><path fill="#eee6d7" d="m387 840 312 0 301 60-241 300H476z"/>
+<path stroke="#b6aa95" d="M700 0v840l300 60M0 840h700"/>
+<path stroke="#b09f84" stroke-width="9" d="M0 635h699"/><path stroke="#9f8c6c" stroke-width="3" d="M85 635v67m470-67v67"/>
+<path fill="#bba78a" d="M137 919h597v28H137z"/><path fill="#6c665b" d="M165 894h376v27H165z"/><path fill="#8c7d68" d="M555 874h152v48H555z"/><path fill="#bba78a" d="M153 947h17v95h-17zM699 947h17v95h-17z"/><path stroke="#9c8b71" stroke-width="5" d="M178 895V744m-14-6h27M695 875V754m-12-8h26"/>
+<path stroke="#b8ac98" d="m699 947 301 58M170 1042l830 120"/>
+<path stroke="#cbbfa9" stroke-width="2" d="M800 0v860M905 0v881"/>
+<path fill="#d9d1c3" d="M40 0h84v840H40z"/><path fill="#c6bcab" d="M112 0h12v840h-12z"/>
+</svg>

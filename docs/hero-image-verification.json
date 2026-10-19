@@ -1,0 +1,647 @@
+{
+  "records": [
+    {
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "viewportWidth": 1440,
+      "hero": {
+        "width": 1440,
+        "height": 800,
+        "x": 0,
+        "y": 100
+      },
+      "overflow": false,
+      "images": [
+        {
+          "file": "hero-01-1600-CTWgL0i6.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.4407039020657995)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.4407039020657995)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.4407039020657995))",
+          "position": "50% 52%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1209.59375,
+            "left": 115.203125,
+            "right": 1324.796875
+          }
+        },
+        {
+          "file": "hero-02-1600-CIYRUPL3.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5877394636015325)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5877394636015325)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5877394636015325))",
+          "position": "62% 45%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1209.59375,
+            "left": 115.203125,
+            "right": 1324.796875
+          }
+        },
+        {
+          "file": "hero-03-1600-CzQ8Yg-P.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.6671802773497688)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.6671802773497688)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.6671802773497688))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1209.59375,
+            "left": 115.203125,
+            "right": 1324.796875
+          }
+        },
+        {
+          "file": "hero-04-1600-DJQSKtdg.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.3333333333333333)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.3333333333333333)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.3333333333333333))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1209.59375,
+            "left": 115.203125,
+            "right": 1324.796875
+          }
+        },
+        {
+          "file": "hero-05-1600-vG9Ko_mH.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.2415329768270944)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.2415329768270944)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.2415329768270944))",
+          "position": "56% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1209.59375,
+            "left": 115.203125,
+            "right": 1324.796875
+          }
+        },
+        {
+          "file": "hero-06-1600-BBjVJqQZ.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5168970814132103)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5168970814132103)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5168970814132103))",
+          "position": "52% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1209.59375,
+            "left": 115.203125,
+            "right": 1324.796875
+          }
+        }
+      ],
+      "requestedFiles": [
+        "hero-01-1600-CTWgL0i6.webp",
+        "hero-02-1600-CIYRUPL3.webp",
+        "hero-03-1600-CzQ8Yg-P.webp",
+        "hero-04-1600-DJQSKtdg.webp",
+        "hero-05-1600-vG9Ko_mH.webp",
+        "hero-06-1600-BBjVJqQZ.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "dpr": 1,
+      "viewportWidth": 1920,
+      "hero": {
+        "width": 1920,
+        "height": 860,
+        "x": 0,
+        "y": 100
+      },
+      "overflow": false,
+      "images": [
+        {
+          "file": "hero-01-2560-XRcwCY2n.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.4407039020657995)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.4407039020657995)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.4407039020657995))",
+          "position": "50% 52%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-02-2560-CkBX6qwc.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5877394636015325)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5877394636015325)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5877394636015325))",
+          "position": "62% 45%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-03-2560-BeECOvhF.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.6671802773497688)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.6671802773497688)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.6671802773497688))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-04-2560-Ds7PRaVy.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.3333333333333333)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.3333333333333333)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.3333333333333333))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-05-2560-DQjKvnZ2.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.2415329768270944)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.2415329768270944)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.2415329768270944))",
+          "position": "56% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-06-2560-oF25wmyN.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5168970814132103)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5168970814132103)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5168970814132103))",
+          "position": "52% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        }
+      ],
+      "requestedFiles": [
+        "hero-01-2560-XRcwCY2n.webp",
+        "hero-02-2560-CkBX6qwc.webp",
+        "hero-03-2560-BeECOvhF.webp",
+        "hero-04-2560-Ds7PRaVy.webp",
+        "hero-05-2560-DQjKvnZ2.webp",
+        "hero-06-2560-oF25wmyN.webp"
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "dpr": 2,
+      "viewportWidth": 1920,
+      "hero": {
+        "width": 1920,
+        "height": 860,
+        "x": 0,
+        "y": 100
+      },
+      "overflow": false,
+      "images": [
+        {
+          "file": "hero-01-3840-BUMOcXgn.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.4407039020657995)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.4407039020657995)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.4407039020657995))",
+          "position": "50% 52%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-02-3840-CP1rqq7H.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5877394636015325)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5877394636015325)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5877394636015325))",
+          "position": "62% 45%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-03-3840-DEtf8ERe.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.6671802773497688)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.6671802773497688)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.6671802773497688))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-04-3840-bbzdnlU9.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.3333333333333333)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.3333333333333333)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.3333333333333333))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-05-3840-CmJ3CH1_.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.2415329768270944)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.2415329768270944)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.2415329768270944))",
+          "position": "56% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        },
+        {
+          "file": "hero-06-3840-DSdpik3U.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5168970814132103)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5168970814132103)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5168970814132103))",
+          "position": "52% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 160,
+            "right": 1760
+          }
+        }
+      ],
+      "requestedFiles": [
+        "hero-01-3840-BUMOcXgn.webp",
+        "hero-02-3840-CP1rqq7H.webp",
+        "hero-03-3840-DEtf8ERe.webp",
+        "hero-04-3840-bbzdnlU9.webp",
+        "hero-05-3840-CmJ3CH1_.webp",
+        "hero-06-3840-DSdpik3U.webp"
+      ]
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "dpr": 1,
+      "viewportWidth": 2560,
+      "hero": {
+        "width": 2560,
+        "height": 1340,
+        "x": 0,
+        "y": 100
+      },
+      "overflow": false,
+      "images": [
+        {
+          "file": "hero-01-2560-XRcwCY2n.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.4407039020657995)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.4407039020657995)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.4407039020657995))",
+          "position": "50% 52%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-02-2560-CkBX6qwc.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5877394636015325)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5877394636015325)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5877394636015325))",
+          "position": "62% 35%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-03-2560-BeECOvhF.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.6671802773497688)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.6671802773497688)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.6671802773497688))",
+          "position": "50% 45%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-04-2560-Ds7PRaVy.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.3333333333333333)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.3333333333333333)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.3333333333333333))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-05-2560-DQjKvnZ2.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.2415329768270944)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.2415329768270944)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.2415329768270944))",
+          "position": "56% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-06-2560-oF25wmyN.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5168970814132103)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5168970814132103)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5168970814132103))",
+          "position": "52% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        }
+      ],
+      "requestedFiles": [
+        "hero-01-2560-XRcwCY2n.webp",
+        "hero-02-2560-CkBX6qwc.webp",
+        "hero-03-2560-BeECOvhF.webp",
+        "hero-04-2560-Ds7PRaVy.webp",
+        "hero-05-2560-DQjKvnZ2.webp",
+        "hero-06-2560-oF25wmyN.webp"
+      ]
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "dpr": 2,
+      "viewportWidth": 2560,
+      "hero": {
+        "width": 2560,
+        "height": 1340,
+        "x": 0,
+        "y": 100
+      },
+      "overflow": false,
+      "images": [
+        {
+          "file": "hero-01-3840-BUMOcXgn.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.4407039020657995)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.4407039020657995)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.4407039020657995))",
+          "position": "50% 52%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-02-3840-CP1rqq7H.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5877394636015325)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5877394636015325)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5877394636015325))",
+          "position": "62% 35%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-03-3840-DEtf8ERe.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.6671802773497688)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.6671802773497688)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.6671802773497688))",
+          "position": "50% 45%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-04-3840-bbzdnlU9.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.3333333333333333)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.3333333333333333)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.3333333333333333))",
+          "position": "50% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-05-3840-CmJ3CH1_.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.2415329768270944)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.2415329768270944)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.2415329768270944))",
+          "position": "56% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        },
+        {
+          "file": "hero-06-3840-DSdpik3U.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5168970814132103)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5168970814132103)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5168970814132103))",
+          "position": "52% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 1600,
+            "left": 480,
+            "right": 2080
+          }
+        }
+      ],
+      "requestedFiles": [
+        "hero-01-3840-BUMOcXgn.webp",
+        "hero-02-3840-CP1rqq7H.webp",
+        "hero-03-3840-DEtf8ERe.webp",
+        "hero-04-3840-bbzdnlU9.webp",
+        "hero-05-3840-CmJ3CH1_.webp",
+        "hero-06-3840-DSdpik3U.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "viewportWidth": 390,
+      "hero": {
+        "width": 390,
+        "height": 479.6875,
+        "x": 0,
+        "y": 85
+      },
+      "overflow": false,
+      "images": [
+        {
+          "file": "hero-01-1600-CTWgL0i6.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.4407039020657995)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.4407039020657995)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.4407039020657995))",
+          "position": "46% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 390,
+            "left": 0,
+            "right": 390
+          }
+        },
+        {
+          "file": "hero-02-1600-CIYRUPL3.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5877394636015325)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5877394636015325)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5877394636015325))",
+          "position": "56% 45%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 390,
+            "left": 0,
+            "right": 390
+          }
+        },
+        {
+          "file": "hero-03-1600-CzQ8Yg-P.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.6671802773497688)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.6671802773497688)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.6671802773497688))",
+          "position": "48% 48%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 390,
+            "left": 0,
+            "right": 390
+          }
+        },
+        {
+          "file": "hero-04-1600-DJQSKtdg.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.3333333333333333)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.3333333333333333)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.3333333333333333))",
+          "position": "68% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 390,
+            "left": 0,
+            "right": 390
+          }
+        },
+        {
+          "file": "hero-05-1600-vG9Ko_mH.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.2415329768270944)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.2415329768270944)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.2415329768270944))",
+          "position": "46% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 390,
+            "left": 0,
+            "right": 390
+          }
+        },
+        {
+          "file": "hero-06-1600-BBjVJqQZ.webp",
+          "sizes": "(min-width: 2200px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 1340px) * 1.5168970814132103)), (min-width: 768px) max(100vw, calc(clamp(620px, calc(100svh - 100px), 860px) * 1.5168970814132103)), max(100vw, calc(clamp(390px, 123vw, 560px) * 1.5168970814132103))",
+          "position": "58% 50%",
+          "filter": "none",
+          "transform": "none",
+          "opacity": "1",
+          "fit": "cover",
+          "caption": {
+            "width": 390,
+            "left": 0,
+            "right": 390
+          }
+        }
+      ],
+      "requestedFiles": [
+        "hero-01-1600-CTWgL0i6.webp",
+        "hero-02-1600-CIYRUPL3.webp",
+        "hero-03-1600-CzQ8Yg-P.webp",
+        "hero-04-1600-DJQSKtdg.webp",
+        "hero-05-1600-vG9Ko_mH.webp",
+        "hero-06-1600-BBjVJqQZ.webp"
+      ]
+    }
+  ],
+  "errors": []
+}

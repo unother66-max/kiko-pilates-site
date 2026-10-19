@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" fill="none">
+<path fill="#d8d0bf" d="M0 0h1600v1100H0z"/>
+<path fill="#cec4b2" d="M1140 0h460v790h-460z"/>
+<path fill="#e9e3d5" d="m660 0 310 0 630 782H1090z"/>
+<path fill="#e4dccc" d="M0 790h1600v310H0z"/>
+<path fill="#d5cbb8" d="m1140 790 460 0v310H760z"/>
+<path fill="#eee8dc" d="m1090 782 510 0v119l-423 199H830z"/>
+<path stroke="#c1b6a3" d="M1140 0v790L760 1100M0 790h1600"/>
+<path fill="#bbb09c" d="M1247 0h22v790h-22zM1467 0h15v790h-15z"/>
+<path fill="#b9ac97" d="m1247 790 22 0-368 310h-27zM1467 790h15l-343 310h-23z"/>
+<path stroke="#b6a992" stroke-width="3" d="M1140 294h460M1140 571h460"/>
+<path fill="#d8cebb" d="M1380 569h92v221h-92z"/>
+<path fill="#b6a68e" d="M1371 565h111v12h-111z"/>
+<path fill="#b7aa93" d="M1376 751h103v6h-103z"/>
+<path stroke="#b4a58c" stroke-width="3" d="m967 0 630 782"/>
+<path fill="#d1c5b0" d="M1138 790c-17-76-8-157 6-238 15-89 13-153 8-237-3-57-7-92 5-148 10-46 11-104 6-167h48c8 98 7 173-7 250-17 95 10 153-10 254-14 68-10 155 5 286z"/>
+<path fill="#c6baa5" d="M1199 790c-15-131-19-218-5-286 20-101-7-159 10-254 14-77 15-152 7-250h8c11 125 6 173-5 253-14 101 7 160-10 251-16 86-12 173 7 286z"/>
+</svg>

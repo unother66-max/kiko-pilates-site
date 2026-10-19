@@ -1,0 +1,1187 @@
+[
+  {
+    "width": 1440,
+    "h1": 1,
+    "title": "TEACHERS | KIKO PILATES & BALLET",
+    "description": "키코필라테스 앤 발레의 강사진을 소개합니다. 개인의 움직임을 세심하게 살피는 필라테스·성인발레 수업과 각 강사의 경험을 만나보세요.",
+    "overflow": false,
+    "bounds": [],
+    "textOverflow": [],
+    "profiles": [
+      {
+        "id": "teacher-jang-jihee",
+        "heading": "JI HEE장지희",
+        "field": "01 / PILATES",
+        "alt": "키코필라테스 대표원장 장지희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jang-jihee-01-773.webp",
+        "frame": {
+          "x": 152.953125,
+          "y": 1596.75,
+          "width": 440,
+          "height": 1071.890625
+        },
+        "imageRatio": 0.8002076867705887,
+        "sourceRatio": 0.8002070393374742,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          1596.75,
+          1780.015625,
+          1824.515625,
+          2180.421875
+        ]
+      },
+      {
+        "id": "teacher-jin-suji",
+        "heading": "SU JI진수지",
+        "field": "02 / PILATES",
+        "alt": "키코필라테스 강사 진수지",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jin-suji-01-773.webp",
+        "frame": {
+          "x": 827.046875,
+          "y": 2871.234375,
+          "width": 480,
+          "height": 918.0625
+        },
+        "imageRatio": 0.7078809592145763,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          2871.234375,
+          2942.578125,
+          2987.078125,
+          3342.984375
+        ]
+      },
+      {
+        "id": "teacher-mun-jeonghee",
+        "heading": "JEONG HEE문정희",
+        "field": "03 / PILATES",
+        "alt": "키코필라테스 강사 문정희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/mun-jeonghee-01-773.webp",
+        "frame": {
+          "x": 167.953125,
+          "y": 3991.890625,
+          "width": 410,
+          "height": 1088.015625
+        },
+        "imageRatio": 0.7078788303929477,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          3991.890625,
+          4183.21875,
+          4227.71875,
+          4583.625
+        ]
+      },
+      {
+        "id": "teacher-won-yejin",
+        "heading": "YE JIN원예진",
+        "field": "04 / PILATES",
+        "alt": "키코필라테스 강사 원예진",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/won-yejin-01-773.webp",
+        "frame": {
+          "x": 842.046875,
+          "y": 5282.5,
+          "width": 450,
+          "height": 866.453125
+        },
+        "imageRatio": 0.7078777081541548,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          5282.5,
+          5363.046875,
+          5407.546875,
+          5763.453125
+        ]
+      },
+      {
+        "id": "teacher-park-aram",
+        "heading": "A RAM박아람",
+        "field": "05 / PILATES",
+        "alt": "키코필라테스 강사 박아람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-aram-01-773.webp",
+        "frame": {
+          "x": 112.953125,
+          "y": 6351.546875,
+          "width": 520,
+          "height": 776.84375
+        },
+        "imageRatio": 0.7078774120317821,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          6351.546875,
+          6387.28125,
+          6431.78125,
+          6787.6875
+        ]
+      },
+      {
+        "id": "teacher-park-boram",
+        "heading": "BO RAM박보람",
+        "field": "06 / PILATES",
+        "alt": "키코필라테스 강사 박보람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-boram-01-773.webp",
+        "frame": {
+          "x": 837.046875,
+          "y": 7330.984375,
+          "width": 460,
+          "height": 911.578125
+        },
+        "imageRatio": 0.707875485904931,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          7330.984375,
+          7434.09375,
+          7478.59375,
+          7834.5
+        ]
+      },
+      {
+        "id": "teacher-go-eunsae",
+        "heading": "EUN SAE고은새",
+        "field": "07 / BALLET",
+        "alt": "키코 성인발레 강사 고은새",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/go-eunsae-01-773.webp",
+        "frame": {
+          "x": 142.953125,
+          "y": 8656.4375,
+          "width": 460,
+          "height": 884.109375
+        },
+        "imageRatio": 0.7078806016817608,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          8656.4375,
+          8710.8125,
+          8755.3125,
+          9111.21875
+        ]
+      },
+      {
+        "id": "teacher-park-nahyun",
+        "heading": "NA HYUN박나현",
+        "field": "08 / BALLET",
+        "alt": "키코 성인발레 강사 박나현",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-nahyun-01-773.webp",
+        "frame": {
+          "x": 837.046875,
+          "y": 9743.140625,
+          "width": 460,
+          "height": 892.109375
+        },
+        "imageRatio": 0.707877394321378,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          9743.140625,
+          9782.8125,
+          9827.3125,
+          10183.21875
+        ]
+      },
+      {
+        "id": "teacher-kim-rakyung",
+        "heading": "RA KYUNG김라경",
+        "field": "09 / BALLET",
+        "alt": "키코 성인발레 강사 김라경",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/kim-rakyung-01-773.webp",
+        "frame": {
+          "x": 142.953125,
+          "y": 10837.84375,
+          "width": 460,
+          "height": 947.875
+        },
+        "imageRatio": 0.707877394321378,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          10837.84375,
+          10870.40625,
+          10914.90625,
+          11270.8125
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "h1": 1,
+    "title": "TEACHERS | KIKO PILATES & BALLET",
+    "description": "키코필라테스 앤 발레의 강사진을 소개합니다. 개인의 움직임을 세심하게 살피는 필라테스·성인발레 수업과 각 강사의 경험을 만나보세요.",
+    "overflow": false,
+    "bounds": [],
+    "textOverflow": [],
+    "profiles": [
+      {
+        "id": "teacher-jang-jihee",
+        "heading": "JI HEE장지희",
+        "field": "01 / PILATES",
+        "alt": "키코필라테스 대표원장 장지희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jang-jihee-01-773.webp",
+        "frame": {
+          "x": 310,
+          "y": 1674.359375,
+          "width": 440,
+          "height": 1071.890625
+        },
+        "imageRatio": 0.8002076867705887,
+        "sourceRatio": 0.8002070393374742,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          1674.359375,
+          1856.09375,
+          1900.59375,
+          2259.546875
+        ]
+      },
+      {
+        "id": "teacher-jin-suji",
+        "heading": "SU JI진수지",
+        "field": "02 / PILATES",
+        "alt": "키코필라테스 강사 진수지",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jin-suji-01-773.webp",
+        "frame": {
+          "x": 1150,
+          "y": 2971.25,
+          "width": 480,
+          "height": 918.0625
+        },
+        "imageRatio": 0.7078809592145763,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          2971.25,
+          3041.078125,
+          3085.578125,
+          3444.53125
+        ]
+      },
+      {
+        "id": "teacher-mun-jeonghee",
+        "heading": "JEONG HEE문정희",
+        "field": "03 / PILATES",
+        "alt": "키코필라테스 강사 문정희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/mun-jeonghee-01-773.webp",
+        "frame": {
+          "x": 325,
+          "y": 4114.3125,
+          "width": 410,
+          "height": 1088.015625
+        },
+        "imageRatio": 0.7078788303929477,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          4114.3125,
+          4304.109375,
+          4348.609375,
+          4707.5625
+        ]
+      },
+      {
+        "id": "teacher-won-yejin",
+        "heading": "YE JIN원예진",
+        "field": "04 / PILATES",
+        "alt": "키코필라테스 강사 원예진",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/won-yejin-01-773.webp",
+        "frame": {
+          "x": 1165,
+          "y": 5427.328125,
+          "width": 450,
+          "height": 866.453125
+        },
+        "imageRatio": 0.7078777081541548,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          5427.328125,
+          5506.34375,
+          5550.84375,
+          5909.796875
+        ]
+      },
+      {
+        "id": "teacher-park-aram",
+        "heading": "A RAM박아람",
+        "field": "05 / PILATES",
+        "alt": "키코필라테스 강사 박아람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-aram-01-773.webp",
+        "frame": {
+          "x": 270,
+          "y": 6518.78125,
+          "width": 520,
+          "height": 776.84375
+        },
+        "imageRatio": 0.7078774120317821,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          6518.78125,
+          6553,
+          6597.5,
+          6956.453125
+        ]
+      },
+      {
+        "id": "teacher-park-boram",
+        "heading": "BO RAM박보람",
+        "field": "06 / PILATES",
+        "alt": "키코필라테스 강사 박보람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-boram-01-773.webp",
+        "frame": {
+          "x": 1160,
+          "y": 7520.625,
+          "width": 460,
+          "height": 911.578125
+        },
+        "imageRatio": 0.707875485904931,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          7520.625,
+          7622.203125,
+          7666.703125,
+          8025.65625
+        ]
+      },
+      {
+        "id": "teacher-go-eunsae",
+        "heading": "EUN SAE고은새",
+        "field": "07 / BALLET",
+        "alt": "키코 성인발레 강사 고은새",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/go-eunsae-01-773.webp",
+        "frame": {
+          "x": 300,
+          "y": 8874.171875,
+          "width": 460,
+          "height": 884.109375
+        },
+        "imageRatio": 0.7078806016817608,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          8874.171875,
+          8927.015625,
+          8971.515625,
+          9330.46875
+        ]
+      },
+      {
+        "id": "teacher-park-nahyun",
+        "heading": "NA HYUN박나현",
+        "field": "08 / BALLET",
+        "alt": "키코 성인발레 강사 박나현",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-nahyun-01-773.webp",
+        "frame": {
+          "x": 1160,
+          "y": 9983.28125,
+          "width": 460,
+          "height": 892.109375
+        },
+        "imageRatio": 0.707877394321378,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          9983.28125,
+          10021.4375,
+          10065.9375,
+          10424.890625
+        ]
+      },
+      {
+        "id": "teacher-kim-rakyung",
+        "heading": "RA KYUNG김라경",
+        "field": "09 / BALLET",
+        "alt": "키코 성인발레 강사 김라경",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/kim-rakyung-01-773.webp",
+        "frame": {
+          "x": 300,
+          "y": 11100.390625,
+          "width": 460,
+          "height": 947.875
+        },
+        "imageRatio": 0.707877394321378,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          11100.390625,
+          11131.421875,
+          11175.921875,
+          11534.875
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 768,
+    "h1": 1,
+    "title": "TEACHERS | KIKO PILATES & BALLET",
+    "description": "키코필라테스 앤 발레의 강사진을 소개합니다. 개인의 움직임을 세심하게 살피는 필라테스·성인발레 수업과 각 강사의 경험을 만나보세요.",
+    "overflow": false,
+    "bounds": [],
+    "textOverflow": [],
+    "profiles": [
+      {
+        "id": "teacher-jang-jihee",
+        "heading": "JI HEE장지희",
+        "field": "01 / PILATES",
+        "alt": "키코필라테스 대표원장 장지희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jang-jihee-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 1967.234375,
+          "width": 440,
+          "height": 1071.890625
+        },
+        "imageRatio": 0.8002076867705887,
+        "sourceRatio": 0.8002070393374742,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          1967.234375,
+          3087.125,
+          3131.625,
+          3460.171875
+        ]
+      },
+      {
+        "id": "teacher-jin-suji",
+        "heading": "SU JI진수지",
+        "field": "02 / PILATES",
+        "alt": "키코필라테스 강사 진수지",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jin-suji-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 3910.125,
+          "width": 480,
+          "height": 918.0625
+        },
+        "imageRatio": 0.7078809592145763,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          3910.125,
+          4876.1875,
+          4920.6875,
+          5249.234375
+        ]
+      },
+      {
+        "id": "teacher-mun-jeonghee",
+        "heading": "JEONG HEE문정희",
+        "field": "03 / PILATES",
+        "alt": "키코필라테스 강사 문정희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/mun-jeonghee-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 5769.1875,
+          "width": 410,
+          "height": 1088.015625
+        },
+        "imageRatio": 0.7078788303929477,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          5769.1875,
+          6905.203125,
+          6949.703125,
+          7278.25
+        ]
+      },
+      {
+        "id": "teacher-won-yejin",
+        "heading": "YE JIN원예진",
+        "field": "04 / PILATES",
+        "alt": "키코필라테스 강사 원예진",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/won-yejin-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 7728.203125,
+          "width": 450,
+          "height": 866.453125
+        },
+        "imageRatio": 0.7078777081541548,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          7728.203125,
+          8642.65625,
+          8687.15625,
+          9015.703125
+        ]
+      },
+      {
+        "id": "teacher-park-aram",
+        "heading": "A RAM박아람",
+        "field": "05 / PILATES",
+        "alt": "키코필라테스 강사 박아람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-aram-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 9465.65625,
+          "width": 520,
+          "height": 776.84375
+        },
+        "imageRatio": 0.7078774120317821,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          9465.65625,
+          10290.5,
+          10335,
+          10663.546875
+        ]
+      },
+      {
+        "id": "teacher-park-boram",
+        "heading": "BO RAM박보람",
+        "field": "06 / PILATES",
+        "alt": "키코필라테스 강사 박보람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-boram-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 11113.5,
+          "width": 460,
+          "height": 911.578125
+        },
+        "imageRatio": 0.707875485904931,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          11113.5,
+          12073.078125,
+          12117.578125,
+          12446.125
+        ]
+      },
+      {
+        "id": "teacher-go-eunsae",
+        "heading": "EUN SAE고은새",
+        "field": "07 / BALLET",
+        "alt": "키코 성인발레 강사 고은새",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/go-eunsae-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 13090.015625,
+          "width": 460,
+          "height": 884.109375
+        },
+        "imageRatio": 0.7078806016817608,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          13090.015625,
+          14022.125,
+          14066.625,
+          14395.171875
+        ]
+      },
+      {
+        "id": "teacher-park-nahyun",
+        "heading": "NA HYUN박나현",
+        "field": "08 / BALLET",
+        "alt": "키코 성인발레 강사 박나현",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-nahyun-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 14915.125,
+          "width": 460,
+          "height": 892.109375
+        },
+        "imageRatio": 0.707877394321378,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          14915.125,
+          15855.234375,
+          15899.734375,
+          16228.28125
+        ]
+      },
+      {
+        "id": "teacher-kim-rakyung",
+        "heading": "RA KYUNG김라경",
+        "field": "09 / BALLET",
+        "alt": "키코 성인발레 강사 김라경",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/kim-rakyung-01-773.webp",
+        "frame": {
+          "x": 42.609375,
+          "y": 16785.625,
+          "width": 460,
+          "height": 947.875
+        },
+        "imageRatio": 0.707877394321378,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          16785.625,
+          17781.5,
+          17826,
+          18154.546875
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "h1": 1,
+    "title": "TEACHERS | KIKO PILATES & BALLET",
+    "description": "키코필라테스 앤 발레의 강사진을 소개합니다. 개인의 움직임을 세심하게 살피는 필라테스·성인발레 수업과 각 강사의 경험을 만나보세요.",
+    "overflow": false,
+    "bounds": [],
+    "textOverflow": [],
+    "profiles": [
+      {
+        "id": "teacher-jang-jihee",
+        "heading": "JI HEE장지희",
+        "field": "01 / PILATES",
+        "alt": "키코필라테스 대표원장 장지희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jang-jihee-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 1738.171875,
+          "width": 342,
+          "height": 833.15625
+        },
+        "imageRatio": 0.8002186223753929,
+        "sourceRatio": 0.8002070393374742,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          1738.171875,
+          2603.328125,
+          2643.828125,
+          2974.921875
+        ]
+      },
+      {
+        "id": "teacher-jin-suji",
+        "heading": "SU JI진수지",
+        "field": "02 / PILATES",
+        "alt": "키코필라테스 강사 진수지",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jin-suji-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 3411.921875,
+          "width": 342,
+          "height": 654.125
+        },
+        "imageRatio": 0.7078842093565951,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          3411.921875,
+          4098.046875,
+          4138.546875,
+          4469.640625
+        ]
+      },
+      {
+        "id": "teacher-mun-jeonghee",
+        "heading": "JEONG HEE문정희",
+        "field": "03 / PILATES",
+        "alt": "키코필라테스 강사 문정희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/mun-jeonghee-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 5005.140625,
+          "width": 342,
+          "height": 907.5625
+        },
+        "imageRatio": 0.7078783971295219,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          5005.140625,
+          5944.703125,
+          5985.203125,
+          6316.296875
+        ]
+      },
+      {
+        "id": "teacher-won-yejin",
+        "heading": "YE JIN원예진",
+        "field": "04 / PILATES",
+        "alt": "키코필라테스 강사 원예진",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/won-yejin-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 6753.296875,
+          "width": 342,
+          "height": 658.5
+        },
+        "imageRatio": 0.7078825764209788,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          6753.296875,
+          7443.796875,
+          7484.296875,
+          7815.390625
+        ]
+      },
+      {
+        "id": "teacher-park-aram",
+        "heading": "A RAM박아람",
+        "field": "05 / PILATES",
+        "alt": "키코필라테스 강사 박아람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-aram-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 8252.390625,
+          "width": 342,
+          "height": 510.921875
+        },
+        "imageRatio": 0.7078851809408093,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          8252.390625,
+          8795.3125,
+          8835.8125,
+          9166.90625
+        ]
+      },
+      {
+        "id": "teacher-park-boram",
+        "heading": "BO RAM박보람",
+        "field": "06 / PILATES",
+        "alt": "키코필라테스 강사 박보람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-boram-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 9603.90625,
+          "width": 342,
+          "height": 677.734375
+        },
+        "imageRatio": 0.7078770413064361,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          9603.90625,
+          10313.640625,
+          10354.140625,
+          10685.234375
+        ]
+      },
+      {
+        "id": "teacher-go-eunsae",
+        "heading": "EUN SAE고은새",
+        "field": "07 / BALLET",
+        "alt": "키코 성인발레 강사 고은새",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/go-eunsae-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 11338.25,
+          "width": 342,
+          "height": 657.3125
+        },
+        "imageRatio": 0.7078764757126979,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          11338.25,
+          12027.5625,
+          12068.0625,
+          12399.15625
+        ]
+      },
+      {
+        "id": "teacher-park-nahyun",
+        "heading": "NA HYUN박나현",
+        "field": "08 / BALLET",
+        "alt": "키코 성인발레 강사 박나현",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-nahyun-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 12906.15625,
+          "width": 342,
+          "height": 663.265625
+        },
+        "imageRatio": 0.7078851809408093,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          12906.15625,
+          13601.421875,
+          13641.921875,
+          13973.015625
+        ]
+      },
+      {
+        "id": "teacher-kim-rakyung",
+        "heading": "RA KYUNG김라경",
+        "field": "09 / BALLET",
+        "alt": "키코 성인발레 강사 김라경",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/kim-rakyung-01-773.webp",
+        "frame": {
+          "x": 24,
+          "y": 14487.015625,
+          "width": 342,
+          "height": 704.71875
+        },
+        "imageRatio": 0.7078851809408093,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          14487.015625,
+          15223.734375,
+          15264.234375,
+          15595.328125
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "h1": 1,
+    "title": "TEACHERS | KIKO PILATES & BALLET",
+    "description": "키코필라테스 앤 발레의 강사진을 소개합니다. 개인의 움직임을 세심하게 살피는 필라테스·성인발레 수업과 각 강사의 경험을 만나보세요.",
+    "overflow": false,
+    "bounds": [],
+    "textOverflow": [],
+    "profiles": [
+      {
+        "id": "teacher-jang-jihee",
+        "heading": "JI HEE장지희",
+        "field": "01 / PILATES",
+        "alt": "키코필라테스 대표원장 장지희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jang-jihee-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 1764.859375,
+          "width": 280,
+          "height": 682.109375
+        },
+        "imageRatio": 0.8002113968883862,
+        "sourceRatio": 0.8002070393374742,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          1764.859375,
+          2478.96875,
+          2519.46875,
+          2846.328125
+        ]
+      },
+      {
+        "id": "teacher-jin-suji",
+        "heading": "SU JI진수지",
+        "field": "02 / PILATES",
+        "alt": "키코필라테스 강사 진수지",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/jin-suji-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 3311.828125,
+          "width": 280,
+          "height": 535.53125
+        },
+        "imageRatio": 0.7078773688943181,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          3311.828125,
+          3879.359375,
+          3919.859375,
+          4246.71875
+        ]
+      },
+      {
+        "id": "teacher-mun-jeonghee",
+        "heading": "JEONG HEE문정희",
+        "field": "03 / PILATES",
+        "alt": "키코필라테스 강사 문정희",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/mun-jeonghee-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 4839.21875,
+          "width": 280,
+          "height": 743.03125
+        },
+        "imageRatio": 0.7078853660206806,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          4839.21875,
+          5614.25,
+          5654.75,
+          5981.609375
+        ]
+      },
+      {
+        "id": "teacher-won-yejin",
+        "heading": "YE JIN원예진",
+        "field": "04 / PILATES",
+        "alt": "키코필라테스 강사 원예진",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/won-yejin-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 6418.609375,
+          "width": 280,
+          "height": 539.125
+        },
+        "imageRatio": 0.7078869855687746,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          6418.609375,
+          6989.734375,
+          7030.234375,
+          7357.09375
+        ]
+      },
+      {
+        "id": "teacher-park-aram",
+        "heading": "A RAM박아람",
+        "field": "05 / PILATES",
+        "alt": "키코필라테스 강사 박아람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-aram-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 7794.09375,
+          "width": 280,
+          "height": 418.296875
+        },
+        "imageRatio": 0.7078822219973692,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          7794.09375,
+          8244.390625,
+          8284.890625,
+          8611.75
+        ]
+      },
+      {
+        "id": "teacher-park-boram",
+        "heading": "BO RAM박보람",
+        "field": "06 / PILATES",
+        "alt": "키코필라테스 강사 박보람",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-boram-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 9105.75,
+          "width": 280,
+          "height": 554.875
+        },
+        "imageRatio": 0.707877975192759,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          9105.75,
+          9692.625,
+          9733.125,
+          10059.984375
+        ]
+      },
+      {
+        "id": "teacher-go-eunsae",
+        "heading": "EUN SAE고은새",
+        "field": "07 / BALLET",
+        "alt": "키코 성인발레 강사 고은새",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/go-eunsae-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 10736.890625,
+          "width": 280,
+          "height": 538.15625
+        },
+        "imageRatio": 0.7078777427166655,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          10736.890625,
+          11307.046875,
+          11347.546875,
+          11674.40625
+        ]
+      },
+      {
+        "id": "teacher-park-nahyun",
+        "heading": "NA HYUN박나현",
+        "field": "08 / BALLET",
+        "alt": "키코 성인발레 강사 박나현",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/park-nahyun-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 12181.40625,
+          "width": 280,
+          "height": 543.015625
+        },
+        "imageRatio": 0.7078822219973692,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          12181.40625,
+          12756.421875,
+          12796.921875,
+          13123.78125
+        ]
+      },
+      {
+        "id": "teacher-kim-rakyung",
+        "heading": "RA KYUNG김라경",
+        "field": "09 / BALLET",
+        "alt": "키코 성인발레 강사 김라경",
+        "currentSrc": "http://127.0.0.1:5174/src/assets/teachers/kim-rakyung-01-773.webp",
+        "frame": {
+          "x": 20,
+          "y": 13694.78125,
+          "width": 280,
+          "height": 576.96875
+        },
+        "imageRatio": 0.7078822219973692,
+        "sourceRatio": 0.7078754578754579,
+        "filter": "none",
+        "transform": "none",
+        "opacity": "1",
+        "overflow": "hidden",
+        "order": [
+          13694.78125,
+          14303.75,
+          14344.25,
+          14671.109375
+        ]
+      }
+    ],
+    "errors": []
+  }
+]

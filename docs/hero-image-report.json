@@ -1,0 +1,226 @@
+{
+  "quality": 96,
+  "smartSubsample": false,
+  "effort": 6,
+  "encoder": "sharp 0.35.5 / libvips 8.18.7",
+  "composition": "Width-only resize; no crop, filters, sharpening, denoising or color adjustments. Input ICC profiles retained.",
+  "interpolation": "Lanczos3 downsampling; cubic upsampling as defined by Sharp.",
+  "images": [
+    {
+      "original": {
+        "filename": "hero-01.png",
+        "width": 3766,
+        "height": 2614,
+        "bytes": 10156141,
+        "sha256": "4c51a2e3434cd56e6ce4a1065d734a77f18feeac5c44c7f8af4772efb7889c30"
+      },
+      "sourceScaleAt1920": 0.5098247477429634,
+      "derivatives": [
+        {
+          "filename": "hero-01-1600.webp",
+          "width": 1600,
+          "height": 1111,
+          "bytes": 188754,
+          "method": "downscale-lanczos3",
+          "scale": 0.4248539564524695
+        },
+        {
+          "filename": "hero-01-2560.webp",
+          "width": 2560,
+          "height": 1777,
+          "bytes": 333882,
+          "method": "downscale-lanczos3",
+          "scale": 0.6797663303239512
+        },
+        {
+          "filename": "hero-01-3840.webp",
+          "width": 3840,
+          "height": 2665,
+          "bytes": 577094,
+          "method": "upscale-cubic",
+          "scale": 1.0196494954859268
+        }
+      ]
+    },
+    {
+      "original": {
+        "filename": "hero-02.png",
+        "width": 4144,
+        "height": 2610,
+        "bytes": 11328064,
+        "sha256": "9de38844022480f7b4aeb96cd61f4cf4afcd69be899f9fa2c658b538152eaf06"
+      },
+      "sourceScaleAt1920": 0.46332046332046334,
+      "derivatives": [
+        {
+          "filename": "hero-02-1600.webp",
+          "width": 1600,
+          "height": 1008,
+          "bytes": 188622,
+          "method": "downscale-lanczos3",
+          "scale": 0.3861003861003861
+        },
+        {
+          "filename": "hero-02-2560.webp",
+          "width": 2560,
+          "height": 1612,
+          "bytes": 328698,
+          "method": "downscale-lanczos3",
+          "scale": 0.6177606177606177
+        },
+        {
+          "filename": "hero-02-3840.webp",
+          "width": 3840,
+          "height": 2419,
+          "bytes": 555806,
+          "method": "downscale-lanczos3",
+          "scale": 0.9266409266409267
+        }
+      ]
+    },
+    {
+      "original": {
+        "filename": "hero-03.png",
+        "width": 4328,
+        "height": 2596,
+        "bytes": 12610334,
+        "sha256": "4c9770c5d37751ec11d7bc057e7f5224d4020890a0ffb08d684fc7f022769930"
+      },
+      "sourceScaleAt1920": 0.4436229205175601,
+      "derivatives": [
+        {
+          "filename": "hero-03-1600.webp",
+          "width": 1600,
+          "height": 960,
+          "bytes": 238304,
+          "method": "downscale-lanczos3",
+          "scale": 0.36968576709796674
+        },
+        {
+          "filename": "hero-03-2560.webp",
+          "width": 2560,
+          "height": 1536,
+          "bytes": 406438,
+          "method": "downscale-lanczos3",
+          "scale": 0.5914972273567468
+        },
+        {
+          "filename": "hero-03-3840.webp",
+          "width": 3840,
+          "height": 2303,
+          "bytes": 678086,
+          "method": "downscale-lanczos3",
+          "scale": 0.8872458410351202
+        }
+      ]
+    },
+    {
+      "original": {
+        "filename": "hero-04.png",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 1776612,
+        "sha256": "fb3e09eb07b2f7b702d25a08941f6773bf3a53d96c0c55d6da7084861dc0be2c"
+      },
+      "sourceScaleAt1920": 1.3259668508287292,
+      "derivatives": [
+        {
+          "filename": "hero-04-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 251286,
+          "method": "upscale-cubic",
+          "scale": 1.1049723756906078
+        },
+        {
+          "filename": "hero-04-2560.webp",
+          "width": 2560,
+          "height": 1920,
+          "bytes": 459996,
+          "method": "upscale-cubic",
+          "scale": 1.7679558011049723
+        },
+        {
+          "filename": "hero-04-3840.webp",
+          "width": 3840,
+          "height": 2880,
+          "bytes": 795246,
+          "method": "upscale-cubic",
+          "scale": 2.6519337016574585
+        }
+      ]
+    },
+    {
+      "original": {
+        "filename": "hero-05.png",
+        "width": 2786,
+        "height": 2244,
+        "bytes": 8661371,
+        "sha256": "9430cfade6dca3c491c96c68c8582c669846b02067b34ac540f22ae237e56282"
+      },
+      "sourceScaleAt1920": 0.6891600861450108,
+      "derivatives": [
+        {
+          "filename": "hero-05-1600.webp",
+          "width": 1600,
+          "height": 1289,
+          "bytes": 374788,
+          "method": "downscale-lanczos3",
+          "scale": 0.574300071787509
+        },
+        {
+          "filename": "hero-05-2560.webp",
+          "width": 2560,
+          "height": 2062,
+          "bytes": 658016,
+          "method": "downscale-lanczos3",
+          "scale": 0.9188801148600143
+        },
+        {
+          "filename": "hero-05-3840.webp",
+          "width": 3840,
+          "height": 3093,
+          "bytes": 1037960,
+          "method": "upscale-cubic",
+          "scale": 1.3783201722900216
+        }
+      ]
+    },
+    {
+      "original": {
+        "filename": "hero-06.png",
+        "width": 3950,
+        "height": 2604,
+        "bytes": 11152542,
+        "sha256": "9585598bfc0e4b4611416ef118a1855829bb69fbf44d5dc06203333741b688ad"
+      },
+      "sourceScaleAt1920": 0.4860759493670886,
+      "derivatives": [
+        {
+          "filename": "hero-06-1600.webp",
+          "width": 1600,
+          "height": 1055,
+          "bytes": 180922,
+          "method": "downscale-lanczos3",
+          "scale": 0.4050632911392405
+        },
+        {
+          "filename": "hero-06-2560.webp",
+          "width": 2560,
+          "height": 1688,
+          "bytes": 326786,
+          "method": "downscale-lanczos3",
+          "scale": 0.6481012658227848
+        },
+        {
+          "filename": "hero-06-3840.webp",
+          "width": 3840,
+          "height": 2531,
+          "bytes": 563020,
+          "method": "downscale-lanczos3",
+          "scale": 0.9721518987341772
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+/* ABOUT only. Existing shared Header, Footer, fonts, colors and routes are untouched. */
+.about-page { --about-heading: clamp(56px, 5.2vw, 80px); padding-top: 100px; background: var(--ivory); color: var(--ink); font-family: var(--font-ko); font-size: var(--font-size-body); font-weight: var(--font-weight-body); line-height: var(--line-height-body); letter-spacing: var(--letter-spacing-body); }
+.about-page .about-container { width: 100%; max-width: 1776px; margin-inline: auto; padding-inline: var(--gutter); }
+.about-page .about-display, .about-page h1 { font-family: var(--font-en-display); font-weight: var(--font-weight-display); line-height: .98; letter-spacing: -.02em; }
+.about-page h2.about-display { font-size: var(--about-heading); }
+.about-page .about-eyebrow { font-family: var(--font-en-ui); font-size: var(--font-size-micro); font-weight: var(--font-weight-ui); line-height: var(--line-height-micro); letter-spacing: var(--letter-spacing-micro); margin-bottom: 32px; }
+.about-page p { word-break: keep-all; text-wrap: pretty; }
+.about-page .about-lead { font-size: var(--font-size-lead); line-height: 1.8; }
+.about-page .about-copy > p + p { margin-top: 22px; }
+.about-page .about-copy > p:not(.about-lead) { color: var(--muted); }
+.about-page .about-chapter { padding-block: clamp(80px, 7.8vw, 128px); }
+.about-page .about-split { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 8%; align-items: start; }
+.about-page .about-split > * { min-width: 0; }
+
+/* Every photo keeps its source ratio. Auto-height avoids both crop and stretching. */
+.about-page .about-photo { width: 100%; min-width: 0; margin: 0; }
+.about-page .about-photo picture { display: block; }
+.about-page .about-photo img { display: block; width: 100%; height: auto; object-fit: contain; object-position: var(--about-photo-position); }
+.about-page .about-photo figcaption { margin-top: 14px; color: var(--muted); font-size: var(--font-size-small); line-height: 1.7; }
+
+.about-page .about-hero { padding-top: 56px; }
+.about-page .about-hero > .about-eyebrow { margin-bottom: 24px; }
+.about-page h1 { font-size: clamp(100px, 10vw, 164px); line-height: .9; }
+.about-page .about-hero-intro { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 8%; align-items: end; margin-block: 40px 48px; }
+.about-page .about-hero-message { font-size: clamp(56px, 5.2vw, 80px); color: var(--wine); }
+
+.about-page .about-philosophy .about-copy { max-width: 610px; }
+.about-page .about-space { padding-top: 0; }
+.about-page .about-space-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 56px 8%; align-items: start; }
+.about-page .about-space-main { grid-column: 1 / -1; grid-row: 2; max-width: 1040px; justify-self: center; }
+.about-page .about-space h2 { grid-column: 1; grid-row: 1; }
+.about-page .about-space-copy { grid-column: 2; grid-row: 1; }
+.about-page .about-space .about-lead { font-size: 21px; }
+.about-page .about-locker-story { grid-column: 1 / -1; grid-row: 3; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(24px, 3vw, 56px); align-items: start; }
+
+.about-page .about-details { padding-top: 0; }
+.about-page .about-details-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 8%; align-items: center; }
+.about-page .about-details-equipment { max-width: 560px; }
+
+.about-page .about-movement > .about-eyebrow { border-top: 1px solid var(--line); padding-top: 32px; }
+.about-page .about-movement { padding-top: 0; }
+.about-page .about-movement h2 { font-size: clamp(80px, 8.2vw, 128px); }
+.about-page .about-links { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 16px 32px; margin-top: 32px; }
+.about-page .about-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 48px; max-width: 100%; padding-block: 10px; border-bottom: 1px solid currentColor; color: var(--wine); font-family: var(--font-en-ui); font-size: 13px; line-height: 1.5; letter-spacing: .02em; }
+.about-page .about-link:hover { color: var(--ink); }
+.about-page .about-link .arrow { width: 18px; height: 18px; flex-basis: 18px; }
+
+.about-page .about-approach { padding-top: 0; }
+.about-page .about-approach > .about-eyebrow { border-top: 1px solid var(--line); padding-top: 32px; }
+.about-page .about-approach-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 8%; margin: 48px 0 0; }
+.about-page .about-approach-list > div { min-width: 0; border-top: 1px solid var(--line); padding-block: 28px 32px; }
+.about-page .about-approach-list dt { font-size: clamp(44px, 4vw, 60px); }
+.about-page .about-approach-list dd { margin: 14px 0 0; color: var(--muted); }
+
+.about-page .about-closing { padding-top: 0; }
+.about-page .about-closing > .about-split { border-top: 1px solid var(--line); padding-top: clamp(64px, 6vw, 96px); align-items: end; }
+.about-page .about-closing h2 { color: var(--wine); font-size: clamp(64px, 6vw, 96px); }
+.about-page .about-program-menu { max-width: 100%; }
+.about-page .about-program-menu summary { cursor: pointer; list-style: none; }
+.about-page .about-program-menu summary::-webkit-details-marker { display: none; }
+.about-page .about-program-menu[open] summary { color: var(--ink); }
+.about-page .about-program-menu nav { display: grid; padding-block: 8px; }
+.about-page .about-program-menu a { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 44px; font-family: var(--font-en-ui); font-size: 13px; letter-spacing: .02em; }
+.about-page .about-program-menu a:hover { color: var(--wine); }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-page { --about-heading: 64px; }
+  .about-page .about-hero { padding-top: 48px; }
+  .about-page .about-hero-message { font-size: 60px; }
+  .about-page .about-hero-intro { gap: 6%; }
+  .about-page .about-hero .about-lead { font-size: 21px; }
+  .about-page .about-split { grid-template-columns: 1fr; gap: 36px; }
+  .about-page .about-space-layout { grid-template-columns: 1fr; gap: 36px; }
+  .about-page .about-space h2, .about-page .about-space-main, .about-page .about-space-copy, .about-page .about-locker-story { grid-column: 1; grid-row: auto; }
+  .about-page .about-locker-story { grid-template-columns: 1fr; gap: 36px; }
+  .about-page .about-details-layout { grid-template-columns: 1fr; gap: 36px; }
+  .about-page .about-details-equipment { max-width: 560px; }
+}
+
+@media (max-width: 767px) {
+  .about-page { --about-heading: clamp(38px, 11.2vw, 64px); padding-top: 85px; }
+  .about-page .about-container { padding-inline: 24px; }
+  .about-page .about-chapter { padding-block: 64px; }
+  .about-page .about-eyebrow { margin-bottom: 24px; }
+  .about-page .about-desktop-break { display: none; }
+  .about-page .about-hero { padding-top: 36px; }
+  .about-page h1 { font-size: clamp(72px, 24vw, 112px); }
+  .about-page .about-hero-intro { grid-template-columns: 1fr; gap: 26px; margin-block: 32px 32px; }
+  .about-page .about-hero-message { font-size: clamp(44px, 13vw, 64px); }
+  .about-page .about-lead { font-size: 21px; }
+  .about-page .about-split { grid-template-columns: 1fr; gap: 30px; }
+  .about-page .about-copy > p + p { margin-top: 20px; }
+  .about-page .about-space, .about-page .about-details, .about-page .about-movement, .about-page .about-approach, .about-page .about-closing { padding-top: 0; }
+  .about-page .about-space-layout { grid-template-columns: 1fr; gap: 28px; }
+  .about-page .about-space h2, .about-page .about-space-main, .about-page .about-space-copy, .about-page .about-locker-story { grid-column: 1; grid-row: auto; }
+  .about-page .about-locker-story { grid-template-columns: 1fr; gap: 28px; margin-top: 4px; }
+  .about-page .about-space .about-lead { font-size: 21px; }
+  .about-page .about-photo img { object-position: var(--about-photo-mobile-position); }
+  .about-page .about-photo figcaption { font-size: 13px; margin-top: 10px; }
+  .about-page .about-details-layout { grid-template-columns: 1fr; gap: 28px; }
+  .about-page .about-details-equipment { max-width: none; }
+  .about-page .about-movement > .about-eyebrow, .about-page .about-approach > .about-eyebrow { padding-top: 24px; }
+  .about-page .about-movement h2 { font-size: clamp(64px, 19vw, 96px); }
+  .about-page .about-links { flex-direction: column; gap: 14px; margin-top: 28px; }
+  .about-page .about-links > *, .about-page .about-program-menu summary { width: 100%; }
+  .about-page .about-approach-list { grid-template-columns: 1fr; margin-top: 32px; }
+  .about-page .about-approach-list > div { padding-block: 24px; }
+  .about-page .about-approach-list dt { font-size: 40px; }
+  .about-page .about-approach-list dd { margin-top: 12px; }
+  .about-page .about-closing > .about-split { padding-top: 48px; }
+  .about-page .about-closing h2 { font-size: clamp(48px, 14vw, 72px); }
+}
+
+@media (max-width: 359px) {
+  .about-page .about-container { padding-inline: 20px; }
+}

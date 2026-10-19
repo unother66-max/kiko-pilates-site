@@ -1,0 +1,295 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "map": {
+      "x": 0,
+      "y": 507.21875,
+      "width": 1440,
+      "height": 680,
+      "overflow": "hidden"
+    },
+    "iframe": {
+      "x": 0,
+      "y": 440.21875,
+      "width": 1440,
+      "height": 747,
+      "src": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F",
+      "top": "-67px",
+      "filter": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    "google": {
+      "bar": {
+        "top": 0,
+        "bottom": 67,
+        "height": 67
+      },
+      "url": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F&ll=37.551342600000005%2C126.96255849999999&z=17",
+      "hasCopyright": true,
+      "logos": [
+        {
+          "src": "https://mt.googleapis.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container-bg_4x.png,icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=ff000000,0288D1&scale=2.0",
+          "y": 341.5,
+          "height": 32
+        }
+      ],
+      "zoomControls": [
+        {
+          "label": "확대",
+          "y": 668,
+          "height": 21
+        },
+        {
+          "label": "축소",
+          "y": 698,
+          "height": 21
+        }
+      ]
+    },
+    "zoom": {
+      "before": "17",
+      "after": "18"
+    },
+    "pan": {
+      "input": "mouse drag",
+      "before": "37.551342600000005,126.96255849999997",
+      "after": "37.55159689865995,126.96438742304778"
+    },
+    "fullscreen": {
+      "width": 1440,
+      "height": 1080,
+      "viewportWidth": 1440,
+      "viewportHeight": 1080
+    },
+    "pageErrors": []
+  },
+  {
+    "width": 1920,
+    "overflow": false,
+    "map": {
+      "x": 0,
+      "y": 515.5,
+      "width": 1920,
+      "height": 680,
+      "overflow": "hidden"
+    },
+    "iframe": {
+      "x": 0,
+      "y": 448.5,
+      "width": 1920,
+      "height": 747,
+      "src": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F",
+      "top": "-67px",
+      "filter": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    "google": {
+      "bar": {
+        "top": 0,
+        "bottom": 67,
+        "height": 67
+      },
+      "url": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F&ll=37.551342600000005%2C126.96255849999999&z=17",
+      "hasCopyright": true,
+      "logos": [
+        {
+          "src": "https://mt.googleapis.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container-bg_4x.png,icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=ff000000,0288D1&scale=2.0",
+          "y": 341.5,
+          "height": 32
+        }
+      ],
+      "zoomControls": [
+        {
+          "label": "확대",
+          "y": 668,
+          "height": 21
+        },
+        {
+          "label": "축소",
+          "y": 698,
+          "height": 21
+        }
+      ]
+    },
+    "pageErrors": []
+  },
+  {
+    "width": 2560,
+    "overflow": false,
+    "map": {
+      "x": 0,
+      "y": 515.5,
+      "width": 2560,
+      "height": 680,
+      "overflow": "hidden"
+    },
+    "iframe": {
+      "x": 0,
+      "y": 448.5,
+      "width": 2560,
+      "height": 747,
+      "src": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F",
+      "top": "-67px",
+      "filter": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    "google": {
+      "bar": {
+        "top": 0,
+        "bottom": 67,
+        "height": 67
+      },
+      "url": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F&ll=37.551342600000005%2C126.96255849999999&z=17",
+      "hasCopyright": true,
+      "logos": [
+        {
+          "src": "https://mt.googleapis.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container-bg_4x.png,icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=ff000000,0288D1&scale=2.0",
+          "y": 341.5,
+          "height": 32
+        }
+      ],
+      "zoomControls": [
+        {
+          "label": "확대",
+          "y": 668,
+          "height": 21
+        },
+        {
+          "label": "축소",
+          "y": 698,
+          "height": 21
+        }
+      ]
+    },
+    "pageErrors": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "map": {
+      "x": 0,
+      "y": 484.796875,
+      "width": 390,
+      "height": 460.1875,
+      "overflow": "hidden"
+    },
+    "iframe": {
+      "x": 0,
+      "y": 417.796875,
+      "width": 390,
+      "height": 527.1875,
+      "src": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F",
+      "top": "-67px",
+      "filter": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    "google": {
+      "bar": {
+        "top": 0,
+        "bottom": 67,
+        "height": 67
+      },
+      "url": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F&ll=37.551342600000005%2C126.96255849999999&z=17",
+      "hasCopyright": true,
+      "logos": [
+        {
+          "src": "https://mt.googleapis.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container-bg_4x.png,icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=ff000000,0288D1&scale=2.0",
+          "y": 231.5,
+          "height": 32
+        }
+      ],
+      "zoomControls": [
+        {
+          "label": "확대",
+          "y": 448,
+          "height": 21
+        },
+        {
+          "label": "축소",
+          "y": 478,
+          "height": 21
+        }
+      ]
+    },
+    "zoom": {
+      "before": "17",
+      "after": "18"
+    },
+    "pan": {
+      "input": "two-finger touch",
+      "before": "37.551342600000005,126.96255849999997",
+      "after": "37.551256095187725,126.96292220645137"
+    },
+    "pageErrors": [],
+    "fullscreen": {
+      "entered": true,
+      "exited": true,
+      "verifiedInFreshTouchViewport": true
+    }
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "map": {
+      "x": 0,
+      "y": 471.875,
+      "width": 320,
+      "height": 430,
+      "overflow": "hidden"
+    },
+    "iframe": {
+      "x": 0,
+      "y": 404.875,
+      "width": 320,
+      "height": 497,
+      "src": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F",
+      "top": "-67px",
+      "filter": "none",
+      "opacity": "1",
+      "transform": "none"
+    },
+    "google": {
+      "bar": {
+        "top": 0,
+        "bottom": 67,
+        "height": 67
+      },
+      "url": "https://www.google.com/maps/d/embed?mid=1z-_B0UREPdNjYH4ntRYHePYiu2M-508&ehbc=2E312F&ll=37.551342600000005%2C126.96255849999999&z=17",
+      "hasCopyright": true,
+      "logos": [
+        {
+          "src": "https://mt.googleapis.com/vt/icon/name=icons/onion/SHARED-mymaps-pin-container-bg_4x.png,icons/onion/SHARED-mymaps-pin-container_4x.png,icons/onion/1899-blank-shape_pin_4x.png&highlight=ff000000,0288D1&scale=2.0",
+          "y": 216.5,
+          "height": 32
+        }
+      ],
+      "zoomControls": [
+        {
+          "label": "확대",
+          "y": 418,
+          "height": 21
+        },
+        {
+          "label": "축소",
+          "y": 448,
+          "height": 21
+        }
+      ]
+    },
+    "zoom": {
+      "before": "17",
+      "after": "18"
+    },
+    "pan": {
+      "input": "two-finger touch",
+      "before": "37.551342600000005,126.96255849999997",
+      "after": "37.55125643430869,126.96292078062993"
+    },
+    "pageErrors": []
+  }
+]

@@ -1,0 +1,266 @@
+{
+  "encoding": "WebP quality 96; Lanczos3; ICC retained; no crop, enlargement, sharpening, filters or color edits",
+  "images": [
+    {
+      "original": {
+        "file": "jang-jihee-01.png",
+        "width": 773,
+        "height": 966,
+        "bytes": 780176,
+        "sha256": "849c0c895ca81d6ab5729e719bac7fd44eaa137042fa5fec1ab15b38d8d764fe"
+      },
+      "variants": [
+        {
+          "file": "jang-jihee-01-384.webp",
+          "width": 384,
+          "height": 480,
+          "bytes": 37480
+        },
+        {
+          "file": "jang-jihee-01-600.webp",
+          "width": 600,
+          "height": 750,
+          "bytes": 75994
+        },
+        {
+          "file": "jang-jihee-01-773.webp",
+          "width": 773,
+          "height": 966,
+          "bytes": 107418
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "jin-suji-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 862025,
+        "sha256": "8e9608b7e350d0b1a58e4111889929bffa1b95b10252d09054c6a97397d3e9c9"
+      },
+      "variants": [
+        {
+          "file": "jin-suji-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 43612
+        },
+        {
+          "file": "jin-suji-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 86666
+        },
+        {
+          "file": "jin-suji-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 121094
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "mun-jeonghee-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 836893,
+        "sha256": "dd2a05f5c327814deb239b8bbf1fe10839ffeb7a0582377195f3f487ea776661"
+      },
+      "variants": [
+        {
+          "file": "mun-jeonghee-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 38498
+        },
+        {
+          "file": "mun-jeonghee-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 73606
+        },
+        {
+          "file": "mun-jeonghee-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 103540
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "won-yejin-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 892502,
+        "sha256": "f81d9a16b6b9bf0e875bb504f272a450768e4a56da01c98b7a11bb179d53fdd2"
+      },
+      "variants": [
+        {
+          "file": "won-yejin-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 48284
+        },
+        {
+          "file": "won-yejin-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 95304
+        },
+        {
+          "file": "won-yejin-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 134872
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "park-aram-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 779142,
+        "sha256": "40f2845b4a7703a552eecb063581c82277cb155c4c0085d971c4ddc1ed089af7"
+      },
+      "variants": [
+        {
+          "file": "park-aram-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 37802
+        },
+        {
+          "file": "park-aram-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 70924
+        },
+        {
+          "file": "park-aram-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 102690
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "park-boram-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 832927,
+        "sha256": "6ad97cfc65bb7850183952f9f0a55f74ad4815afaa7a62d6d07193636a99360e"
+      },
+      "variants": [
+        {
+          "file": "park-boram-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 41826
+        },
+        {
+          "file": "park-boram-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 81344
+        },
+        {
+          "file": "park-boram-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 112874
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "go-eunsae-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 894594,
+        "sha256": "a8ddb361e7e73d97917104d3984bf2a0ee2331ab74c0a8a23fbfd76e33bc20a1"
+      },
+      "variants": [
+        {
+          "file": "go-eunsae-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 47702
+        },
+        {
+          "file": "go-eunsae-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 96360
+        },
+        {
+          "file": "go-eunsae-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 137358
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "park-nahyun-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 879037,
+        "sha256": "96a290273bd482d83b164888b273b187916e072e4f9a4e4337a5330886a1f02e"
+      },
+      "variants": [
+        {
+          "file": "park-nahyun-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 44388
+        },
+        {
+          "file": "park-nahyun-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 86990
+        },
+        {
+          "file": "park-nahyun-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 120668
+        }
+      ]
+    },
+    {
+      "original": {
+        "file": "kim-rakyung-01.png",
+        "width": 773,
+        "height": 1092,
+        "bytes": 902202,
+        "sha256": "9d98885d68b339a86c946bdcade6ea1b60c8190649f8b070422283fe89cc6017"
+      },
+      "variants": [
+        {
+          "file": "kim-rakyung-01-384.webp",
+          "width": 384,
+          "height": 542,
+          "bytes": 46878
+        },
+        {
+          "file": "kim-rakyung-01-600.webp",
+          "width": 600,
+          "height": 848,
+          "bytes": 94958
+        },
+        {
+          "file": "kim-rakyung-01-773.webp",
+          "width": 773,
+          "height": 1092,
+          "bytes": 132764
+        }
+      ]
+    }
+  ]
+}

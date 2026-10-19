@@ -1,0 +1,85 @@
+{
+  "encodeTests": [
+    {
+      "id": "02",
+      "quality": 95,
+      "smartSubsample": false,
+      "bytes": 524774,
+      "psnr": 46.44109899083646
+    },
+    {
+      "id": "02",
+      "quality": 96,
+      "smartSubsample": false,
+      "bytes": 555806,
+      "psnr": 46.624790370610604
+    },
+    {
+      "id": "04",
+      "quality": 95,
+      "smartSubsample": false,
+      "bytes": 716934,
+      "psnr": 47.47184010826946
+    },
+    {
+      "id": "04",
+      "quality": 96,
+      "smartSubsample": false,
+      "bytes": 795246,
+      "psnr": 47.78131671701334
+    },
+    {
+      "id": "05",
+      "quality": 95,
+      "smartSubsample": false,
+      "bytes": 956052,
+      "psnr": 45.31089185944373
+    },
+    {
+      "id": "05",
+      "quality": 96,
+      "smartSubsample": false,
+      "bytes": 1037960,
+      "psnr": 45.69509379952841
+    }
+  ],
+  "cropMetrics": [
+    {
+      "image": "hero-01",
+      "oldPsnr": 45.300485422726325,
+      "newPsnr": 37.98047381760454,
+      "gainDb": -7.320011605121785
+    },
+    {
+      "image": "hero-02",
+      "oldPsnr": 44.69150332771989,
+      "newPsnr": 46.2662050995645,
+      "gainDb": 1.5747017718446088
+    },
+    {
+      "image": "hero-03",
+      "oldPsnr": 43.64149826778817,
+      "newPsnr": 45.979653473404205,
+      "gainDb": 2.338155205616033
+    },
+    {
+      "image": "hero-04",
+      "oldPsnr": 44.36341865969885,
+      "newPsnr": 45.76444270563722,
+      "gainDb": 1.401024045938371
+    },
+    {
+      "image": "hero-05",
+      "oldPsnr": 37.62064805755972,
+      "newPsnr": 39.1122622878287,
+      "gainDb": 1.4916142302689792
+    },
+    {
+      "image": "hero-06",
+      "oldPsnr": 46.190673579626406,
+      "newPsnr": 47.15990434408191,
+      "gainDb": 0.9692307644555029
+    }
+  ],
+  "notes": "PSNR is a same-coordinate screenshot error metric, not a perceptual sharpness score. Resampling grid/alignment can affect it; hero-01 does not improve on this metric. No universal improvement is claimed."
+}

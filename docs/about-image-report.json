@@ -1,0 +1,122 @@
+{
+  "quality": 96,
+  "smartSubsample": false,
+  "effort": 6,
+  "treatment": "Width-only Lanczos3 resize, no enlargement, no crop, original ICC retained. No filter, color adjustment, sharpening, denoise or AI generation.",
+  "photos": [
+    {
+      "key": "studio",
+      "original": {
+        "filename": "original-06.png",
+        "width": 4596,
+        "height": 2588,
+        "bytes": 14939692,
+        "sha256": "b57086346aafa2ea9d5c9a14de324ba758479a1e39a0fb04bf67861fe0015ffd"
+      },
+      "variants": [
+        {
+          "filename": "studio-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 72904
+        },
+        {
+          "filename": "studio-1200.webp",
+          "width": 1200,
+          "height": 676,
+          "bytes": 181740
+        },
+        {
+          "filename": "studio-1600.webp",
+          "width": 1600,
+          "height": 901,
+          "bytes": 265494
+        },
+        {
+          "filename": "studio-2560.webp",
+          "width": 2560,
+          "height": 1442,
+          "bytes": 461476
+        },
+        {
+          "filename": "studio-3200.webp",
+          "width": 3200,
+          "height": 1802,
+          "bytes": 622716
+        }
+      ]
+    },
+    {
+      "key": "equipment",
+      "original": {
+        "filename": "original-09.png",
+        "width": 2174,
+        "height": 2604,
+        "bytes": 6859952,
+        "sha256": "45631c95e3a0132aa58e9164d6f811f7cfbcb70dcf612fea59d7af41882c5888"
+      },
+      "variants": [
+        {
+          "filename": "equipment-640.webp",
+          "width": 640,
+          "height": 767,
+          "bytes": 102148
+        },
+        {
+          "filename": "equipment-1200.webp",
+          "width": 1200,
+          "height": 1437,
+          "bytes": 222654
+        },
+        {
+          "filename": "equipment-1600.webp",
+          "width": 1600,
+          "height": 1916,
+          "bytes": 314210
+        },
+        {
+          "filename": "equipment-2174.webp",
+          "width": 2174,
+          "height": 2604,
+          "bytes": 441836
+        }
+      ]
+    },
+    {
+      "key": "lounge",
+      "original": {
+        "filename": "original-11.png",
+        "width": 3898,
+        "height": 2604,
+        "bytes": 10454935,
+        "sha256": "3dc76081c49d34a5001c7b09b0b1326546c60d80b6e300f16ef8a290d8a9f1a6"
+      },
+      "variants": [
+        {
+          "filename": "lounge-640.webp",
+          "width": 640,
+          "height": 428,
+          "bytes": 51422
+        },
+        {
+          "filename": "lounge-1200.webp",
+          "width": 1200,
+          "height": 802,
+          "bytes": 119366
+        },
+        {
+          "filename": "lounge-1600.webp",
+          "width": 1600,
+          "height": 1069,
+          "bytes": 167654
+        },
+        {
+          "filename": "lounge-2560.webp",
+          "width": 2560,
+          "height": 1710,
+          "bytes": 287444
+        }
+      ]
+    }
+  ]
+}

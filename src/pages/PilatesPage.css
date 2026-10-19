@@ -1,0 +1,217 @@
+/* Scoped to /pilates. No shared Header, HOME, HERO or typography overrides. */
+.pilates-page {
+  --pilates-title-size: clamp(96px, 9.4vw, 150px);
+  --pilates-session-size: clamp(60px, 6.25vw, 90px);
+  --pilates-body-size: 16px;
+  padding-top: 100px;
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--font-ko);
+  font-size: var(--pilates-body-size);
+  font-weight: var(--font-weight-body);
+  line-height: 1.9;
+  letter-spacing: -.025em;
+}
+.pilates-page .pilates-container { width: 100%; max-width: 1776px; margin-inline: auto; padding-inline: var(--gutter); }
+.pilates-page .pilates-chapter { padding-block: 104px; }
+.pilates-page h1, .pilates-page h2 { font-family: var(--font-en-display); font-weight: var(--font-weight-display); line-height: 1; letter-spacing: -.02em; }
+.pilates-page h2 { font-size: var(--font-size-section-title); }
+.pilates-page h3 { font-family: var(--font-ko); font-size: 23px; font-weight: var(--font-weight-body); line-height: 1.65; letter-spacing: -.04em; word-break: keep-all; }
+.pilates-page p { text-wrap: pretty; word-break: keep-all; }
+.pilates-page .pilates-eyebrow { font-family: var(--font-en-ui); font-size: var(--font-size-micro); font-weight: var(--font-weight-ui); letter-spacing: var(--letter-spacing-micro); line-height: 1.5; }
+.pilates-page .pilates-lead { color: var(--ink); font-size: 23px; line-height: 1.7; letter-spacing: -.04em; }
+.pilates-page .pilates-photo { min-width: 0; margin: 0; }
+.pilates-page .pilates-photo picture { display: block; width: 100%; aspect-ratio: 1; overflow: hidden; background: var(--paper); }
+.pilates-page .pilates-photo img { width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: var(--pilates-photo-position); }
+
+/* Intro-only photograph: preserve the complete studio composition at its natural ratio. */
+.pilates-page .pilates-hero { padding-block: 32px; }
+.pilates-page .pilates-hero-layout { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); gap: clamp(32px, 3vw, 48px); align-items: center; }
+.pilates-page .pilates-hero-copy { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; min-width: 0; }
+.pilates-page .pilates-hero h1 { margin-top: 24px; font-size: var(--pilates-title-size); line-height: .9; }
+.pilates-page .pilates-hero-types { font-family: var(--font-en-ui); font-size: 13px; letter-spacing: .06em; margin-top: 22px; }
+.pilates-page .pilates-hero-ratios { display: flex; gap: 32px; margin-top: 14px; color: var(--wine); font-family: var(--font-en-display); font-size: 42px; line-height: 1.1; letter-spacing: -.02em; }
+.pilates-page .pilates-hero-lead { margin-top: 28px; font-size: 22px; line-height: 1.75; }
+.pilates-page .pilates-hero-photo, .pilates-page .pilates-hero-photo picture { height: auto; }
+.pilates-page .pilates-hero-photo picture { aspect-ratio: auto; background: transparent; }
+.pilates-page .pilates-hero-photo img { height: auto; object-fit: contain; }
+
+@media (min-width: 1024px) {
+  .pilates-page .pilates-hero { max-width: 1840px; padding-inline: clamp(32px, 4vw, 64px); }
+  .pilates-page .pilates-hero-copy { min-height: clamp(470px, calc(63svh - 64px), 616px); align-self: start; }
+}
+
+.pilates-page .pilates-intro { display: grid; grid-template-columns: 1fr 1fr; column-gap: 10%; align-items: center; padding-top: 80px; padding-bottom: 64px; }
+.pilates-page .pilates-intro h2 { margin-top: 24px; font-size: clamp(44px, 4.4vw, 64px); }
+.pilates-page .pilates-intro h2 span, .pilates-page .pilates-comparison h2 span, .pilates-page .pilates-way h2 span { color: var(--wine); }
+.pilates-page .pilates-intro-copy { max-width: 480px; }
+.pilates-page .pilates-intro-copy > p + p { margin-top: 22px; color: var(--muted); }
+
+/* Open index: three fine rules, no boxed cards. */
+.pilates-page .pilates-session-index { padding-block: 0 32px; }
+.pilates-page .pilates-index-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 22px; }
+.pilates-page .pilates-index-links a { display: grid; grid-template-columns: 24px minmax(0, 1fr) 24px; grid-template-rows: auto auto; gap: 10px 20px; padding-block: 24px; border-top: 1px solid var(--line); align-items: center; transition: color .2s; }
+.pilates-page .pilates-index-links a:hover { color: var(--wine); }
+.pilates-page .pilates-index-number { font-family: var(--font-en-ui); font-size: var(--font-size-micro); color: var(--muted); }
+.pilates-page .pilates-index-name { font-family: var(--font-en-display); font-size: 26px; font-weight: var(--font-weight-display); line-height: 1.2; letter-spacing: -.01em; }
+.pilates-page .pilates-index-ratio { grid-column: 2; font-family: var(--font-en-display); font-weight: var(--font-weight-display); font-size: 62px; line-height: 1; letter-spacing: -.025em; }
+.pilates-page .pilates-index-links .arrow { grid-column: 3; grid-row: 2; }
+
+/* PRIVATE and DUET alternate, with a different photograph proportion. */
+.pilates-page .pilates-session { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); column-gap: clamp(40px, 5.55vw, 88px); row-gap: 40px; align-items: center; scroll-margin-top: 20px; }
+.pilates-page .pilates-session-copy { min-width: 0; max-width: 480px; }
+.pilates-page .pilates-session h2 { font-size: var(--pilates-session-size); margin-top: 22px; line-height: .96; }
+.pilates-page .pilates-session-label { font-family: var(--font-en-ui); font-size: 12px; font-weight: var(--font-weight-ui); letter-spacing: .07em; line-height: 1.6; }
+.pilates-page .pilates-session-copy > .pilates-session-label { margin-top: 20px; color: var(--wine); }
+.pilates-page .pilates-session-copy > h3 { margin-top: 34px; }
+.pilates-page .pilates-session-description { margin-top: 20px; color: var(--muted); }
+.pilates-page .pilates-session-description p + p { margin-top: 18px; }
+.pilates-page .pilates-session-description p:last-child { color: var(--ink); }
+.pilates-page .pilates-session-private .pilates-photo picture { aspect-ratio: 1 / 1.06; }
+.pilates-page .pilates-session-duet { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); padding-top: 36px; }
+.pilates-page .pilates-session-duet > .pilates-photo { grid-column: 2; grid-row: 1; }
+.pilates-page .pilates-session-duet > .pilates-session-copy { grid-column: 1; grid-row: 1; }
+.pilates-page .pilates-session-duet .pilates-photo picture { aspect-ratio: 1 / 1.15; }
+.pilates-page .pilates-session-facts { display: grid; grid-template-columns: .85fr repeat(3, minmax(0, 1fr)); gap: 30px; grid-column: 1 / -1; margin: 0; padding: 28px 0 0; border-top: 1px solid var(--line); }
+.pilates-page .pilates-session-facts > div { display: flex; flex-direction: column; justify-content: flex-end; min-width: 0; }
+.pilates-page .pilates-session-facts dt { font-family: var(--font-en-display); font-size: 24px; font-weight: var(--font-weight-display); line-height: 1.25; letter-spacing: -.01em; }
+.pilates-page .pilates-session-facts dd { margin: 10px 0 0; line-height: 1.8; }
+.pilates-page .pilates-session-facts .pilates-fact-ratio dt { font-size: 58px; line-height: .9; color: var(--wine); }
+.pilates-page .pilates-session-facts .pilates-fact-ratio dd { font-family: var(--font-en-ui); font-size: 11px; letter-spacing: .07em; }
+
+/* GROUP changes the rhythm: broad image, then a short two-column explanation. */
+.pilates-page .pilates-group { background: var(--paper); scroll-margin-top: 20px; }
+.pilates-page .pilates-group-layout { display: grid; grid-template-areas: 'heading' 'photo' 'copy' 'facts'; gap: 38px; }
+.pilates-page .pilates-group-heading { grid-area: heading; display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; }
+.pilates-page .pilates-group-heading h2 { display: flex; gap: .22em; margin-top: 24px; font-size: var(--pilates-session-size); }
+.pilates-page .pilates-group-heading > .pilates-session-label { color: var(--wine); padding-bottom: 5px; }
+.pilates-page .pilates-group .pilates-photo { grid-area: photo; }
+.pilates-page .pilates-group .pilates-photo picture { aspect-ratio: 1.5; }
+.pilates-page .pilates-group-copy { grid-area: copy; display: grid; grid-template-columns: .85fr 1.15fr; column-gap: 10%; margin-top: 8px; }
+.pilates-page .pilates-group-copy .pilates-session-description { margin-top: 0; max-width: 660px; }
+.pilates-page .pilates-group .pilates-session-facts { grid-area: facts; margin-top: 4px; }
+
+.pilates-page .pilates-comparison-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 36px; margin-bottom: 48px; }
+.pilates-page .pilates-comparison-heading > p { color: var(--muted); padding-bottom: 4px; }
+.pilates-page .pilates-comparison-table { border-collapse: collapse; width: 100%; table-layout: fixed; text-align: left; }
+.pilates-page .pilates-comparison-table th, .pilates-page .pilates-comparison-table td { border-bottom: 1px solid var(--line); padding: 25px 16px; font-weight: var(--font-weight-body); vertical-align: middle; word-break: keep-all; }
+.pilates-page .pilates-comparison-table th:first-child { padding-left: 0; width: 22%; }
+.pilates-page .pilates-comparison-table td:last-child, .pilates-page .pilates-comparison-table th:last-child { padding-right: 0; }
+.pilates-page .pilates-comparison-table thead th { padding-top: 0; padding-bottom: 28px; }
+.pilates-page .pilates-comparison-table thead th > span:not(.pilates-eyebrow) { display: block; font-family: var(--font-en-display); font-size: 24px; font-weight: var(--font-weight-display); line-height: 1.2; letter-spacing: -.01em; }
+.pilates-page .pilates-comparison-table thead th > span:not(.pilates-eyebrow) + span { margin-top: 10px; font-size: 44px; color: var(--wine); }
+.pilates-page .pilates-comparison-table tbody th { color: var(--muted); }
+.pilates-page .pilates-comparison-mobile { display: none; }
+
+.pilates-page .pilates-way { display: grid; grid-template-columns: .85fr 1.15fr; column-gap: 10%; padding-top: 0; }
+.pilates-page .pilates-way h2 { margin-top: 24px; }
+.pilates-page .pilates-way dl { margin: 0; min-width: 0; }
+.pilates-page .pilates-way dl > div { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; padding-block: 24px; border-top: 1px solid var(--line); }
+.pilates-page .pilates-way dl > div:last-child { border-bottom: 1px solid var(--line); }
+.pilates-page .pilates-way dt { font-family: var(--font-en-display); font-weight: var(--font-weight-display); font-size: 32px; line-height: 1.2; letter-spacing: -.01em; }
+.pilates-page .pilates-way dd { margin: 0; color: var(--muted); word-break: keep-all; }
+
+.pilates-page .pilates-contact { padding-block: 76px 80px; color: var(--ivory); background: var(--wine); }
+.pilates-page .pilates-contact .pilates-eyebrow { color: #e1ceca; }
+.pilates-page .pilates-contact h2 { font-size: clamp(72px, 7.8vw, 112px); line-height: .96; margin-top: 36px; }
+.pilates-page .pilates-contact-bottom { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-top: 36px; }
+.pilates-page .pilates-contact-buttons { display: flex; gap: 16px; }
+.pilates-page .pilates-contact .button { font-family: var(--font-ko); font-size: var(--pilates-body-size); min-width: 176px; gap: 32px; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .pilates-page .pilates-hero-layout { grid-template-columns: 1fr; height: auto; gap: 32px; }
+  .pilates-page .pilates-hero-copy { position: relative; padding-right: 45%; }
+  .pilates-page .pilates-hero-lead { position: absolute; right: 0; bottom: 0; margin: 0; font-size: 21px; }
+  .pilates-page .pilates-hero h1 { font-size: 96px; }
+  .pilates-page .pilates-intro { column-gap: 6%; }
+  .pilates-page .pilates-lead { font-size: 21px; }
+  .pilates-page .pilates-session { grid-template-columns: 1fr; row-gap: 32px; }
+  .pilates-page .pilates-session .pilates-photo, .pilates-page .pilates-session .pilates-session-copy { grid-column: 1; grid-row: auto; }
+  .pilates-page .pilates-session-copy { max-width: none; }
+  .pilates-page .pilates-session .pilates-photo picture { height: auto; aspect-ratio: 1.3; }
+  .pilates-page .pilates-session-duet .pilates-photo picture { aspect-ratio: 1; }
+  .pilates-page .pilates-session-copy > h3 { margin-top: 25px; }
+  .pilates-page .pilates-group-heading { gap: 20px; }
+  .pilates-page .pilates-group-heading h2 { font-size: 64px; }
+  .pilates-page .pilates-session-facts { gap: 20px; }
+  .pilates-page .pilates-session-facts dt { font-size: 21px; }
+  .pilates-page .pilates-way { column-gap: 6%; }
+  .pilates-page .pilates-way dl > div { flex-direction: column; gap: 10px; padding-block: 20px; }
+}
+
+@media (max-width: 767px) {
+  .pilates-page { --pilates-title-size: clamp(78px, 23vw, 110px); --pilates-session-size: clamp(50px, 15.5vw, 72px); --pilates-body-size: 15px; padding-top: 85px; }
+  .pilates-page .pilates-chapter { padding-block: 68px; }
+  .pilates-page .pilates-hero { padding-block: 36px 0; }
+  .pilates-page .pilates-hero-layout { display: flex; flex-direction: column; align-items: stretch; height: auto; gap: 30px; }
+  .pilates-page .pilates-hero h1 { margin-top: 18px; }
+  .pilates-page .pilates-hero-types { font-size: 11px; margin-top: 18px; letter-spacing: .04em; }
+  .pilates-page .pilates-hero-ratios { font-size: 34px; gap: 26px; margin-top: 12px; }
+  .pilates-page .pilates-hero-lead { font-size: 20px; line-height: 1.7; margin-top: 22px; }
+  .pilates-page .pilates-hero-photo { width: calc(100% + var(--gutter) * 2); max-width: none; margin-left: calc(var(--gutter) * -1); }
+  .pilates-page .pilates-photo img { object-position: var(--pilates-photo-mobile-position); }
+  .pilates-page .pilates-intro { grid-template-columns: 1fr; gap: 28px; padding-block: 56px 44px; }
+  .pilates-page .pilates-intro h2 { font-size: clamp(38px, 11.3vw, 56px); margin-top: 20px; }
+  .pilates-page .pilates-lead { font-size: 20px; }
+  .pilates-page .pilates-intro-copy > p + p { margin-top: 20px; }
+  .pilates-page .pilates-desktop-break { display: none; }
+  .pilates-page .pilates-index-links { gap: 18px; margin-top: 18px; }
+  .pilates-page .pilates-index-links a { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto auto; gap: 10px; padding-block: 18px; }
+  .pilates-page .pilates-index-number, .pilates-page .pilates-index-name, .pilates-page .pilates-index-ratio { grid-column: 1; }
+  .pilates-page .pilates-index-name { font-size: 22px; }
+  .pilates-page .pilates-index-ratio { font-size: 44px; margin-top: 4px; }
+  .pilates-page .pilates-index-links .arrow { display: none; }
+  .pilates-page .pilates-session-index { padding-bottom: 0; }
+  .pilates-page .pilates-session { grid-template-columns: 1fr; gap: 28px; scroll-margin-top: 16px; }
+  .pilates-page .pilates-session .pilates-photo, .pilates-page .pilates-session .pilates-session-copy { grid-column: 1; grid-row: auto; }
+  .pilates-page .pilates-session-copy { max-width: none; }
+  .pilates-page .pilates-session .pilates-photo picture { height: auto; aspect-ratio: 1; }
+  .pilates-page .pilates-session h2 { margin-top: 20px; }
+  .pilates-page .pilates-session-copy > .pilates-session-label { margin-top: 18px; font-size: 11px; }
+  .pilates-page .pilates-session-copy > h3 { font-size: 22px; margin-top: 28px; }
+  .pilates-page .pilates-session-description { margin-top: 18px; }
+  .pilates-page .pilates-session-description p + p { margin-top: 16px; }
+  .pilates-page .pilates-session-duet { padding-top: 0; }
+  .pilates-page .pilates-session-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 22px; padding-top: 24px; }
+  .pilates-page .pilates-session-facts dt { font-size: 22px; }
+  .pilates-page .pilates-session-facts dd { font-size: 15px; margin-top: 9px; }
+  .pilates-page .pilates-session-facts .pilates-fact-ratio dt { font-size: 54px; }
+  .pilates-page .pilates-group { scroll-margin-top: 16px; }
+  .pilates-page .pilates-group-layout { grid-template-areas: 'photo' 'heading' 'copy' 'facts'; gap: 26px; }
+  .pilates-page .pilates-group .pilates-photo picture { aspect-ratio: 1; }
+  .pilates-page .pilates-group-heading { display: block; }
+  .pilates-page .pilates-group-heading h2 { display: block; font-size: var(--pilates-session-size); line-height: .96; margin-top: 20px; }
+  .pilates-page .pilates-group-heading h2 > span { display: block; }
+  .pilates-page .pilates-group-heading > .pilates-session-label { margin-top: 18px; padding: 0; font-size: 11px; }
+  .pilates-page .pilates-group-copy { grid-template-columns: 1fr; gap: 18px; margin-top: 0; }
+  .pilates-page .pilates-group-copy h3 { font-size: 22px; }
+  .pilates-page .pilates-group .pilates-session-facts { margin-top: 0; }
+  .pilates-page .pilates-comparison-heading { display: block; margin-bottom: 32px; }
+  .pilates-page .pilates-comparison h2 { font-size: clamp(36px, 10.8vw, 56px); }
+  .pilates-page .pilates-comparison-heading > p { margin-top: 20px; padding: 0; }
+  .pilates-page .pilates-comparison-table { display: none; }
+  .pilates-page .pilates-comparison-mobile { display: block; }
+  .pilates-page .pilates-comparison-mobile article { padding-block: 24px 28px; border-top: 1px solid var(--line); }
+  .pilates-page .pilates-comparison-mobile article:last-child { padding-bottom: 0; }
+  .pilates-page .pilates-comparison-mobile h3 { display: flex; justify-content: space-between; align-items: baseline; font-family: var(--font-en-display); font-weight: var(--font-weight-display); font-size: 30px; line-height: 1.2; letter-spacing: -.015em; }
+  .pilates-page .pilates-comparison-mobile h3 span { color: var(--wine); font-size: 42px; }
+  .pilates-page .pilates-comparison-mobile dl { margin: 20px 0 0; }
+  .pilates-page .pilates-comparison-mobile dl > div { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 18px; margin-top: 12px; }
+  .pilates-page .pilates-comparison-mobile dt { color: var(--muted); }
+  .pilates-page .pilates-comparison-mobile dd { margin: 0; word-break: keep-all; }
+  .pilates-page .pilates-way { grid-template-columns: 1fr; gap: 32px; padding-top: 0; }
+  .pilates-page .pilates-way dl > div { padding-block: 22px; align-items: baseline; gap: 20px; }
+  .pilates-page .pilates-way dt { font-size: 26px; }
+  .pilates-page .pilates-way dd { font-size: 15px; max-width: 58%; }
+  .pilates-page .pilates-contact { padding-block: 56px; }
+  .pilates-page .pilates-contact h2 { font-size: clamp(48px, 14.5vw, 72px); margin-top: 28px; }
+  .pilates-page .pilates-contact-bottom { flex-direction: column; align-items: stretch; gap: 28px; margin-top: 28px; }
+  .pilates-page .pilates-contact-buttons { gap: 12px; }
+  .pilates-page .pilates-contact .button { min-width: 0; flex: 1; gap: 24px; padding-inline: 18px; }
+}
+
+@media (max-width: 359px) {
+  .pilates-page .pilates-index-links { gap: 12px; }
+  .pilates-page .pilates-index-name { font-size: 20px; }
+  .pilates-page .pilates-contact-buttons { flex-direction: column; }
+}
