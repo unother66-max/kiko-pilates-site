@@ -9,6 +9,7 @@ export default function AboutApproach() {
           <div key={english}><dt className="about-display">{english}</dt><dd>{korean}</dd></div>
         ))}
       </dl>
+      <p className="about-experience-note">모든 강사진, 5년 이상의 티칭 경력</p>
     </section>
   )
 }

@@ -1,264 +1,354 @@
 {
-  "encoding": "WebP quality 96; Lanczos3; ICC retained; no crop, enlargement, sharpening, filters or color edits",
+  "encoding": "Lossless alpha WebP; exterior and export-edge transparency applied before resizing; Lanczos3 for smaller sources; ICC retained; opaque native photo pixels preserved; no crop, enlargement, sharpening, filters or color edits",
   "images": [
     {
       "original": {
         "file": "jang-jihee-01.png",
-        "width": 773,
-        "height": 966,
-        "bytes": 780176,
-        "sha256": "849c0c895ca81d6ab5729e719bac7fd44eaa137042fa5fec1ab15b38d8d764fe"
+        "width": 986,
+        "height": 2610,
+        "bytes": 3010749,
+        "sha256": "6db9006fe1d7d0e7809897448ac77d084bf85c66239a98ae6ea68d7e7fafa5c4"
+      },
+      "transparentExterior": true,
+      "edgeCleanup": {
+        "left": 0,
+        "right": 2.5
       },
       "variants": [
         {
           "file": "jang-jihee-01-384.webp",
           "width": 384,
-          "height": 480,
-          "bytes": 37480
+          "height": 1016,
+          "bytes": 308954
         },
         {
           "file": "jang-jihee-01-600.webp",
           "width": 600,
-          "height": 750,
-          "bytes": 75994
+          "height": 1588,
+          "bytes": 663756
         },
         {
           "file": "jang-jihee-01-773.webp",
           "width": 773,
-          "height": 966,
-          "bytes": 107418
+          "height": 2046,
+          "bytes": 1024520
+        },
+        {
+          "file": "jang-jihee-01-986.webp",
+          "width": 986,
+          "height": 2610,
+          "bytes": 1431326
         }
       ]
     },
     {
       "original": {
         "file": "jin-suji-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 862025,
-        "sha256": "8e9608b7e350d0b1a58e4111889929bffa1b95b10252d09054c6a97397d3e9c9"
+        "width": 810,
+        "height": 2136,
+        "bytes": 2040046,
+        "sha256": "7cae5af72f926b501012f1281be3e7faae2c5ce8e59ad24f31fe81cba41bfbfd"
       },
+      "transparentExterior": true,
+      "edgeCleanup": null,
       "variants": [
         {
           "file": "jin-suji-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 43612
+          "height": 1013,
+          "bytes": 272950
         },
         {
           "file": "jin-suji-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 86666
+          "height": 1582,
+          "bytes": 574486
         },
         {
           "file": "jin-suji-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 121094
+          "height": 2038,
+          "bytes": 871640
+        },
+        {
+          "file": "jin-suji-01-810.webp",
+          "width": 810,
+          "height": 2136,
+          "bytes": 875008
         }
       ]
     },
     {
       "original": {
         "file": "mun-jeonghee-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 836893,
-        "sha256": "dd2a05f5c327814deb239b8bbf1fe10839ffeb7a0582377195f3f487ea776661"
+        "width": 804,
+        "height": 2158,
+        "bytes": 2162111,
+        "sha256": "ae0461a06536e81e2b635ad53779a52843112f9c6f762764d213ab43e9af7fd6"
       },
+      "transparentExterior": true,
+      "edgeCleanup": null,
       "variants": [
         {
           "file": "mun-jeonghee-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 38498
+          "height": 1031,
+          "bytes": 305174
         },
         {
           "file": "mun-jeonghee-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 73606
+          "height": 1610,
+          "bytes": 665882
         },
         {
           "file": "mun-jeonghee-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 103540
+          "height": 2075,
+          "bytes": 1018914
+        },
+        {
+          "file": "mun-jeonghee-01-804.webp",
+          "width": 804,
+          "height": 2158,
+          "bytes": 1022386
         }
       ]
     },
     {
       "original": {
         "file": "won-yejin-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 892502,
-        "sha256": "f81d9a16b6b9bf0e875bb504f272a450768e4a56da01c98b7a11bb179d53fdd2"
+        "width": 812,
+        "height": 1996,
+        "bytes": 1919443,
+        "sha256": "d2d116344ea2b1e60520768db1ad8064edc5c294a95c887187bf2f2be8398510"
+      },
+      "transparentExterior": true,
+      "edgeCleanup": {
+        "left": 3.5,
+        "right": 0
       },
       "variants": [
         {
           "file": "won-yejin-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 48284
+          "height": 944,
+          "bytes": 277556
         },
         {
           "file": "won-yejin-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 95304
+          "height": 1475,
+          "bytes": 603248
         },
         {
           "file": "won-yejin-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 134872
+          "height": 1900,
+          "bytes": 915674
+        },
+        {
+          "file": "won-yejin-01-812.webp",
+          "width": 812,
+          "height": 1996,
+          "bytes": 926548
         }
       ]
     },
     {
       "original": {
         "file": "park-aram-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 779142,
-        "sha256": "40f2845b4a7703a552eecb063581c82277cb155c4c0085d971c4ddc1ed089af7"
+        "width": 796,
+        "height": 1404,
+        "bytes": 1355195,
+        "sha256": "4d3dca4d2c0871c7205038dc13c1450174a7e6e4cff9a91a698c6ae31e3cdb99"
       },
+      "transparentExterior": false,
+      "edgeCleanup": null,
       "variants": [
         {
           "file": "park-aram-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 37802
+          "height": 677,
+          "bytes": 178352
         },
         {
           "file": "park-aram-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 70924
+          "height": 1058,
+          "bytes": 350858
         },
         {
           "file": "park-aram-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 102690
+          "height": 1363,
+          "bytes": 532824
+        },
+        {
+          "file": "park-aram-01-796.webp",
+          "width": 796,
+          "height": 1404,
+          "bytes": 505696
         }
       ]
     },
     {
       "original": {
         "file": "park-boram-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 832927,
-        "sha256": "6ad97cfc65bb7850183952f9f0a55f74ad4815afaa7a62d6d07193636a99360e"
+        "width": 836,
+        "height": 2134,
+        "bytes": 2212358,
+        "sha256": "f8a086610f690d5b4e32d39db241e39aaea33de63571a55e3a7621a403c4d4ea"
+      },
+      "transparentExterior": true,
+      "edgeCleanup": {
+        "left": 1.5,
+        "right": 0
       },
       "variants": [
         {
           "file": "park-boram-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 41826
+          "height": 980,
+          "bytes": 302186
         },
         {
           "file": "park-boram-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 81344
+          "height": 1532,
+          "bytes": 656704
         },
         {
           "file": "park-boram-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 112874
+          "height": 1973,
+          "bytes": 996886
+        },
+        {
+          "file": "park-boram-01-836.webp",
+          "width": 836,
+          "height": 2134,
+          "bytes": 1062604
         }
       ]
     },
     {
       "original": {
         "file": "go-eunsae-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 894594,
-        "sha256": "a8ddb361e7e73d97917104d3984bf2a0ee2331ab74c0a8a23fbfd76e33bc20a1"
+        "width": 868,
+        "height": 1992,
+        "bytes": 2399168,
+        "sha256": "91b9f83cca41c6ee2aa52bc7486fb60ded50275911fdac8caeffa9e6143c44a5"
+      },
+      "transparentExterior": true,
+      "edgeCleanup": {
+        "left": 3.5,
+        "right": 0
       },
       "variants": [
         {
           "file": "go-eunsae-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 47702
+          "height": 881,
+          "bytes": 316590
         },
         {
           "file": "go-eunsae-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 96360
+          "height": 1377,
+          "bytes": 697042
         },
         {
           "file": "go-eunsae-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 137358
+          "height": 1774,
+          "bytes": 1080882
+        },
+        {
+          "file": "go-eunsae-01-868.webp",
+          "width": 868,
+          "height": 1992,
+          "bytes": 1249808
         }
       ]
     },
     {
       "original": {
         "file": "park-nahyun-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 879037,
-        "sha256": "96a290273bd482d83b164888b273b187916e072e4f9a4e4337a5330886a1f02e"
+        "width": 840,
+        "height": 2136,
+        "bytes": 2383099,
+        "sha256": "c1d1a316fa3093a73018ec19eaee90581d7ba39a2e36f53b99d018d1aa9f3819"
+      },
+      "transparentExterior": true,
+      "edgeCleanup": {
+        "left": 1.5,
+        "right": 0
       },
       "variants": [
         {
           "file": "park-nahyun-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 44388
+          "height": 976,
+          "bytes": 314988
         },
         {
           "file": "park-nahyun-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 86990
+          "height": 1526,
+          "bytes": 688580
         },
         {
           "file": "park-nahyun-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 120668
+          "height": 1966,
+          "bytes": 1059182
+        },
+        {
+          "file": "park-nahyun-01-840.webp",
+          "width": 840,
+          "height": 2136,
+          "bytes": 1147484
         }
       ]
     },
     {
       "original": {
         "file": "kim-rakyung-01.png",
-        "width": 773,
-        "height": 1092,
-        "bytes": 902202,
-        "sha256": "9d98885d68b339a86c946bdcade6ea1b60c8190649f8b070422283fe89cc6017"
+        "width": 832,
+        "height": 2154,
+        "bytes": 2570338,
+        "sha256": "91663bce9e6f7f5a1efa91e342897c4b1e5cbfd306734fc95979978a38aa9540"
+      },
+      "transparentExterior": true,
+      "edgeCleanup": {
+        "left": 1.5,
+        "right": 0
       },
       "variants": [
         {
           "file": "kim-rakyung-01-384.webp",
           "width": 384,
-          "height": 542,
-          "bytes": 46878
+          "height": 994,
+          "bytes": 337840
         },
         {
           "file": "kim-rakyung-01-600.webp",
           "width": 600,
-          "height": 848,
-          "bytes": 94958
+          "height": 1553,
+          "bytes": 738876
         },
         {
           "file": "kim-rakyung-01-773.webp",
           "width": 773,
-          "height": 1092,
-          "bytes": 132764
+          "height": 2001,
+          "bytes": 1142606
+        },
+        {
+          "file": "kim-rakyung-01-832.webp",
+          "width": 832,
+          "height": 2154,
+          "bytes": 1219514
         }
       ]
     }

@@ -51,6 +51,7 @@
 .about-page .about-approach-list > div { min-width: 0; padding-block: 32px 40px; border-top: 1px solid var(--line); }
 .about-page .about-approach-list dt { font-size: clamp(44px, 4vw, 68px); }
 .about-page .about-approach-list dd { margin: 16px 0 0; color: var(--muted); font-size: 18px; }
+.about-page .about-experience-note { margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.7; }
 
 .about-page .about-closing > .about-split { border-top: 1px solid var(--line); padding-top: clamp(64px, 6vw, 112px); align-items: end; }
 .about-page .about-closing h2 { color: var(--wine); font-size: clamp(64px, 6vw, 104px); }

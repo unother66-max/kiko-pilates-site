@@ -7,7 +7,18 @@ export function TeachersHero() {
 }
 
 export function TeachersIntro() {
-  return <section className="teachers-intro teachers-container" aria-labelledby="teachers-intro-title"><div className="teachers-intro-layout"><h2 id="teachers-intro-title" className="teachers-display">TEACHING<br />WITH DETAIL.</h2><div className="teachers-intro-copy"><p>좋은 수업은<br />동작을 알려주는 것에서<br />끝나지 않습니다.</p><p>움직임을 관찰하고, 작은 변화까지 살피는 것.<br className="teachers-desktop-break" /> 키코의 수업은 그 과정에서 시작됩니다.</p></div></div></section>
+  return (
+    <section className="teachers-intro teachers-container" aria-labelledby="teachers-intro-title">
+      <div className="teachers-intro-layout">
+        <h2 id="teachers-intro-title" className="teachers-display">TEACHING<br />WITH DETAIL.</h2>
+        <div className="teachers-intro-copy"><p>좋은 수업은<br />동작을 알려주는 것에서<br />끝나지 않습니다.</p><p>움직임을 관찰하고, 작은 변화까지 살피는 것.<br className="teachers-desktop-break" /> 키코의 수업은 그 과정에서 시작됩니다.</p></div>
+      </div>
+      <div className="teachers-intro-layout teachers-experience">
+        <h3 className="teachers-display">EXPERIENCE MATTERS.</h3>
+        <p>키코의 강사진은 모두 5년 이상의 티칭 경력을 바탕으로<br className="teachers-desktop-break" /> 각자의 몸과 움직임을 세심하게 살피는 수업을 이어갑니다.</p>
+      </div>
+    </section>
+  )
 }
 
 export function TeachersApproach() {

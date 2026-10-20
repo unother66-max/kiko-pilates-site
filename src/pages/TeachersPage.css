@@ -7,10 +7,13 @@
 .teachers-page p { word-break: keep-all; text-wrap: pretty; }
 .teachers-page .teachers-eyebrow { font-family: var(--font-en-ui); font-size: var(--font-size-micro); font-weight: var(--font-weight-ui); line-height: 1.5; letter-spacing: var(--letter-spacing-micro); margin-bottom: 28px; }
 .teachers-page .text-link { min-height: 44px; font-family: var(--font-en-ui); font-size: 12px; }
-/* The source is an intact, named profile poster. The window isolates its portrait only. */
+/* Supplied portrait ratios stay intact; the existing arch exterior is transparent. */
 .teachers-page .teacher-photo { width: 100%; max-width: var(--portrait-max); margin: 0; min-width: 0; }
-.teachers-page .teacher-photo picture { display: block; position: relative; width: 100%; aspect-ratio: var(--portrait-ratio); overflow: hidden; }
-.teachers-page .teacher-photo img { position: absolute; width: var(--portrait-width); max-width: none; height: auto; left: var(--portrait-left); top: var(--portrait-top); }
+.teachers-page .teacher-photo-frame { position: relative; width: 100%; aspect-ratio: var(--portrait-ratio); }
+.teachers-page .teacher-photo picture { display: block; width: 100%; }
+.teachers-page .teacher-photo img { display: block; width: 100%; height: auto; object-fit: contain; object-position: center; }
+.teachers-page .teacher-photo, .teachers-page .teacher-photo-frame, .teachers-page .teacher-photo picture, .teachers-page .teacher-photo img { border: 0; outline: none; box-shadow: none; }
+.teachers-page .teacher-photo::before, .teachers-page .teacher-photo::after, .teachers-page .teacher-photo-frame::before, .teachers-page .teacher-photo-frame::after, .teachers-page .teacher-photo picture::before, .teachers-page .teacher-photo picture::after { content: none; }
 .teachers-page .teacher-photo figcaption { margin-top: 16px; font-size: 14px; line-height: 1.5; }
 .teachers-page .teacher-photo figcaption span { display: block; font-family: var(--font-en-ui); font-size: 10px; letter-spacing: .04em; color: var(--muted); margin-top: 6px; }
 
@@ -21,6 +24,9 @@
 .teachers-page .teachers-intro-layout { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9%; align-items: start; }
 .teachers-page .teachers-intro-copy > p:first-child { font-size: 25px; line-height: 1.7; letter-spacing: -.04em; }
 .teachers-page .teachers-intro-copy > p + p { margin-top: 26px; color: var(--muted); }
+.teachers-page .teachers-experience { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line); align-items: center; }
+.teachers-page .teachers-experience h3 { font-size: clamp(28px, 2.8vw, 40px); line-height: 1.1; }
+.teachers-page .teachers-experience > p { min-width: 0; color: var(--muted); font-size: 18px; line-height: 1.9; }
 
 .teachers-page .teachers-group-heading { display: grid; grid-template-columns: 1fr 1fr; column-gap: 8%; align-items: end; padding-block: 12px 44px; }
 .teachers-page .teachers-group-heading .teachers-eyebrow { grid-column: 1 / -1; }
@@ -72,6 +78,7 @@
   .teachers-page .teachers-hero { padding-top: 48px; }
   .teachers-page .teachers-hero h1 { font-size: 112px; }
   .teachers-page .teachers-intro-layout { gap: 6%; }
+  .teachers-page .teachers-experience { grid-template-columns: 1fr; gap: 20px; }
   .teachers-page .teachers-group-heading { gap: 6%; }
   .teachers-page .teacher-profile { grid-template-columns: 1fr; gap: 48px; }
   .teachers-page .teacher-profile > .teacher-photo, .teachers-page .teacher-profile-copy { grid-column: 1; grid-row: auto; justify-self: start; }
@@ -92,6 +99,8 @@
   .teachers-page .teachers-intro { padding-block: 64px 56px; }
   .teachers-page .teachers-intro-layout { grid-template-columns: 1fr; gap: 32px; }
   .teachers-page .teachers-intro-copy > p:first-child { font-size: 23px; }
+  .teachers-page .teachers-experience { margin-top: 32px; padding-top: 24px; gap: 16px; }
+  .teachers-page .teachers-experience > p { font-size: 17px; }
   .teachers-page .teachers-group-heading { display: block; padding-bottom: 32px; }
   .teachers-page .teachers-group-heading > p:last-child { margin-top: 22px; font-size: 19px; padding: 0; }
   .teachers-page .teachers-profiles + .teachers-profiles { margin-top: 0; }
