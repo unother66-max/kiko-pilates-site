@@ -11,7 +11,7 @@ export const heroSlides = [
   {
     id: 'intention', ...heroImages['hero-01'],
     title: 'MOVE WITH INTENTION',
-    subtitle: ['몸을 이해하며', '더 섬세하게 움직이는 시간'],
+    subtitle: ['서울역에서 만나는', '필라테스와 성인 취미발레'],
     alt: '캐딜락 위에서 다리를 뻗어 동작을 수행하는 키코 필라테스 회원',
     objectPosition: '50% 52%', mobilePosition: '46% 50%', widePosition: '50% 52%',
     textPosition: 'center', textColor: '#fffdf8',

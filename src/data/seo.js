@@ -10,7 +10,8 @@ export const SOCIAL_IMAGE = `${SITE_URL}/images/kiko-social-preview.png`
 export const seoPages = {
   '/': {
     title: '키코필라테스 앤 발레 | 서울역 필라테스·성인발레',
-    description: '서울역·숙대입구·청파동 인근 키코필라테스 서울역점. 1:1 개인레슨, 2:1 듀엣레슨, 6:1 소수정예 그룹 필라테스와 성인 취미발레를 운영합니다.',
+    description: '서울역 인근 키코필라테스 앤 발레. 1:1·2:1·6:1 필라테스와 성인 취미발레를 운영합니다.',
+    twitterDescription: '서울역·숙대입구·청파동 인근 키코필라테스 서울역점. 1:1 개인레슨, 2:1 듀엣레슨, 6:1 소수정예 그룹 필라테스와 성인 취미발레를 운영합니다.',
   },
   '/about': {
     title: 'About | 키코필라테스 앤 발레',
@@ -146,7 +147,7 @@ export function renderSeoHead(pathname) {
     '<meta property="og:image:alt" content="키코필라테스 서울역점 · KIKO PILATES &amp; BALLET" />',
     '<meta name="twitter:card" content="summary_large_image" />',
     `<meta name="twitter:title" content="${escapeHtml(page.title)}" />`,
-    `<meta name="twitter:description" content="${escapeHtml(page.description)}" />`,
+    `<meta name="twitter:description" content="${escapeHtml(page.twitterDescription ?? page.description)}" />`,
     `<meta name="twitter:image" content="${SOCIAL_IMAGE}" />`,
     '<meta name="twitter:image:alt" content="키코필라테스 서울역점 · KIKO PILATES &amp; BALLET" />',
     ...getPageStructuredData(pathname).map(schema => `<script id="${schema.id}" type="application/ld+json">${serializeJsonLd(schema.data)}</script>`),

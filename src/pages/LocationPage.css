@@ -9,8 +9,9 @@
 .location-page .location-hero > .location-eyebrow { margin-bottom: 32px; }
 .location-page .location-hero-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 8%; align-items: center; }
 .location-page h1 { font-size: clamp(96px, 10vw, 164px); line-height: .9; }
-.location-page .location-hero-message .location-display { font-size: clamp(52px, 4.7vw, 72px); color: var(--wine); }
-.location-page .location-hero-lead { margin-top: 28px; font-size: 18px; line-height: 1.8; }
+.location-page .location-hero-title .location-display { margin-top: 28px; font-size: clamp(52px, 4.7vw, 72px); color: var(--wine); }
+.location-page .location-hero-lead { font-size: 22px; line-height: 1.8; }
+.location-page .location-hero-title, .location-page .location-hero-message { min-width: 0; }
 
 /* This section is outside .location-container; 100% spans the viewport without scrollbar-width overflow. */
 .location-page .location-map { --location-map-crop: 67px; position: relative; width: 100%; max-width: none; height: clamp(520px, 48vw, 680px); margin-inline: 0; overflow: hidden; }
@@ -25,20 +26,17 @@
 .location-page .location-info-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 60px 8%; }
 .location-page .location-info-item { min-width: 0; padding-top: 24px; border-top: 1px solid var(--line); }
 .location-page .location-info-item > .location-eyebrow { margin-bottom: 30px; }
-.location-page .location-studio-name { font-size: clamp(36px, 3.2vw, 48px); line-height: 1.04; }
-.location-page address { font-style: normal; font-size: 18px; line-height: 1.9; margin-top: 26px; }
+.location-page address { font-style: normal; font-size: 18px; line-height: 1.9; margin-top: 18px; }
 .location-page .location-nearby { margin: 0; }
 .location-page .location-nearby > div { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
 .location-page .location-nearby > div + div { margin-top: 20px; }
 .location-page .location-nearby dt { font-family: var(--font-en-display); font-size: clamp(26px, 2.3vw, 34px); font-weight: var(--font-weight-display); line-height: 1.2; letter-spacing: -.01em; }
 .location-page .location-nearby dd { margin: 0; flex-shrink: 0; color: var(--muted); }
 .location-page .location-info-lead { font-size: 22px; line-height: 1.6; }
-.location-page .location-info-note { color: var(--muted); margin-top: 18px; }
+.location-page .location-visit-link { min-height: 48px; margin-top: 24px; padding-block: 12px; font-family: var(--font-ko); font-size: 14px; color: var(--wine); }
 .location-page .location-map-links { display: flex; flex-wrap: wrap; gap: 12px 36px; margin-top: 20px; }
-.location-page .location-map-links > a, .location-page .location-map-links > button { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 48px; padding: 10px 0; border: 0; border-bottom: 1px solid currentColor; background: transparent; font-family: var(--font-en-ui); font-size: 13px; line-height: 1.5; letter-spacing: .02em; }
+.location-page .location-map-links > a { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 48px; padding: 10px 0; border: 0; border-bottom: 1px solid currentColor; background: transparent; font-family: var(--font-ko); font-size: 13px; line-height: 1.5; letter-spacing: var(--letter-spacing-body); }
 .location-page .location-map-links > a:hover { color: var(--wine); }
-.location-page .location-map-links > button:disabled { color: var(--muted); border-bottom-color: var(--line); }
-.location-page .location-map-links > button span { font-family: var(--font-ko); font-size: 13px; letter-spacing: var(--letter-spacing-body); }
 .location-page .location-map-links .arrow { width: 18px; height: 18px; flex-basis: 18px; }
 
 .location-page .location-contact { padding-block: clamp(80px, 7vw, 112px); background: var(--wine); color: var(--ivory); }
@@ -52,7 +50,7 @@
   .location-page .location-hero { padding-block: 48px 56px; }
   .location-page h1 { font-size: clamp(76px, 10.5vw, 96px); }
   .location-page .location-hero-layout, .location-page .location-info-grid, .location-page .location-contact-layout { gap: 48px 6%; }
-  .location-page .location-hero-message .location-display { font-size: 48px; }
+  .location-page .location-hero-title .location-display { font-size: 48px; }
   .location-page .location-nearby > div { flex-direction: column; gap: 6px; }
   .location-page .location-contact-layout { grid-template-columns: 1fr; }
 }
@@ -63,14 +61,13 @@
   .location-page .location-hero > .location-eyebrow { margin-bottom: 24px; }
   .location-page .location-hero-layout { grid-template-columns: 1fr; gap: 32px; }
   .location-page h1 { font-size: clamp(62px, 20.5vw, 100px); }
-  .location-page .location-hero-message .location-display { font-size: 48px; }
-  .location-page .location-hero-lead { margin-top: 22px; font-size: 17px; }
+  .location-page .location-hero-title .location-display { font-size: 48px; }
+  .location-page .location-hero-lead { font-size: 19px; }
   .location-page .location-map { height: clamp(430px, 118vw, 500px); }
   .location-page .location-info { padding-block: 56px 64px; }
   .location-page .location-info-grid { grid-template-columns: 1fr; gap: 40px; }
   .location-page .location-info-item > .location-eyebrow { margin-bottom: 24px; }
-  .location-page .location-studio-name { font-size: 38px; }
-  .location-page address { font-size: 17px; margin-top: 22px; }
+  .location-page address { font-size: 17px; }
   .location-page .location-nearby dt { font-size: 28px; }
   .location-page .location-info-lead { font-size: 21px; }
   .location-page .location-map-links { gap: 12px 28px; margin-top: 18px; }

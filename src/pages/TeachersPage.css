@@ -24,9 +24,6 @@
 .teachers-page .teachers-intro-layout { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9%; align-items: start; }
 .teachers-page .teachers-intro-copy > p:first-child { font-size: 25px; line-height: 1.7; letter-spacing: -.04em; }
 .teachers-page .teachers-intro-copy > p + p { margin-top: 26px; color: var(--muted); }
-.teachers-page .teachers-experience { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line); align-items: center; }
-.teachers-page .teachers-experience h3 { font-size: clamp(28px, 2.8vw, 40px); line-height: 1.1; }
-.teachers-page .teachers-experience > p { min-width: 0; color: var(--muted); font-size: 18px; line-height: 1.9; }
 
 .teachers-page .teachers-group-heading { display: grid; grid-template-columns: 1fr 1fr; column-gap: 8%; align-items: end; padding-block: 12px 44px; }
 .teachers-page .teachers-group-heading .teachers-eyebrow { grid-column: 1 / -1; }
@@ -41,8 +38,8 @@
 .teachers-page .teacher-name:focus { outline: none; }
 .teachers-page .teacher-name > span:first-child { display: block; font-family: var(--font-en-display); font-size: clamp(72px, 7vw, 104px); }
 .teachers-page .teacher-name > span:last-child { display: block; font-family: var(--font-ko); font-size: 30px; font-weight: var(--font-weight-body); line-height: 1.5; letter-spacing: -.03em; margin-top: 22px; }
-.teachers-page .teacher-role { font-family: var(--font-en-ui); font-size: 12px; line-height: 1.6; letter-spacing: .035em; margin-top: 14px; }
-.teachers-page .teacher-lessons { font-family: var(--font-en-ui); font-size: 11px; line-height: 1.6; letter-spacing: .04em; color: var(--wine); margin-top: 12px; }
+.teachers-page .teacher-role { font-family: var(--font-ko); font-size: 14px; line-height: 1.7; letter-spacing: var(--letter-spacing-body); margin-top: 14px; }
+.teachers-page .teacher-lessons { font-family: var(--font-ko); font-size: 13px; line-height: 1.7; letter-spacing: var(--letter-spacing-body); color: var(--wine); margin-top: 12px; }
 .teachers-page .teacher-description { font-size: 18px; line-height: 1.9; margin-top: 30px; max-width: 540px; }
 .teachers-page .teacher-credentials { margin: 32px 0 0; }
 .teachers-page .teacher-credentials > div { padding-block: 22px; border-top: 1px solid var(--line); }
@@ -52,18 +49,13 @@
 .teachers-page .teacher-credentials li { margin-top: 7px; padding-left: 14px; position: relative; word-break: keep-all; overflow-wrap: anywhere; }
 .teachers-page .teacher-credentials li::before { content: ''; width: 5px; height: 1px; background: currentColor; position: absolute; left: 0; top: .95em; }
 
-.teachers-page .teachers-approach { background: var(--ink); color: var(--ivory); margin-top: 48px; }
-.teachers-page .teachers-approach-layout { display: grid; grid-template-columns: .95fr 1.05fr; gap: 9%; }
-.teachers-page .teachers-approach dl { margin: 0; }
-.teachers-page .teachers-approach dl > div { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; border-top: 1px solid #777167; padding-block: 30px; }
-.teachers-page .teachers-approach dt { font-family: var(--font-en-display); font-weight: var(--font-weight-display); font-size: clamp(32px, 3vw, 46px); line-height: 1.1; letter-spacing: -.01em; }
-.teachers-page .teachers-approach dd { margin: 0; color: #d8d2c7; }
 .teachers-page .teachers-lessons { display: grid; grid-template-columns: .9fr 1.1fr; gap: 9%; align-items: center; }
 .teachers-page .teachers-lesson-links > a { border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr auto; gap: 16px 24px; padding-block: 30px; }
 .teachers-page .teachers-lesson-links > a:last-child { border-bottom: 1px solid var(--line); }
 .teachers-page .teachers-lesson-links > a > span:first-child { font-family: var(--font-en-display); font-size: 54px; font-weight: var(--font-weight-display); line-height: 1; letter-spacing: -.02em; grid-column: 1 / -1; }
 .teachers-page .teachers-lesson-note, .teachers-page .teachers-lesson-action { font-family: var(--font-en-ui); font-size: 11px; line-height: 1.5; letter-spacing: .02em; }
 .teachers-page .teachers-lesson-note { color: var(--muted); }
+.teachers-page .teachers-lesson-action { font-family: var(--font-ko); font-size: 13px; letter-spacing: var(--letter-spacing-body); }
 .teachers-page .teachers-lesson-action { display: flex; align-items: center; gap: 20px; }
 .teachers-page .teachers-lesson-links > a:hover { color: var(--wine); }
 .teachers-page .teachers-contact { background: var(--wine); color: var(--ivory); }
@@ -71,6 +63,8 @@
 .teachers-page .teachers-contact-bottom { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-top: 40px; }
 .teachers-page .teachers-contact-bottom > p { font-size: 21px; line-height: 1.8; }
 .teachers-page .teachers-contact-buttons { display: flex; gap: 16px; }
+.teachers-page .teachers-contact-links { display: flex; justify-content: flex-end; margin-top: 24px; }
+.teachers-page .teachers-contact-links .text-link { min-height: 48px; padding-block: 12px; font-family: var(--font-ko); font-size: 14px; }
 .teachers-page .teachers-contact .button { font-family: var(--font-ko); font-size: 16px; }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -78,12 +72,10 @@
   .teachers-page .teachers-hero { padding-top: 48px; }
   .teachers-page .teachers-hero h1 { font-size: 112px; }
   .teachers-page .teachers-intro-layout { gap: 6%; }
-  .teachers-page .teachers-experience { grid-template-columns: 1fr; gap: 20px; }
   .teachers-page .teachers-group-heading { gap: 6%; }
   .teachers-page .teacher-profile { grid-template-columns: 1fr; gap: 48px; }
   .teachers-page .teacher-profile > .teacher-photo, .teachers-page .teacher-profile-copy { grid-column: 1; grid-row: auto; justify-self: start; }
   .teachers-page .teacher-profile-copy { max-width: 620px; }
-  .teachers-page .teachers-approach-layout { grid-template-columns: 1fr; gap: 48px; }
   .teachers-page .teachers-lessons { grid-template-columns: 1fr; gap: 48px; }
   .teachers-page .teachers-contact-bottom { flex-direction: column; align-items: flex-start; }
 }
@@ -99,23 +91,18 @@
   .teachers-page .teachers-intro { padding-block: 64px 56px; }
   .teachers-page .teachers-intro-layout { grid-template-columns: 1fr; gap: 32px; }
   .teachers-page .teachers-intro-copy > p:first-child { font-size: 23px; }
-  .teachers-page .teachers-experience { margin-top: 32px; padding-top: 24px; gap: 16px; }
-  .teachers-page .teachers-experience > p { font-size: 17px; }
   .teachers-page .teachers-group-heading { display: block; padding-bottom: 32px; }
   .teachers-page .teachers-group-heading > p:last-child { margin-top: 22px; font-size: 19px; padding: 0; }
   .teachers-page .teachers-profiles + .teachers-profiles { margin-top: 0; }
   .teachers-page .teacher-profile { display: flex; flex-direction: column; align-items: stretch; gap: 32px; padding-block: 56px; }
   .teachers-page .teacher-profile > .teacher-photo { max-width: 100%; }
-  .teachers-page .teacher-profile-copy { max-width: none; }
+  .teachers-page .teacher-profile-copy { display: contents; }
+  .teachers-page .teacher-profile-heading { order: -1; }
   .teachers-page .teacher-name > span:first-child { font-size: clamp(56px, 15.5vw, 72px); }
   .teachers-page .teacher-name > span:last-child { font-size: 28px; margin-top: 18px; }
-  .teachers-page .teacher-description { font-size: 17px; margin-top: 26px; }
-  .teachers-page .teacher-credentials { margin-top: 28px; }
+  .teachers-page .teacher-description { font-size: 17px; margin-top: 0; }
+  .teachers-page .teacher-credentials { margin-top: 0; }
   .teachers-page .teacher-credentials > div { padding-block: 22px; }
-  .teachers-page .teachers-approach { margin-top: 12px; }
-  .teachers-page .teachers-approach-layout { grid-template-columns: 1fr; gap: 36px; }
-  .teachers-page .teachers-approach dl > div { flex-direction: column; gap: 12px; padding-block: 24px; }
-  .teachers-page .teachers-approach dt { font-size: 36px; }
   .teachers-page .teachers-lessons { grid-template-columns: 1fr; gap: 36px; }
   .teachers-page .teachers-lesson-links > a { grid-template-columns: 1fr; gap: 14px; padding-block: 28px; }
   .teachers-page .teachers-lesson-links > a > span:first-child { font-size: 48px; }
@@ -125,4 +112,5 @@
   .teachers-page .teachers-contact-bottom > p { font-size: 19px; }
   .teachers-page .teachers-contact-buttons { flex-direction: column; gap: 12px; }
   .teachers-page .teachers-contact .button { font-size: 15px; }
+  .teachers-page .teachers-contact-links { justify-content: flex-start; }
 }

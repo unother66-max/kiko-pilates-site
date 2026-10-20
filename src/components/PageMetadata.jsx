@@ -23,7 +23,7 @@ export default function PageMetadata() {
     for (const prefix of ['og', 'twitter']) {
       const attribute = prefix === 'og' ? 'property' : 'name'
       updateMeta(attribute, `${prefix}:title`, page.title)
-      updateMeta(attribute, `${prefix}:description`, page.description)
+      updateMeta(attribute, `${prefix}:description`, prefix === 'twitter' ? page.twitterDescription ?? page.description : page.description)
     }
     updateMeta('property', 'og:url', page.canonical)
     let canonical = document.head.querySelector('link[rel="canonical"]')
