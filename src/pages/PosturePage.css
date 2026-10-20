@@ -1,0 +1,50 @@
+/* Posture-specific rhythm over the existing Pilates detail typography and tokens. */
+.posture-page .posture-hero h1 { font-size: clamp(52px, 5.5vw, 80px); }
+.posture-page .posture-hero .prenatal-hero-layout { margin-top: 40px; }
+.posture-page .posture-hero .prenatal-hero-lead { margin-top: 0; }
+.posture-page .prenatal-consultation, .posture-page .prenatal-inline-link { min-height: 48px; align-items: center; }
+
+.posture-page .posture-check-list { margin-top: 40px; padding: 0; list-style: none; }
+.posture-page .posture-check-list li { display: grid; grid-template-columns: minmax(0, .5fr) minmax(0, .6fr) minmax(0, 1.1fr); gap: 32px; align-items: baseline; border-top: 1px solid var(--line); padding-block: 28px; }
+.posture-page .posture-check-list li:last-child { padding-bottom: 0; }
+.posture-page .posture-check-list .pilates-eyebrow, .posture-page .posture-flow .pilates-eyebrow { color: var(--wine); }
+.posture-page .posture-check-list .prenatal-point-copy { margin-top: 0; }
+.posture-page .posture-check-list h3 { font-size: 24px; }
+
+.posture-page .posture-flow { margin: 0; padding: 0; list-style: none; }
+.posture-page .posture-flow li { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 32px; border-top: 1px solid var(--line); padding-block: 26px; }
+.posture-page .posture-flow li:last-child { padding-bottom: 0; }
+.posture-page .posture-flow .pilates-eyebrow { padding-top: 7px; }
+.posture-page .posture-flow .prenatal-point-copy { margin-top: 12px; }
+
+.posture-page .posture-philosophy { padding-bottom: 104px; }
+.posture-page .posture-philosophy .prenatal-section-inner { padding-top: 80px; }
+.posture-page .posture-philosophy .prenatal-heading { font-size: clamp(40px, 4.4vw, 64px); line-height: 1.5; }
+.posture-page .posture-philosophy .prenatal-copy { max-width: 600px; margin-top: 40px; margin-left: auto; }
+.posture-page .posture-related-note { padding-block: 28px 12px; border-top: 1px solid var(--line); color: var(--muted); }
+.posture-page .posture-related-overview a { border-top: 0; }
+
+@media (min-width: 1024px) {
+  .posture-page .posture-habits { grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); grid-template-areas: 'copy heading'; }
+  .posture-page .posture-habits > header { grid-area: heading; }
+  .posture-page .posture-habits > .prenatal-copy { grid-area: copy; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .posture-page .posture-check-list li { grid-template-columns: 130px minmax(0, 1fr); gap: 16px 28px; }
+  .posture-page .posture-check-list .prenatal-point-copy { grid-column: 2; }
+}
+@media (max-width: 767px) {
+  .posture-page .posture-hero h1 { font-size: clamp(30px, 9.1vw, 44px); letter-spacing: -.05em; }
+  .posture-page .posture-hero .prenatal-hero-layout { margin-top: 28px; }
+  .posture-page .prenatal-heading { font-size: 27px; }
+  .posture-page .posture-check-list { margin-top: 32px; }
+  .posture-page .posture-check-list li { grid-template-columns: 1fr; gap: 14px; padding-block: 24px; }
+  .posture-page .posture-check-list h3 { font-size: 22px; }
+  .posture-page .posture-flow li { grid-template-columns: 1fr; gap: 14px; padding-block: 24px; }
+  .posture-page .posture-flow .pilates-eyebrow { padding-top: 0; }
+  .posture-page .posture-philosophy { padding-bottom: 72px; }
+  .posture-page .posture-philosophy .prenatal-section-inner { padding-top: 48px; }
+  .posture-page .posture-philosophy .prenatal-heading { font-size: clamp(28px, 8.2vw, 36px); }
+  .posture-page .posture-philosophy .prenatal-copy { margin-top: 30px; }
+  .posture-page .posture-related-note { padding-top: 24px; }
+}

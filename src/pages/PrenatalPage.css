@@ -1,0 +1,67 @@
+/* Prenatal only: inherit KIKO's existing Pilates tokens and shared Header/Footer. */
+.prenatal-page .prenatal-hero { padding-block: 64px 88px; }
+.prenatal-page .prenatal-hero > .pilates-eyebrow { margin-bottom: 32px; }
+.prenatal-page .prenatal-hero-layout { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 8%; align-items: start; }
+.prenatal-page .prenatal-hero h1 { font-family: var(--font-ko); font-size: clamp(60px, 6vw, 88px); line-height: 1.25; letter-spacing: -.055em; word-break: keep-all; }
+.prenatal-page .prenatal-hero-lead { margin-top: 32px; font-size: clamp(25px, 2.2vw, 32px); line-height: 1.65; letter-spacing: -.04em; }
+.prenatal-page .prenatal-copy { max-width: 680px; color: var(--muted); }
+.prenatal-page .prenatal-copy > p + p { margin-top: 22px; }
+.prenatal-page .prenatal-consultation, .prenatal-page .prenatal-inline-link { margin-top: 30px; color: var(--wine); font-family: var(--font-ko); font-size: 15px; gap: 24px; }
+.prenatal-page .prenatal-consultation:hover, .prenatal-page .prenatal-inline-link:hover { color: var(--ink); }
+
+.prenatal-page .prenatal-section { padding-bottom: 88px; }
+.prenatal-page .prenatal-section-inner { border-top: 1px solid var(--line); padding-top: 64px; }
+.prenatal-page .prenatal-split { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 8%; align-items: start; }
+.prenatal-page .prenatal-split > *, .prenatal-page .prenatal-hero-layout > * { min-width: 0; }
+.prenatal-page .prenatal-heading { font-family: var(--font-ko); font-size: clamp(28px, 2.8vw, 40px); font-weight: var(--font-weight-body); line-height: 1.55; letter-spacing: -.04em; word-break: keep-all; }
+.prenatal-page .pilates-eyebrow + .prenatal-heading { margin-top: 24px; }
+.prenatal-page .prenatal-numbered-grid { display: grid; gap: 32px; padding: 0; margin: 48px 0 0; list-style: none; }
+.prenatal-page .prenatal-principles { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.prenatal-page .prenatal-flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.prenatal-page .prenatal-numbered-grid li { min-width: 0; border-top: 1px solid var(--line); padding-top: 24px; }
+.prenatal-page .prenatal-numbered-grid .pilates-eyebrow { color: var(--wine); }
+.prenatal-page .prenatal-numbered-grid h3 { margin-top: 18px; font-size: 22px; }
+.prenatal-page .prenatal-point-copy { margin-top: 12px; color: var(--muted); }
+.prenatal-page .prenatal-audience li { border-top: 1px solid var(--line); padding-block: 20px; word-break: keep-all; }
+.prenatal-page .prenatal-audience li:last-child { padding-bottom: 0; }
+
+.prenatal-page .prenatal-faq-list details { border-bottom: 1px solid var(--line); }
+.prenatal-page .prenatal-faq-list details:first-child { border-top: 1px solid var(--line); }
+.prenatal-page .prenatal-faq-list summary { display: flex; align-items: center; justify-content: space-between; gap: 24px; list-style: none; cursor: pointer; padding-block: 24px; font-size: 18px; line-height: 1.75; letter-spacing: -.035em; word-break: keep-all; }
+.prenatal-page .prenatal-faq-list summary::-webkit-details-marker { display: none; }
+.prenatal-page .prenatal-faq-list details > p { max-width: 640px; padding-bottom: 26px; padding-right: 24px; color: var(--muted); }
+.prenatal-page .prenatal-related { padding-bottom: 104px; }
+.prenatal-page .prenatal-related h2 { font-size: clamp(44px, 4.6vw, 68px); }
+.prenatal-page .prenatal-related-list a { display: grid; grid-template-columns: 110px minmax(0, 1fr) 22px; align-items: center; gap: 24px; min-height: 96px; padding-block: 24px; border-top: 1px solid var(--line); }
+.prenatal-page .prenatal-related-name { font-size: 22px; line-height: 1.6; word-break: keep-all; }
+.prenatal-page .prenatal-related-list .arrow { color: var(--wine); }
+.prenatal-page .prenatal-related-list a:hover { color: var(--wine); }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .prenatal-page .prenatal-hero-layout, .prenatal-page .prenatal-split { grid-template-columns: 1fr; gap: 32px; }
+  .prenatal-page .prenatal-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 767px) {
+  .prenatal-page .prenatal-hero { padding-block: 36px 64px; }
+  .prenatal-page .prenatal-hero > .pilates-eyebrow { margin-bottom: 26px; }
+  .prenatal-page .prenatal-hero-layout, .prenatal-page .prenatal-split { grid-template-columns: 1fr; gap: 30px; }
+  .prenatal-page .prenatal-hero h1 { font-size: clamp(42px, 12vw, 60px); }
+  .prenatal-page .prenatal-hero-lead { margin-top: 24px; font-size: 25px; }
+  .prenatal-page .prenatal-copy > p + p { margin-top: 20px; }
+  .prenatal-page .prenatal-section { padding-bottom: 64px; }
+  .prenatal-page .prenatal-section-inner { padding-top: 40px; }
+  .prenatal-page .prenatal-heading { font-size: 28px; }
+  .prenatal-page .pilates-eyebrow + .prenatal-heading { margin-top: 20px; }
+  .prenatal-page .prenatal-numbered-grid { grid-template-columns: 1fr; gap: 24px; margin-top: 32px; }
+  .prenatal-page .prenatal-numbered-grid li { padding-top: 20px; }
+  .prenatal-page .prenatal-numbered-grid h3 { margin-top: 14px; }
+  .prenatal-page .prenatal-audience li { padding-block: 18px; }
+  .prenatal-page .prenatal-faq-list summary { font-size: 17px; gap: 20px; padding-block: 22px; }
+  .prenatal-page .prenatal-faq-list details > p { padding-right: 0; padding-bottom: 24px; }
+  .prenatal-page .prenatal-related { padding-bottom: 68px; }
+  .prenatal-page .prenatal-related h2 { font-size: 46px; }
+  .prenatal-page .prenatal-related-list a { grid-template-columns: minmax(0, 1fr) 22px; gap: 12px 20px; min-height: 106px; }
+  .prenatal-page .prenatal-related-list .pilates-eyebrow { grid-column: 1; }
+  .prenatal-page .prenatal-related-name { grid-column: 1; grid-row: 2; font-size: 21px; }
+  .prenatal-page .prenatal-related-list .arrow { grid-column: 2; grid-row: 1 / 3; }
+}

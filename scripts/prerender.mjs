@@ -1,6 +1,6 @@
 import { build } from 'vite'
-import { readFile, writeFile } from 'node:fs/promises'
-import { resolve } from 'node:path'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { dirname, resolve } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import { applySeoHead, seoPages, SITE_URL } from '../src/data/seo.js'
 
@@ -19,7 +19,9 @@ for (const path of [...Object.keys(seoPages), '/404']) {
   const root = `<div id="root" data-prerender-path="${path}">${body}</div>`
   const html = applySeoHead(template, path).replace('<div id="root"></div>', root)
   if (!html.includes(root)) throw new Error(`Prerender insertion failed: ${path}`)
-  await writeFile(path === '/' ? 'dist/index.html' : `dist${path}.html`, html)
+  const destination = path === '/' ? 'dist/index.html' : `dist${path}.html`
+  await mkdir(dirname(destination), { recursive: true })
+  await writeFile(destination, html)
 }
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${Object.keys(seoPages).map(path => `  <url><loc>${SITE_URL}${path === '/' ? '/' : path}</loc></url>`).join('\n')}\n</urlset>\n`

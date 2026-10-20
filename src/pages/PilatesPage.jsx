@@ -7,9 +7,11 @@ import GroupSession from '../components/pilates/GroupSession.jsx'
 import SessionComparison from '../components/pilates/SessionComparison.jsx'
 import PilatesWay from '../components/pilates/PilatesWay.jsx'
 import PilatesContact from '../components/pilates/PilatesContact.jsx'
+import PilatesSpecialized from '../components/pilates/PilatesSpecialized.jsx'
 import { pilatesSessions } from '../data/pilates.js'
 import useReveal from '../hooks/useReveal.js'
 import './PilatesPage.css'
+import '../components/pilates/PilatesSpecialized.css'
 
 export default function PilatesPage() {
   const { onContact } = useOutletContext()
@@ -27,6 +29,7 @@ export default function PilatesPage() {
       <GroupSession session={groupSession} />
       <SessionComparison sessions={pilatesSessions} />
       <PilatesWay />
+      <PilatesSpecialized />
       <PilatesContact onContact={onContact} />
     </div>
   )

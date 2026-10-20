@@ -1,3 +1,9 @@
+import { specializedPilates } from './specializedPilates.js'
+import { prenatalFaqs } from './prenatal.js'
+import { postnatalFaqs } from './postnatal.js'
+import { postureFaqs } from './posture.js'
+import { scoliosisFaqs } from './scoliosis.js'
+
 export const SITE_URL = 'https://kikopilatesballet.co.kr'
 export const SOCIAL_IMAGE = `${SITE_URL}/images/kiko-social-preview.png`
 
@@ -11,8 +17,28 @@ export const seoPages = {
     description: '키코필라테스 서울역점의 수업 철학과 공간을 소개합니다. 서울 용산구 만리재로 134 7층의 필라테스 스튜디오, 발레실과 라커·라운지를 만나보세요.',
   },
   '/pilates': {
-    title: '서울역 필라테스 | 키코필라테스 앤 발레',
-    description: '키코필라테스 서울역점의 1:1 개인레슨, 2:1 듀엣레슨, 6:1 소수정예 그룹레슨을 안내합니다. 서울역·숙대입구·청파동 인근에서 내 몸과 목적에 맞는 기구 필라테스를 선택해보세요.',
+    title: '서울역 필라테스 | 1:1·2:1·6:1·산전산후 | 키코필라테스 앤 발레',
+    description: '서울역·숙대입구 인근 키코필라테스 앤 발레. 1:1 개인레슨, 2:1 듀엣, 6:1 소수정예 그룹과 산전·산후 필라테스 수업을 운영합니다.',
+  },
+  ...Object.fromEntries(specializedPilates.map(program => [`/pilates/${program.slug}`, {
+    title: `${program.title} | 키코필라테스 앤 발레`,
+    description: `키코필라테스 앤 발레의 ${program.title} 안내 페이지입니다. 상세 프로그램 안내를 준비하고 있습니다. 필라테스 소개에서 전체 수업 구성을 확인해보세요.`,
+  }])),
+  '/pilates/prenatal': {
+    title: '서울역 산전 필라테스 | 1:1 개인레슨 | 키코필라테스 앤 발레',
+    description: '서울역·숙대입구 인근 키코필라테스 앤 발레 산전 필라테스. 임신 시기와 현재 컨디션, 운동 경험을 살피며 1:1 개인레슨 중심으로 진행합니다.',
+  },
+  '/pilates/postnatal': {
+    title: '서울역 산후 필라테스 | 출산 후 1:1 개인레슨 | 키코필라테스 앤 발레',
+    description: '서울역·숙대입구 인근 키코필라테스 앤 발레 산후 필라테스. 출산 이후 달라진 컨디션과 움직임을 살피며 1:1 개인레슨 중심으로 수업합니다.',
+  },
+  '/pilates/posture': {
+    title: '서울역 자세·움직임 필라테스 | 1:1 개인레슨 | 키코필라테스 앤 발레',
+    description: '서울역·숙대입구 인근 키코필라테스 앤 발레 자세·움직임 필라테스. 자세와 생활 습관, 좌우 움직임의 차이를 살피며 1:1 개인레슨 중심으로 진행합니다.',
+  },
+  '/pilates/scoliosis': {
+    title: '서울역 척추측만 필라테스 | 1:1 개인레슨 | 키코필라테스 앤 발레',
+    description: '서울역·숙대입구 인근 키코필라테스 앤 발레 척추측만 필라테스. 좌우 움직임과 현재 자세를 살피며 1:1 개인레슨 중심으로 진행합니다.',
   },
   '/ballet': {
     title: '서울역 성인발레 | 키코필라테스 앤 발레',
@@ -76,6 +102,27 @@ export const healthClubSchema = {
 
 export function serializeJsonLd(value) { return JSON.stringify(value).replace(/</g, '\\u003c') }
 
+export const structuredDataIds = ['kiko-healthclub-schema', 'kiko-faq-schema']
+
+const pageFaqs = { '/pilates/prenatal': prenatalFaqs, '/pilates/postnatal': postnatalFaqs, '/pilates/posture': postureFaqs, '/pilates/scoliosis': scoliosisFaqs }
+
+export function getPageStructuredData(pathname) {
+  const path = getPageSeo(pathname).path
+  if (path === '/') return [{ id: 'kiko-healthclub-schema', data: healthClubSchema }]
+  const faqs = pageFaqs[path]
+  if (faqs) return [{
+    id: 'kiko-faq-schema',
+    data: {
+      '@context': 'https://schema.org', '@type': 'FAQPage',
+      mainEntity: faqs.map(faq => ({
+        '@type': 'Question', name: faq.question,
+        acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+      })),
+    },
+  }]
+  return []
+}
+
 function escapeHtml(value) {
   return value.replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character])
 }
@@ -102,7 +149,7 @@ export function renderSeoHead(pathname) {
     `<meta name="twitter:description" content="${escapeHtml(page.description)}" />`,
     `<meta name="twitter:image" content="${SOCIAL_IMAGE}" />`,
     '<meta name="twitter:image:alt" content="키코필라테스 서울역점 · KIKO PILATES &amp; BALLET" />',
-    ...(page.path === '/' ? [`<script id="kiko-healthclub-schema" type="application/ld+json">${serializeJsonLd(healthClubSchema)}</script>`] : []),
+    ...getPageStructuredData(pathname).map(schema => `<script id="${schema.id}" type="application/ld+json">${serializeJsonLd(schema.data)}</script>`),
   ]
   return tags.join('\n    ')
 }

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import { getPageSeo, healthClubSchema, serializeJsonLd } from '../data/seo.js'
+import { getPageSeo, getPageStructuredData, serializeJsonLd, structuredDataIds } from '../data/seo.js'
 
 export default function PageMetadata() {
   const { pathname } = useLocation()
@@ -32,11 +32,14 @@ export default function PageMetadata() {
       canonical.href = page.canonical
     } else canonical?.remove()
 
-    let schema = document.getElementById('kiko-healthclub-schema')
-    if (page.path === '/') {
-      if (!schema) { schema = document.createElement('script'); schema.id = 'kiko-healthclub-schema'; schema.type = 'application/ld+json'; document.head.append(schema) }
-      schema.textContent = serializeJsonLd(healthClubSchema)
-    } else schema?.remove()
+    const pageSchemas = getPageStructuredData(pathname)
+    for (const id of structuredDataIds) {
+      let element = document.getElementById(id)
+      const schema = pageSchemas.find(item => item.id === id)
+      if (!schema) { element?.remove(); continue }
+      if (!element) { element = document.createElement('script'); element.id = id; element.type = 'application/ld+json'; document.head.append(element) }
+      element.textContent = serializeJsonLd(schema.data)
+    }
   }, [pathname])
   return null
 }

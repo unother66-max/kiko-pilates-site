@@ -1,6 +1,10 @@
 import assert from 'node:assert/strict'
 import { access, readFile } from 'node:fs/promises'
 import { getPageSeo, healthClubSchema, seoPages } from '../src/data/seo.js'
+import { prenatalFaqs } from '../src/data/prenatal.js'
+import { postnatalFaqs } from '../src/data/postnatal.js'
+import { postureFaqs } from '../src/data/posture.js'
+import { scoliosisFaqs } from '../src/data/scoliosis.js'
 
 const sitemap = await readFile('dist/sitemap.xml', 'utf8')
 const robots = await readFile('dist/robots.txt', 'utf8')
@@ -10,6 +14,7 @@ assert.ok(!(await readFile('dist/_redirects', 'utf8')).includes('/* /index.html 
 assert.match(await readFile('dist/llms.txt', 'utf8'), /키코필라테스 서울역점/)
 
 const titles = new Set()
+const pageFaqs = { '/pilates/prenatal': prenatalFaqs, '/pilates/postnatal': postnatalFaqs, '/pilates/posture': postureFaqs, '/pilates/scoliosis': scoliosisFaqs }
 for (const pathname of Object.keys(seoPages)) {
   const html = await readFile(pathname === '/' ? 'dist/index.html' : `dist${pathname}.html`, 'utf8')
   const page = getPageSeo(pathname)
@@ -29,6 +34,15 @@ for (const pathname of Object.keys(seoPages)) {
   const schemas = [...html.matchAll(/<script id="kiko-healthclub-schema" type="application\/ld\+json">(.*?)<\/script>/g)]
   assert.equal(schemas.length, pathname === '/' ? 1 : 0, pathname)
   if (schemas.length) assert.deepEqual(JSON.parse(schemas[0][1]), healthClubSchema)
+  const faqSchemas = [...html.matchAll(/<script id="kiko-faq-schema" type="application\/ld\+json">(.*?)<\/script>/g)]
+  const faqs = pageFaqs[pathname]
+  assert.equal(faqSchemas.length, faqs ? 1 : 0, pathname)
+  if (faqSchemas.length) {
+    const faqSchema = JSON.parse(faqSchemas[0][1])
+    assert.equal(faqSchema['@type'], 'FAQPage')
+    assert.deepEqual(faqSchema.mainEntity, faqs.map(faq => ({ '@type': 'Question', name: faq.question, acceptedAnswer: { '@type': 'Answer', text: faq.answer } })))
+    for (const faq of faqs) { assert.ok(html.includes(faq.question)); assert.ok(html.includes(faq.answer)) }
+  }
 }
 assert.equal(titles.size, Object.keys(seoPages).length)
 assert.ok((await readFile('dist/404.html', 'utf8')).includes('content="noindex, follow"'))

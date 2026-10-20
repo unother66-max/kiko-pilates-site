@@ -22,6 +22,10 @@
 - [홈](https://kikopilatesballet.co.kr/): 업체 및 프로그램 소개
 - [소개](https://kikopilatesballet.co.kr/about): 수업 철학과 스튜디오 공간
 - [필라테스](https://kikopilatesballet.co.kr/pilates): 개인·듀엣·그룹 수업
+- [산전 필라테스](https://kikopilatesballet.co.kr/pilates/prenatal): 임신 시기와 컨디션을 살피는 1:1 개인레슨 안내
+- [산후 필라테스](https://kikopilatesballet.co.kr/pilates/postnatal): 출산 후 운동 재시작을 위한 1:1 개인레슨 안내
+- [자세·움직임 필라테스](https://kikopilatesballet.co.kr/pilates/posture): 생활 습관과 자세·움직임 확인 중심의 수업 안내
+- [척추측만 필라테스](https://kikopilatesballet.co.kr/pilates/scoliosis): 좌우 움직임과 현재 컨디션을 살피는 개인레슨 안내
 - [성인발레](https://kikopilatesballet.co.kr/ballet): 성인 취미발레 수업
 - [강사진](https://kikopilatesballet.co.kr/instructors): 필라테스·발레 강사의 자격과 경력
 - [위치](https://kikopilatesballet.co.kr/location): 주소, 지도와 방문 안내
