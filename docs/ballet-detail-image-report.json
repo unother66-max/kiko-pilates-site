@@ -1,5 +1,5 @@
 {
-  "encoding": "WebP quality 96; Lanczos3; ICC retained; no crop, enlargement, sharpening, filters or color edits",
+  "encoding": "Lossless WebP; Lanczos3 responsive resize; metadata retained; no crop, enlargement, sharpening, filters or color edits",
   "images": [
     {
       "original": {
@@ -14,25 +14,25 @@
           "file": "barre-detail-01-640.webp",
           "width": 640,
           "height": 856,
-          "bytes": 126662
+          "bytes": 499246
         },
         {
           "file": "barre-detail-01-1000.webp",
           "width": 1000,
           "height": 1338,
-          "bytes": 254876
+          "bytes": 1150698
         },
         {
           "file": "barre-detail-01-1600.webp",
           "width": 1600,
           "height": 2140,
-          "bytes": 475502
+          "bytes": 2609782
         },
         {
           "file": "barre-detail-01-1948.webp",
           "width": 1948,
           "height": 2606,
-          "bytes": 612828
+          "bytes": 3442550
         }
       ]
     },
@@ -49,25 +49,25 @@
           "file": "studio-front-01-640.webp",
           "width": 640,
           "height": 857,
-          "bytes": 141244
+          "bytes": 517726
         },
         {
           "file": "studio-front-01-1000.webp",
           "width": 1000,
           "height": 1339,
-          "bytes": 274894
+          "bytes": 1180520
         },
         {
           "file": "studio-front-01-1600.webp",
           "width": 1600,
           "height": 2143,
-          "bytes": 510704
+          "bytes": 2676882
         },
         {
           "file": "studio-front-01-1946.webp",
           "width": 1946,
           "height": 2606,
-          "bytes": 662458
+          "bytes": 3522010
         }
       ]
     }

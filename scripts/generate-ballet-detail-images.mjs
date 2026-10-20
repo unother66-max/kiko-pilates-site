@@ -22,8 +22,8 @@ for (const definition of definitions) {
     const filename = `${path.parse(definition.file).name}-${width}.webp`
     const { data, info } = await sharp(original)
       .resize({ width, kernel: sharp.kernel.lanczos3, withoutEnlargement: true })
-      .keepIccProfile()
-      .webp({ quality: 96, effort: 6, smartSubsample: false })
+      .keepMetadata()
+      .webp({ lossless: true, effort: 6 })
       .toBuffer({ resolveWithObject: true })
     await writeFile(path.join(directory, filename), data)
     imports.push(`import ${definition.id}${width} from '../assets/ballet/${filename}'`)
@@ -34,5 +34,5 @@ for (const definition of definitions) {
   report.push({ original: { file: definition.file, width: metadata.width, height: metadata.height, bytes: original.length, sha256: hash(original) }, variants })
 }
 await writeFile(path.join(root, 'src/data/balletDetailImages.generated.js'), `// Generated from untouched KIKO originals by scripts/generate-ballet-detail-images.mjs.\n${imports.join('\n')}\n\nexport const balletDetailImages = {\n${images.join(',\n')},\n}\n`)
-await writeFile(path.join(root, 'docs/ballet-detail-image-report.json'), `${JSON.stringify({ encoding: 'WebP quality 96; Lanczos3; ICC retained; no crop, enlargement, sharpening, filters or color edits', images: report }, null, 2)}\n`)
+await writeFile(path.join(root, 'docs/ballet-detail-image-report.json'), `${JSON.stringify({ encoding: 'Lossless WebP; Lanczos3 responsive resize; metadata retained; no crop, enlargement, sharpening, filters or color edits', images: report }, null, 2)}\n`)
 console.table(report.flatMap(image => image.variants.map(v => ({ file: v.file, pixels: `${v.width}×${v.height}`, kB: Math.round(v.bytes / 1000) }))))

@@ -39,7 +39,7 @@ export function BalletSmallGroup() {
     <h2 id="ballet-small-title" className="ballet-display">SMALL<br />GROUP</h2>
     <p className="ballet-small-number" aria-label="강사 1명, 회원 최대 6명">6:1</p>
     <div className="ballet-small-copy"><h3>강사 1명,<br />회원 최대 6명.</h3><p>소수정예 그룹으로 함께하는 성인 취미발레 수업입니다.</p></div>
-    <BalletPhoto image={balletDetailImages.barreDetail} alt="자연광이 들어오는 창가와 발레 바가 있는 키코 발레실" className="ballet-small-photo" />
+    <BalletPhoto image={balletDetailImages.barreDetail} alt="자연광이 들어오는 창가와 발레 바가 있는 키코 발레실" className="ballet-small-photo" preserveRatio sizes="(min-width: 1776px) 707px, (min-width: 1024px) 40vw, (min-width: 768px) 52vw, 100vw" />
   </div></div></section>
 }
 
@@ -48,7 +48,7 @@ export function BalletClass() {
     <header><p className="ballet-eyebrow">03 / THE CLASS</p><h2 id="ballet-class-title" className="ballet-display">FROM BASICS<br />TO MOVEMENT.</h2>
       <div className="ballet-class-first"><h3>FIRST BALLET?</h3><p>발레가 처음이어도 괜찮습니다.<br />기본 자세와 작은 동작부터 천천히 익혀갑니다.<br />유연성이나 경험을 미리 갖추지 않아도 시작할 수 있습니다.</p></div>
     </header>
-    <div className="ballet-class-layout"><BalletPhoto image={balletDetailImages.studioFront} alt="창가 발레 바와 햇빛이 드리운 마루가 보이는 키코 성인발레 스튜디오" className="ballet-class-photo" />
+    <div className="ballet-class-layout"><BalletPhoto image={balletDetailImages.studioFront} alt="창가 발레 바와 햇빛이 드리운 마루가 보이는 키코 성인발레 스튜디오" className="ballet-class-photo" preserveRatio sizes="(min-width: 1776px) 865px, (min-width: 1024px) 48vw, (min-width: 768px) 89vw, (min-width: 360px) calc(100vw - 48px), calc(100vw - 40px)" />
       <dl className="ballet-class-notes">{balletClassNotes.map((note, index) => <div key={note.title}><dt><span className="ballet-note">0{index + 1}</span><span>{note.title}</span></dt><dd><h3>{note.subtitle}</h3><p>{note.description}</p></dd></div>)}</dl>
     </div>
   </section>
