@@ -2,8 +2,8 @@ import Arrow from '../Arrow.jsx'
 import { studioInfo } from '../../data/site.js'
 
 const actions = {
-  consultation: { label: '상담하기', ariaLabel: '키코필라테스 네이버 톡톡 상담하기' },
-  booking: { label: '예약하기', ariaLabel: '키코필라테스 네이버 예약하기' },
+  consultation: { label: '네이버 톡톡 상담하기', ariaLabel: '키코필라테스 네이버 톡톡 상담하기' },
+  booking: { label: '네이버 예약하기', ariaLabel: '키코필라테스 네이버 예약하기' },
 }
 
 // Use the shared, verified channel URLs when supplied; never link back to /contact.
@@ -13,7 +13,7 @@ export default function ContactAction({ kind }) {
 
   if (href) {
     return (
-      <a className="contact-action" href={href} target="_blank" rel="noopener noreferrer" aria-label={ariaLabel}>
+      <a className={`contact-action contact-action-${kind}`} href={href} target="_blank" rel="noopener noreferrer" aria-label={ariaLabel}>
         {label}<Arrow diagonal />
       </a>
     )
