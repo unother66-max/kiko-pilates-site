@@ -1,120 +1,287 @@
 {
   "quality": 96,
-  "smartSubsample": false,
   "effort": 6,
-  "treatment": "Width-only Lanczos3 resize, no enlargement, no crop, original ICC retained. No filter, color adjustment, sharpening, denoise or AI generation.",
+  "smartSubsample": false,
+  "treatment": "Originals preserved. Native WebP copied byte for byte at maximum width. Other variants use Lanczos3 downscale only, with no crop, filter, sharpening, color correction or enlargement.",
   "photos": [
     {
+      "number": 1,
       "key": "studio",
       "original": {
-        "filename": "original-06.png",
-        "width": 4596,
-        "height": 2588,
-        "bytes": 14939692,
-        "sha256": "b57086346aafa2ea9d5c9a14de324ba758479a1e39a0fb04bf67861fe0015ffd"
+        "filename": "source-01.webp",
+        "width": 3200,
+        "height": 1802,
+        "bytes": 622716,
+        "sha256": "597d9d59552e5d00d863033bcba0c4e65a784e79741e23d2563381843fe15e9d"
       },
       "variants": [
         {
-          "filename": "studio-640.webp",
+          "filename": "photo-01-640.webp",
           "width": 640,
           "height": 360,
-          "bytes": 72904
+          "bytes": 70954,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "studio-1200.webp",
-          "width": 1200,
-          "height": 676,
-          "bytes": 181740
+          "filename": "photo-01-1000.webp",
+          "width": 1000,
+          "height": 563,
+          "bytes": 136906,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "studio-1600.webp",
-          "width": 1600,
-          "height": 901,
-          "bytes": 265494
+          "filename": "photo-01-1440.webp",
+          "width": 1440,
+          "height": 811,
+          "bytes": 220220,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "studio-2560.webp",
+          "filename": "photo-01-1920.webp",
+          "width": 1920,
+          "height": 1081,
+          "bytes": 309932,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-01-2560.webp",
           "width": 2560,
           "height": 1442,
-          "bytes": 461476
+          "bytes": 453074,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "studio-3200.webp",
+          "filename": "photo-01-3200.webp",
           "width": 3200,
           "height": 1802,
-          "bytes": 622716
+          "bytes": 622716,
+          "sourceBytesRetained": true
         }
       ]
     },
     {
+      "number": 2,
       "key": "equipment",
       "original": {
-        "filename": "original-09.png",
+        "filename": "source-02.webp",
         "width": 2174,
         "height": 2604,
-        "bytes": 6859952,
-        "sha256": "45631c95e3a0132aa58e9164d6f811f7cfbcb70dcf612fea59d7af41882c5888"
+        "bytes": 441836,
+        "sha256": "eccb12fecda5f9984eafe30edda8ee6d2f8480c507594247253f9001dd4bba59"
       },
       "variants": [
         {
-          "filename": "equipment-640.webp",
+          "filename": "photo-02-640.webp",
           "width": 640,
           "height": 767,
-          "bytes": 102148
+          "bytes": 97012,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "equipment-1200.webp",
-          "width": 1200,
-          "height": 1437,
-          "bytes": 222654
+          "filename": "photo-02-1000.webp",
+          "width": 1000,
+          "height": 1198,
+          "bytes": 173750,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "equipment-1600.webp",
-          "width": 1600,
-          "height": 1916,
-          "bytes": 314210
+          "filename": "photo-02-1440.webp",
+          "width": 1440,
+          "height": 1725,
+          "bytes": 269134,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "equipment-2174.webp",
+          "filename": "photo-02-1920.webp",
+          "width": 1920,
+          "height": 2300,
+          "bytes": 371544,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-02-2174.webp",
           "width": 2174,
           "height": 2604,
-          "bytes": 441836
+          "bytes": 441836,
+          "sourceBytesRetained": true
         }
       ]
     },
     {
-      "key": "lounge",
+      "number": 3,
+      "key": "pilates",
       "original": {
-        "filename": "original-11.png",
-        "width": 3898,
-        "height": 2604,
-        "bytes": 10454935,
-        "sha256": "3dc76081c49d34a5001c7b09b0b1326546c60d80b6e300f16ef8a290d8a9f1a6"
+        "filename": "source-03.png",
+        "width": 1950,
+        "height": 2606,
+        "bytes": 8246409,
+        "sha256": "55beff84cce3c273cc7b974e0e6ce5e651b820eb21ab811512d91973bf5b1a84"
       },
       "variants": [
         {
-          "filename": "lounge-640.webp",
+          "filename": "photo-03-640.webp",
+          "width": 640,
+          "height": 855,
+          "bytes": 197382,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-03-1000.webp",
+          "width": 1000,
+          "height": 1336,
+          "bytes": 367716,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-03-1440.webp",
+          "width": 1440,
+          "height": 1924,
+          "bytes": 585804,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-03-1920.webp",
+          "width": 1920,
+          "height": 2566,
+          "bytes": 808714,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-03-1950.webp",
+          "width": 1950,
+          "height": 2606,
+          "bytes": 824528,
+          "sourceBytesRetained": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "entrance",
+      "original": {
+        "filename": "source-04.webp",
+        "width": 1600,
+        "height": 1065,
+        "bytes": 143510,
+        "sha256": "9a8540ef3b86602014f418c75aa4cf5e8b05754a2addd222934fd21e5808f93f"
+      },
+      "variants": [
+        {
+          "filename": "photo-04-640.webp",
+          "width": 640,
+          "height": 426,
+          "bytes": 38940,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-04-1000.webp",
+          "width": 1000,
+          "height": 666,
+          "bytes": 72200,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-04-1440.webp",
+          "width": 1440,
+          "height": 958,
+          "bytes": 112036,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-04-1600.webp",
+          "width": 1600,
+          "height": 1065,
+          "bytes": 143510,
+          "sourceBytesRetained": true
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "key": "lounge",
+      "original": {
+        "filename": "source-05.webp",
+        "width": 2560,
+        "height": 1710,
+        "bytes": 287444,
+        "sha256": "7b4b130e03d71b54a5d5d6257989af432b9c0f27416ed34584ef608ea02888ce"
+      },
+      "variants": [
+        {
+          "filename": "photo-05-640.webp",
           "width": 640,
           "height": 428,
-          "bytes": 51422
+          "bytes": 50620,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "lounge-1200.webp",
-          "width": 1200,
-          "height": 802,
-          "bytes": 119366
+          "filename": "photo-05-1000.webp",
+          "width": 1000,
+          "height": 668,
+          "bytes": 91110,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "lounge-1600.webp",
-          "width": 1600,
-          "height": 1069,
-          "bytes": 167654
+          "filename": "photo-05-1440.webp",
+          "width": 1440,
+          "height": 962,
+          "bytes": 147292,
+          "sourceBytesRetained": false
         },
         {
-          "filename": "lounge-2560.webp",
+          "filename": "photo-05-1920.webp",
+          "width": 1920,
+          "height": 1282,
+          "bytes": 208010,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-05-2560.webp",
           "width": 2560,
           "height": 1710,
-          "bytes": 287444
+          "bytes": 287444,
+          "sourceBytesRetained": true
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "key": "ballet",
+      "original": {
+        "filename": "source-07.png",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 1776612,
+        "sha256": "fb3e09eb07b2f7b702d25a08941f6773bf3a53d96c0c55d6da7084861dc0be2c"
+      },
+      "variants": [
+        {
+          "filename": "photo-07-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 68058,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-07-1000.webp",
+          "width": 1000,
+          "height": 750,
+          "bytes": 136386,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-07-1440.webp",
+          "width": 1440,
+          "height": 1080,
+          "bytes": 227396,
+          "sourceBytesRetained": false
+        },
+        {
+          "filename": "photo-07-1448.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 228772,
+          "sourceBytesRetained": false
         }
       ]
     }

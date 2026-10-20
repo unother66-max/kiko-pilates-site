@@ -8,8 +8,11 @@ export default function PhilosophySection() {
       <div className="intro-layout" data-reveal>
         <h2 className="intro-title">Move with<br /><em>intention.</em></h2>
         <div className="intro-copy">
+          <h1 className="home-studio-title">키코필라테스 서울역점</h1>
           <h3>몸을 이해하는 필라테스,<br />움직임을 표현하는 발레.</h3>
-          <p>키코필라테스 앤 발레는 개인의 몸과 움직임을 세심하게 살피고, 필라테스와 발레를 통해 보다 건강하고 균형 잡힌 움직임을 만들어가는 공간입니다.</p>
+          <p>키코필라테스 서울역점은<br />필라테스와 성인 취미발레를 함께 만날 수 있는 공간입니다.</p>
+          <p>1:1 개인레슨, 2:1 듀엣레슨,<br />6:1 소수정예 그룹레슨으로<br />각자의 몸과 움직임을 세심하게 살핍니다.</p>
+          <p>정해진 방식보다 나에게 맞는 움직임을 찾고,<br />오래 이어갈 수 있는 수업을 만들어갑니다.</p>
           <Link className="text-link" to="/pilates">나에게 맞는 움직임 찾기 <Arrow /></Link>
         </div>
       </div>

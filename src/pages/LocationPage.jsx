@@ -1,6 +1,5 @@
 import { useOutletContext } from 'react-router-dom'
 import Arrow from '../components/Arrow.jsx'
-import PageMetadata from '../components/PageMetadata.jsx'
 import LocationMap from '../components/location/LocationMap.jsx'
 import { locationInfo } from '../data/location.js'
 import './LocationPage.css'
@@ -10,15 +9,10 @@ export default function LocationPage() {
 
   return (
     <div className="location-page">
-      <PageMetadata
-        title="LOCATION | KIKO PILATES & BALLET"
-        description="서울역·숙대입구 인근 키코필라테스 앤 발레 위치 및 방문 안내. 서울특별시 용산구 만리재로 134, 7층에서 만나보세요."
-      />
-
       <header className="location-hero location-container">
         <p className="location-eyebrow">KIKO LOCATION</p>
         <div className="location-hero-layout">
-          <h1>LOCATION</h1>
+          <h1>LOCATION<span className="page-heading-topic">키코필라테스 서울역점 위치</span></h1>
           <div className="location-hero-message">
             <p className="location-display">FIND<br />YOUR WAY.</p>
             <p className="location-hero-lead">서울역 · 숙대입구 · 청파동<br />키코필라테스 앤 발레</p>
@@ -56,11 +50,7 @@ export default function LocationPage() {
             <p className="location-info-lead">지도로 위치 확인하기</p>
             <div className="location-map-links">
               <a href={locationInfo.googleMapUrl} target="_blank" rel="noopener noreferrer" aria-label="Google Map에서 키코 위치 보기 (새 창)">GOOGLE MAP <Arrow diagonal /></a>
-              {locationInfo.naverMapUrl ? (
-                <a href={locationInfo.naverMapUrl} target="_blank" rel="noopener noreferrer" aria-label="네이버 지도에서 키코 위치 보기 (새 창)">NAVER MAP <Arrow diagonal /></a>
-              ) : (
-                <button type="button" disabled aria-label="네이버 지도 링크 준비 중">NAVER MAP <span>준비 중</span></button>
-              )}
+              <a href={locationInfo.naverMapUrl} target="_blank" rel="noopener noreferrer" aria-label="네이버 지도에서 키코 위치 보기 (새 창)">NAVER MAP <Arrow diagonal /></a>
             </div>
           </section>
         </div>

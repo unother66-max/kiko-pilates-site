@@ -1,0 +1,43 @@
+footer.site-footer { padding-block: 56px; }
+.site-footer .footer-main { align-items: center; padding-bottom: 24px; }
+.site-footer .footer-social { gap: 20px; align-self: center; }
+.site-footer .footer-social button {
+  justify-content: flex-start;
+  gap: 10px;
+  min-height: 32px;
+  color: var(--muted);
+  transition: color .2s;
+}
+
+.site-footer .footer-social button:hover { color: var(--ink); }
+.footer-social-icon { width: 16px; height: 16px; flex: 0 0 16px; }
+
+.site-footer .footer-info { min-width: 0; word-break: keep-all; }
+.site-footer .footer-info > p:first-child { margin-bottom: 12px; }
+.site-footer .footer-info > p:not(:first-child) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+.site-footer .footer-info a { color: inherit; white-space: nowrap; }
+.site-footer .footer-info a:hover { color: var(--wine); }
+.site-footer .footer-bottom { padding-top: 16px; }
+
+@media (min-width: 768px) {
+  /* Keep the original grid tracks so the logo and SNS stay in place. */
+  .site-footer .footer-main > div:first-child { grid-column: 1; grid-row: 1; }
+  .site-footer .footer-info {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    margin-left: 250px; /* Existing 112px logo + 60px gap. */
+
+  }
+  .site-footer .footer-social { grid-column: 3; grid-row: 1; }
+}
+
+@media (max-width: 767px) {
+  .site-footer .footer-main { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .site-footer .footer-social { align-items: flex-start; align-self: start; }
+  .site-footer .footer-social button { min-height: 44px; }
+}

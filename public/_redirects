@@ -1,1 +1,2 @@
-/* /index.html 200
+# Cloudflare Pages serves the generated /about.html etc. at extensionless URLs.
+# Do not rewrite every route to the homepage: it would discard page-specific SEO.

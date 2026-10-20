@@ -109,7 +109,6 @@ export default function HeroSlider() {
       style={{ '--photo-transition': `${heroSettings.transition}ms` }}
       onFocusCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocusPaused(true) }}
       onBlurCapture={event => { if (!event.currentTarget.contains(event.relatedTarget)) setFocusPaused(false) }}>
-      <h1 className="sr-only">KIKO PILATES & BALLET · 키코필라테스 앤 발레</h1>
       {heroSlides.map((slide, index) => <HeroSlide key={slide.id} slide={slide} index={index} active={index === activeIndex} count={count} />)}
       <div className="photo-dots" role="group" aria-label="HERO 슬라이드 선택" onKeyDown={handleKey}>
         {heroSlides.map((slide, index) => <button className="photo-dot" key={slide.id} type="button"

@@ -7,7 +7,7 @@ import { balletClassNotes, balletFeatures, balletDays } from '../../data/ballet.
 
 export function BalletHero() {
   return <section className="ballet-hero ballet-container" aria-labelledby="ballet-title">
-    <div className="ballet-hero-copy"><p className="ballet-eyebrow">KIKO BALLET</p><h1 id="ballet-title">BALLET</h1><p className="ballet-hero-type">ADULT BALLET</p><p className="ballet-hero-ratio">6:1 <span>SMALL GROUP</span></p><p className="ballet-hero-lead">처음 시작해도,<br />천천히 나의 움직임을<br className="ballet-desktop-break" /> 만들어가는 발레.</p></div>
+    <div className="ballet-hero-copy"><p className="ballet-eyebrow">KIKO BALLET</p><h1 id="ballet-title">BALLET<span className="page-heading-topic">서울역 성인 취미발레</span></h1><p className="ballet-hero-type">ADULT BALLET</p><p className="ballet-hero-ratio">6:1 <span>SMALL GROUP</span></p><p className="ballet-hero-lead">처음 시작해도,<br />천천히 나의 움직임을<br className="ballet-desktop-break" /> 만들어가는 발레.</p></div>
     <BalletPhoto image={balletImages.studio} alt="자연광과 발레 바, 넓은 마루가 있는 키코필라테스 앤 발레 성인발레 스튜디오" className="ballet-hero-photo" eager sizes="(min-width: 1840px) 1040px, (min-width: 1600px) calc(62.5vw - 110px), (min-width: 1024px) 56vw, (min-width: 768px) 89vw, 100vw" />
   </section>
 }
@@ -15,7 +15,12 @@ export function BalletHero() {
 export function BalletIntro() {
   return <section className="ballet-intro ballet-container ballet-chapter" aria-labelledby="ballet-intro-title">
     <div><p className="ballet-eyebrow">THE ART OF EVERYDAY MOVEMENT</p><h2 id="ballet-intro-title" className="ballet-display">MOVE WITH<br /><span>GRACE.</span></h2></div>
-    <div className="ballet-intro-copy"><p className="ballet-lead">일상에 더하는,<br />섬세한 움직임.</p><p>발레를 잘 알아야 시작할 수 있는 것은 아닙니다.<br className="ballet-desktop-break" /> 기본 자세와 작은 동작부터,<br className="ballet-desktop-break" /> 내 몸의 움직임을 천천히 알아갑니다.</p></div>
+    <div className="ballet-intro-copy">
+      <p className="ballet-lead">일상에 더하는,<br />섬세한 움직임.</p>
+      <p>키코의 성인 취미발레는 최대 6명이 함께하는<br />소수정예 수업입니다.</p>
+      <p>발레가 처음이어도 괜찮습니다.<br />기본 자세와 작은 움직임부터 시작해<br />몸의 정렬과 움직임의 흐름을 천천히 익혀갑니다.</p>
+      <p>조금 더 섬세하게 몸을 사용하고,<br />나만의 움직임을 만들어가는 시간을 함께합니다.</p>
+    </div>
   </section>
 }
 

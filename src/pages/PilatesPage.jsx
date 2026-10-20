@@ -1,5 +1,4 @@
 import { useOutletContext } from 'react-router-dom'
-import PageMetadata from '../components/PageMetadata.jsx'
 import PilatesHero from '../components/pilates/PilatesHero.jsx'
 import PilatesIntro from '../components/pilates/PilatesIntro.jsx'
 import SessionIndex from '../components/pilates/SessionIndex.jsx'
@@ -18,7 +17,6 @@ export default function PilatesPage() {
   const [privateSession, duetSession, groupSession] = pilatesSessions
   return (
     <div className="pilates-page">
-      <PageMetadata title="PILATES | KIKO PILATES & BALLET" />
       <div className="pilates-opening">
         <PilatesHero />
         <PilatesIntro />

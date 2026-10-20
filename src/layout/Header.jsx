@@ -5,6 +5,8 @@ import Wordmark from '../components/Wordmark.jsx'
 import Arrow from '../components/Arrow.jsx'
 import ProgramDropdown from './ProgramDropdown.jsx'
 
+const desktopNavigation = navigation.filter(([, href]) => href !== '/schedule')
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
   const { key, pathname } = useLocation()
@@ -37,7 +39,7 @@ export default function Header() {
   return (
     <header className={`site-header ${scrolled ? 'is-scrolled' : ''}`}>
       <Wordmark />
-      <nav className="desktop-nav" aria-label="메인 메뉴">{navigation.map(([name, href, children]) => children ? <ProgramDropdown key={`${name}-${key}`} items={children} active={programActive} /> : <NavLink key={name} to={href} end>{name}</NavLink>)}</nav>
+      <nav className="desktop-nav" aria-label="메인 메뉴">{desktopNavigation.map(([name, href, children]) => children ? <ProgramDropdown key={`${name}-${key}`} items={children} active={programActive} /> : <NavLink key={name} to={href} end>{name}</NavLink>)}</nav>
       <a className="header-contact" href={studioInfo.links.booking} target="_blank" rel="noopener noreferrer" aria-label="키코필라테스 네이버 예약하기">상담 / 예약 <Arrow diagonal /></a>
       <button className="menu-toggle" onClick={openMenu} aria-label="메뉴 열기" aria-haspopup="dialog" aria-expanded={menuOpen} aria-controls="mobile-menu"><span /><span /></button>
       <dialog ref={menu} id="mobile-menu" className="mobile-menu" aria-labelledby="menu-title" onClose={() => { if (!menu.current?.open) { setMenuOpen(false); setMobileProgramOpen(false) } }} onCancel={event => { if (mobileProgramOpen) { event.preventDefault(); setMobileProgramOpen(false); mobileProgramTrigger.current?.focus() } }} onClick={event => { if (event.target === event.currentTarget) closeMenu() }}>

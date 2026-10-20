@@ -3,7 +3,7 @@ import Arrow from '../Arrow.jsx'
 import { teachingApproach } from '../../data/teachers.js'
 
 export function TeachersHero() {
-  return <header className="teachers-hero teachers-container"><h1 id="teachers-title">TEACHERS</h1></header>
+  return <header className="teachers-hero teachers-container"><h1 id="teachers-title">TEACHERS<span className="page-heading-topic">필라테스·발레 강사진</span></h1></header>
 }
 
 export function TeachersIntro() {

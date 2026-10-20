@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
+import PageMetadata from './components/PageMetadata.jsx'
 import Layout from './layout/Layout.jsx'
 import HomePage from './pages/HomePage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
@@ -12,18 +13,21 @@ import NotFoundPage from './pages/NotFoundPage.jsx'
 
 export default function App() {
   return (
-    <Routes>
-      <Route element={<Layout />}>
-        <Route index element={<HomePage />} />
-        <Route path="about" element={<AboutPage />} />
-        <Route path="pilates" element={<PilatesPage />} />
-        <Route path="ballet" element={<BalletPage />} />
-        <Route path="instructors" element={<TeachersPage />} />
-        <Route path="schedule" element={<SchedulePage />} />
-        <Route path="location" element={<LocationPage />} />
-        <Route path="contact" element={<ContactPage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Route>
-    </Routes>
+    <>
+      <PageMetadata />
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="pilates" element={<PilatesPage />} />
+          <Route path="ballet" element={<BalletPage />} />
+          <Route path="instructors" element={<TeachersPage />} />
+          <Route path="schedule" element={<SchedulePage />} />
+          <Route path="location" element={<LocationPage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </>
   )
 }

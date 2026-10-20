@@ -7,7 +7,7 @@ export default function PilatesHero() {
       <div className="pilates-hero-layout">
         <div className="pilates-hero-copy">
           <p className="pilates-eyebrow">KIKO PILATES</p>
-          <h1 id="pilates-title">PILATES</h1>
+          <h1 id="pilates-title">PILATES<span className="page-heading-topic">서울역 필라테스</span></h1>
           <p className="pilates-hero-types">PRIVATE · DUET · GROUP</p>
           <p className="pilates-hero-ratios" aria-label="1대1 개인, 2대1 듀엣, 6대1 그룹"><span>1:1</span><span>2:1</span><span>6:1</span></p>
           <p className="pilates-hero-lead">나의 몸과 움직임에 맞춰<br />다르게 선택하는 필라테스.</p>

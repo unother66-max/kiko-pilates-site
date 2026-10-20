@@ -1,21 +1,25 @@
 import { Link } from 'react-router-dom'
 import Arrow from '../Arrow.jsx'
+import AboutImage from './AboutImage.jsx'
+import { aboutImages, photoShare, photoSizes } from '../../data/about.js'
 
 export default function AboutMovement() {
+  const share = photoShare(aboutImages.equipment, aboutImages.ballet)
   return (
     <section className="about-movement about-container about-chapter" aria-labelledby="about-movement-title">
-      <p className="about-eyebrow">03 / TWO WAYS TO MOVE</p>
-      <div className="about-split">
-        <h2 id="about-movement-title" className="about-display">PILATES<br />&amp; BALLET</h2>
-        <div className="about-copy">
-          <p className="about-lead">서로 다른 두 움직임을<br />한 공간에서 만납니다.</p>
-          <p>필라테스로 몸의 움직임을 세심하게 살피고,<br className="about-desktop-break" /> 발레를 통해 움직임의 흐름을 경험합니다.</p>
-          <p>KIKO는 두 가지 움직임을<br className="about-desktop-break" /> 하나의 공간 안에서 이어갑니다.</p>
-          <div className="about-links">
-            <Link className="about-link" to="/pilates" aria-label="키코 필라테스 프로그램 보기">VIEW PILATES <Arrow /></Link>
-            <Link className="about-link" to="/ballet" aria-label="키코 성인발레 프로그램 보기">VIEW BALLET <Arrow /></Link>
-          </div>
-        </div>
+      <p className="about-eyebrow">04 / PILATES &amp; BALLET</p>
+      <h2 id="about-movement-title" className="about-display">TWO SPACES,<br />ONE MOVEMENT.</h2>
+      <div className="about-photo-pair about-discipline-photos" style={{ '--about-left-column': `${share}fr`, '--about-right-column': `${1 - share}fr` }}>
+        <AboutImage image={aboutImages.equipment} sizes={photoSizes(share)} caption={<>
+          <span className="about-discipline-name about-display">PILATES</span>
+          <span className="about-discipline-description">몸의 움직임을 세심하게 살피는 공간.</span>
+          <Link className="about-link" to="/pilates" aria-label="키코 필라테스 프로그램 보기">VIEW PILATES <Arrow diagonal /></Link>
+        </>} />
+        <AboutImage image={aboutImages.ballet} sizes={photoSizes(1 - share)} caption={<>
+          <span className="about-discipline-name about-display">BALLET</span>
+          <span className="about-discipline-description">선과 리듬, 움직임을 표현하는 공간.</span>
+          <Link className="about-link" to="/ballet" aria-label="키코 성인발레 프로그램 보기">VIEW BALLET <Arrow diagonal /></Link>
+        </>} />
       </div>
     </section>
   )

@@ -1,0 +1,89 @@
+{
+  "rows": [
+    {
+      "url": "/",
+      "title": "키코필라테스 서울역점 | 서울역 필라테스·성인발레",
+      "description": "서울역·숙대입구·청파동 인근 키코필라테스 서울역점. 1:1 개인레슨, 2:1 듀엣레슨, 6:1 소수정예 그룹 필라테스와 성인 취미발레를 운영합니다.",
+      "h1": "키코필라테스 서울역점",
+      "canonical": "https://kikopilatesballet.co.kr/",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 22994
+    },
+    {
+      "url": "/about",
+      "title": "키코필라테스 서울역점 소개 | 키코필라테스 앤 발레",
+      "description": "키코필라테스 서울역점의 수업 철학과 공간을 소개합니다. 서울 용산구 만리재로 134 7층의 필라테스 스튜디오, 발레실과 라커·라운지를 만나보세요.",
+      "h1": "ABOUT / 키코필라테스 서울역점 소개",
+      "canonical": "https://kikopilatesballet.co.kr/about",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 20677
+    },
+    {
+      "url": "/pilates",
+      "title": "서울역 필라테스 | 1:1·2:1·6:1 키코필라테스 서울역점",
+      "description": "키코필라테스 서울역점의 1:1 개인레슨, 2:1 듀엣레슨, 6:1 소수정예 그룹레슨을 안내합니다. 서울역·숙대입구·청파동 인근에서 내 몸과 목적에 맞는 기구 필라테스를 선택해보세요.",
+      "h1": "PILATES / 서울역 필라테스",
+      "canonical": "https://kikopilatesballet.co.kr/pilates",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 22256
+    },
+    {
+      "url": "/ballet",
+      "title": "서울역 성인발레 | 소수정예 취미발레 키코필라테스",
+      "description": "서울역 인근 키코필라테스 서울역점의 성인 취미발레를 소개합니다. 발레가 처음인 성인도 기본 자세와 동작부터 배우는 6:1 소수정예 수업을 만나보세요.",
+      "h1": "BALLET / 서울역 성인 취미발레",
+      "canonical": "https://kikopilatesballet.co.kr/ballet",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 20626
+    },
+    {
+      "url": "/instructors",
+      "title": "키코필라테스 강사진 | 필라테스·발레 전문 강사",
+      "description": "키코필라테스 서울역점의 필라테스·발레 강사진을 소개합니다. 장지희 대표원장과 각 강사의 지도 분야, 자격 및 경력을 확인하고 나에게 맞는 수업을 알아보세요.",
+      "h1": "TEACHERS / 필라테스·발레 강사진",
+      "canonical": "https://kikopilatesballet.co.kr/instructors",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 29660
+    },
+    {
+      "url": "/location",
+      "title": "키코필라테스 서울역점 위치 | 만리재로 134 7층",
+      "description": "키코필라테스 서울역점은 서울특별시 용산구 만리재로 134 7층에 있습니다. 서울역·숙대입구·청파동 인근 위치와 지도, 방문상담 안내를 확인하세요.",
+      "h1": "LOCATION / 키코필라테스 서울역점 위치",
+      "canonical": "https://kikopilatesballet.co.kr/location",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 13816
+    },
+    {
+      "url": "/contact",
+      "title": "키코필라테스 서울역점 상담·예약 | 네이버 예약",
+      "description": "키코필라테스 서울역점의 필라테스·성인발레 수업을 문의하세요. 네이버 톡톡 상담, 네이버 예약과 방문상담 안내를 통해 내 몸과 일정에 맞는 수업을 알아보세요.",
+      "h1": "CONTACT / 키코필라테스 서울역점 상담·예약",
+      "canonical": "https://kikopilatesballet.co.kr/contact",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 16179
+    },
+    {
+      "url": "/schedule",
+      "title": "키코필라테스 수업 일정 | 서울역 필라테스·성인발레",
+      "description": "키코필라테스 서울역점 수업 일정 안내 페이지입니다. 필라테스·성인발레의 상세 일정과 예약 가능한 시간은 상담 또는 네이버 예약에서 확인해주세요.",
+      "h1": "SCHEDULE",
+      "canonical": "https://kikopilatesballet.co.kr/schedule",
+      "indexable": true,
+      "rawHtml": true,
+      "htmlBytes": 10048
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "spaNavigation": true,
+  "mobileNavigation": true,
+  "javaScriptDisabled": true
+}
