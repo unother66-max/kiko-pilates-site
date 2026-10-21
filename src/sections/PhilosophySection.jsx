@@ -4,7 +4,7 @@ import Arrow from '../components/Arrow.jsx'
 export default function PhilosophySection() {
   return (
     <section className="section intro-section" id="about">
-      <div className="intro-label" data-reveal><p className="eyebrow">01 / THE KIKO PHILOSOPHY</p><span className="tiny-star" aria-hidden="true">✳</span></div>
+      <div className="intro-label" data-reveal><p className="eyebrow">01 / THE KIKO PHILOSOPHY</p></div>
       <div className="intro-layout" data-reveal>
         <h2 className="intro-title">Move with<br /><em>intention.</em></h2>
         <div className="intro-copy">

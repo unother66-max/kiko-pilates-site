@@ -46,7 +46,6 @@
 /* A two-column opening statement, then Korean lead and reading copy. */
 .intro-section { padding-block: 104px 112px; }
 .intro-label { display: flex; align-items: center; justify-content: space-between; margin-bottom: 52px; }
-.tiny-star { font-size: 30px; color: var(--wine); line-height: 1; }
 .intro-layout { display: grid; grid-template-columns: 1.1fr 1fr; column-gap: 12%; align-items: start; }
 .intro-title em { display: inline-block; margin-left: 0; }
 .intro-copy { max-width: 440px; padding-top: 2px; }
@@ -101,7 +100,6 @@
 @media (max-width: 767px) {
   .intro-section { padding-block: 64px 76px; }
   .intro-label { margin-bottom: 36px; }
-  .tiny-star { font-size: 26px; }
   .intro-layout { grid-template-columns: 1fr; row-gap: 34px; }
   .intro-copy { max-width: 440px; padding: 0; }
   .intro-copy p { margin: 20px 0 22px; }
