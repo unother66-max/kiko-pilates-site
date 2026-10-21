@@ -9,7 +9,7 @@ export default function HomeVisitSection() {
       <div className="home-visit-layout" data-reveal>
         <div className="home-visit-teachers">
           <h2 className="home-display">TEACHING<br />WITH DETAIL.</h2>
-          <p>키코의 강사진은 모두 5년 이상의 티칭 경력을 바탕으로<br className="home-desktop-break" /> 각자의 몸과 움직임을 세심하게 살핍니다.</p>
+          <p>키코의 강사진은 각자의 경험과 전문성을 바탕으로<br className="home-desktop-break" /> 몸과 움직임을 세심하게 살핍니다.</p>
           <Link className="text-link" to="/instructors">강사진 보기 <Arrow /></Link>
         </div>
         <div className="home-visit-location">

@@ -36,6 +36,7 @@
 - [남성 필라테스](https://kikopilatesballet.co.kr/pilates/mens): 남성도 참여 가능한 1:1·2:1·6:1 수업과 시작 절차 안내
 - [성인발레](https://kikopilatesballet.co.kr/ballet): 성인 취미발레 수업
 - [강사진](https://kikopilatesballet.co.kr/instructors): 필라테스·발레 강사의 자격과 경력
+- [수업 일정](https://kikopilatesballet.co.kr/schedule): 필라테스·성인발레 수업 일정과 예약 가능 시간 확인 안내
 - [위치](https://kikopilatesballet.co.kr/location): 주소, 지도와 방문 안내
 - [상담·예약](https://kikopilatesballet.co.kr/contact): 네이버 톡톡 상담과 예약
 

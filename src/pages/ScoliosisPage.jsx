@@ -132,7 +132,7 @@ export default function ScoliosisPage() {
         <div className="prenatal-section-inner prenatal-split">
           <SectionHeading id="scoliosis-instructors-title" eyebrow="TEACHING EXPERIENCE">움직임을 세심하게 살피는 강사진</SectionHeading>
           <div className="prenatal-copy">
-            <p>키코의 강사진은 모두 5년 이상의 티칭 경력을 바탕으로 회원의 현재 움직임과 수업 중 변화를 세심하게 살피며 수업을 진행합니다.</p>
+            <p>키코의 강사진은 각자의 경험과 전문성을 바탕으로 회원의 현재 움직임과 수업 중 변화를 세심하게 살피며 수업을 진행합니다.</p>
             <Link className="text-link prenatal-inline-link" to="/instructors">강사진 보기 <Arrow /></Link>
           </div>
         </div>
