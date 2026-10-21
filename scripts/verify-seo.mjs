@@ -5,6 +5,7 @@ import { prenatalFaqs } from '../src/data/prenatal.js'
 import { postnatalFaqs } from '../src/data/postnatal.js'
 import { postureFaqs } from '../src/data/posture.js'
 import { scoliosisFaqs } from '../src/data/scoliosis.js'
+import { mensFaqs } from '../src/data/mens.js'
 
 const sitemap = await readFile('dist/sitemap.xml', 'utf8')
 const robots = await readFile('dist/robots.txt', 'utf8')
@@ -14,7 +15,7 @@ assert.ok(!(await readFile('dist/_redirects', 'utf8')).includes('/* /index.html 
 assert.match(await readFile('dist/llms.txt', 'utf8'), /키코필라테스 서울역점/)
 
 const titles = new Set()
-const pageFaqs = { '/pilates/prenatal': prenatalFaqs, '/pilates/postnatal': postnatalFaqs, '/pilates/posture': postureFaqs, '/pilates/scoliosis': scoliosisFaqs }
+const pageFaqs = { '/pilates/prenatal': prenatalFaqs, '/pilates/postnatal': postnatalFaqs, '/pilates/posture': postureFaqs, '/pilates/scoliosis': scoliosisFaqs, '/pilates/mens': mensFaqs }
 for (const pathname of Object.keys(seoPages)) {
   const html = await readFile(pathname === '/' ? 'dist/index.html' : `dist${pathname}.html`, 'utf8')
   const page = getPageSeo(pathname)

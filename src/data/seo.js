@@ -3,6 +3,7 @@ import { prenatalFaqs } from './prenatal.js'
 import { postnatalFaqs } from './postnatal.js'
 import { postureFaqs } from './posture.js'
 import { scoliosisFaqs } from './scoliosis.js'
+import { mensFaqs } from './mens.js'
 
 export const SITE_URL = 'https://kikopilatesballet.co.kr'
 export const SOCIAL_IMAGE = `${SITE_URL}/images/kiko-social-preview.png`
@@ -40,6 +41,10 @@ export const seoPages = {
   '/pilates/scoliosis': {
     title: '서울역 척추측만 필라테스 | 1:1 개인레슨 | 키코필라테스 앤 발레',
     description: '서울역·숙대입구 인근 키코필라테스 앤 발레 척추측만 필라테스. 좌우 움직임과 현재 자세를 살피며 1:1 개인레슨 중심으로 진행합니다.',
+  },
+  '/pilates/mens': {
+    title: '서울역 남성 필라테스 | 1:1·2:1·6:1 | 키코필라테스 앤 발레',
+    description: '서울역 인근 키코필라테스 앤 발레의 남성 필라테스. 운동 경험과 생활 습관, 현재 움직임을 살펴 1:1·2:1·6:1 수업을 안내합니다.',
   },
   '/ballet': {
     title: '서울역 성인발레 | 키코필라테스 앤 발레',
@@ -105,7 +110,7 @@ export function serializeJsonLd(value) { return JSON.stringify(value).replace(/<
 
 export const structuredDataIds = ['kiko-healthclub-schema', 'kiko-faq-schema']
 
-const pageFaqs = { '/pilates/prenatal': prenatalFaqs, '/pilates/postnatal': postnatalFaqs, '/pilates/posture': postureFaqs, '/pilates/scoliosis': scoliosisFaqs }
+const pageFaqs = { '/pilates/prenatal': prenatalFaqs, '/pilates/postnatal': postnatalFaqs, '/pilates/posture': postureFaqs, '/pilates/scoliosis': scoliosisFaqs, '/pilates/mens': mensFaqs }
 
 export function getPageStructuredData(pathname) {
   const path = getPageSeo(pathname).path

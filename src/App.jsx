@@ -9,6 +9,7 @@ import PrenatalPage from './pages/PrenatalPage.jsx'
 import PostnatalPage from './pages/PostnatalPage.jsx'
 import PosturePage from './pages/PosturePage.jsx'
 import ScoliosisPage from './pages/ScoliosisPage.jsx'
+import MensPage from './pages/MensPage.jsx'
 import { specializedPilates } from './data/specializedPilates.js'
 import BalletPage from './pages/BalletPage.jsx'
 import TeachersPage from './pages/TeachersPage.jsx'
@@ -28,6 +29,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="pilates" element={<PilatesPage />} />
+          <Route path="pilates/mens" element={<MensPage />} />
           {specializedPilates.map(program => <Route key={program.slug} path={`pilates/${program.slug}`} element={specializedPageElements[program.slug] || <PilatesSpecializedPage program={program} />} />)}
           <Route path="ballet" element={<BalletPage />} />
           <Route path="instructors" element={<TeachersPage />} />

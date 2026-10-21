@@ -10,7 +10,9 @@
 .pilates-page .pilates-specialized-copy > p + p { margin-top: 22px; color: var(--muted); }
 .pilates-page .pilates-specialized-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; column-gap: clamp(32px, 5.55vw, 88px); }
 .pilates-page .pilates-specialized-list > li { min-width: 0; display: flex; }
-.pilates-page .pilates-specialized-link { display: grid; grid-template-rows: auto auto 1fr auto; gap: 18px; width: 100%; min-height: 288px; padding-block: 28px 32px; border-top: 1px solid var(--line); }
+.pilates-page .pilates-specialized-link { position: relative; display: grid; grid-template-rows: auto auto 1fr auto; gap: 18px; width: 100%; min-height: 288px; padding-block: 28px 32px; border-top: 1px solid var(--line); }
+/* Overlap the next row's top rule without changing item size or spacing. */
+.pilates-page .pilates-specialized-link::after { content: ''; position: absolute; inset-inline: 0; bottom: -1px; border-bottom: 1px solid var(--line); pointer-events: none; }
 .pilates-page .pilates-specialized-link h3 { font-size: 27px; transition: color .2s; }
 .pilates-page .pilates-specialized-description { max-width: 520px; color: var(--muted); }
 .pilates-page .pilates-specialized-view { display: inline-flex; align-items: center; gap: 16px; justify-self: start; color: var(--wine); font-family: var(--font-en-ui); font-size: 11px; letter-spacing: .04em; }

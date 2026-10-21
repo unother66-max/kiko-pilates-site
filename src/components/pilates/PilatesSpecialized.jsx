@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom'
 import Arrow from '../Arrow.jsx'
 import { specializedPilates } from '../../data/specializedPilates.js'
+import { mensProgram } from '../../data/mens.js'
+
+// Extend only the hub; existing detail pages keep their four-program related links.
+const hubPrograms = [...specializedPilates, mensProgram]
 
 export default function PilatesSpecialized() {
   return (
@@ -27,7 +31,7 @@ export default function PilatesSpecialized() {
           </div>
         </header>
         <ul className="pilates-specialized-list">
-          {specializedPilates.map(program => (
+          {hubPrograms.map(program => (
             <li key={program.slug}>
               <Link className="pilates-specialized-link" to={`/pilates/${program.slug}`} aria-label={`${program.title} 자세히 보기`}>
                 <p className="pilates-eyebrow">{program.number} / {program.english}</p>
